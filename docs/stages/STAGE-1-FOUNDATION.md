@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-Build a locally runnable, secure HTTP monitoring backend with persisted observations. Stage 1 was explicitly authorized on 2026-10-09. Health remains UNKNOWN until Stage 2. This contract does not authorize later stages or publication; see the [implementation report](../STAGE-1-REPORT.md) for actual evidence.
+Build a locally runnable, secure HTTP monitoring backend with persisted observations. Stage 1 was explicitly authorized on 2026-10-09. Health remains UNKNOWN until Stage 2. This contract does not authorize later stages or publication; see the [implementation report](../VERIFICATION.md#historical-stage-1) for actual evidence.
 
 ## 2. Allowed scope
 

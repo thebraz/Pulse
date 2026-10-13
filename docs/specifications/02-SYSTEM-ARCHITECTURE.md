@@ -1,6 +1,6 @@
 # Pulse system architecture
 
-Normative design with Stage 1 workspaces implemented. Scope and stage ownership follow [product requirements](01-PRODUCT-REQUIREMENTS.md) and [ADRs](ARCHITECTURAL-DECISIONS.md). Runtime evidence and platform limits are recorded separately in the [Stage 1 report](../STAGE-1-REPORT.md).
+Normative design with Stage 1 workspaces implemented. Scope and stage ownership follow [product requirements](01-PRODUCT-REQUIREMENTS.md) and [ADRs](ARCHITECTURAL-DECISIONS.md). Runtime evidence and platform limits are recorded separately in the [Stage 1 report](../VERIFICATION.md#historical-stage-1).
 
 ## Monorepo and allowed dependencies
 

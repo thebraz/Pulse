@@ -1,6 +1,6 @@
 # Pulse product requirements
 
-Status: normative baseline, 2026-10-09, extended under Stages 2 and 3 authorization on 2026-10-11. MUST denotes a release-blocking requirement; SHOULD requires a documented exception with evidence. Requirements remain assigned by stage; actual verification is recorded in the [Stage 1 report](../STAGE-1-REPORT.md) [Stage 2 report](../STAGE-2-REPORT.md) and [Stage 3 report](../STAGE-3-REPORT.md), not implied by this specification.
+Status: normative baseline, 2026-10-09, extended under Stages 2 and 3 authorization on 2026-10-11. MUST denotes a release-blocking requirement; SHOULD requires a documented exception with evidence. Requirements remain assigned by stage; actual verification is recorded in the [Stage 1 report](../VERIFICATION.md#historical-stage-1) [Stage 2 report](../VERIFICATION.md#historical-stage-2) and [Stage 3 report](../VERIFICATION.md#historical-stage-3), not implied by this specification.
 
 ## Vision and users
 

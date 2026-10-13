@@ -140,7 +140,7 @@ npm run test:e2e
 npm run test:package
 ```
 
-Install the development browser once with `npx playwright install chromium`. `npm run dev` watches compiled files; source edits require another build. See [contributing](CONTRIBUTING.md). Public engineering specifications remain under `docs/specifications/` in the source distribution.
+Install the development browser once with `npx playwright install chromium`. `npm run dev` watches compiled files; source edits require another build. See [contributing](CONTRIBUTING.md). The [source documentation index](https://github.com/thebraz/Pulse/blob/main/docs/README.md) links public guides, engineering contracts and [candidate-scoped verification history](https://github.com/thebraz/Pulse/blob/main/docs/VERIFICATION.md).
 
 ## Running tests
 
