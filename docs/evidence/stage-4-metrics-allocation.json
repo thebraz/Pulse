@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-12T17:08:13.729Z",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "scope": "Isolated allocation component profiles, not reference-load or two-hour soak acceptance. Same stopped disposable post-load clone, fixed time window, 40 real Store metrics calls paced at five per second and five idle seconds, fresh process/worker per mode; no forced GC, global cache flush, memory-pressure injection or browser process.",
+  "fixtureBytes": 2652483584,
+  "profiles": [
+    {
+      "mode": "objects",
+      "startedAt": "2026-10-12T16:54:53.264Z",
+      "completedAt": "2026-10-12T16:55:14.248Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "requestCount": 40,
+      "sampleCounts": [
+        42898
+      ],
+      "responseSha256": [
+        "e848645e6c9d3625e578b639de31da27a4cb57bab5b02138413d6abe73d45427"
+      ],
+      "meanMs": 47.77458500000014,
+      "p95Ms": 57.974600000000464,
+      "peakProcessRssBytes": 277397504,
+      "peakWorkerHeapUsedBytes": 119295632,
+      "peakWorkerHeapTotalBytes": 195166208,
+      "maximumMainHeapUsedBytes": 5885288,
+      "maximumWorkerExternalBytes": 5326640,
+      "idleEnd": {
+        "type": "idle",
+        "index": 4,
+        "memory": {
+          "rss": 268353536,
+          "heapUsed": 13132192,
+          "heapTotal": 161480704,
+          "external": 4058684,
+          "arrayBuffers": 143643
+        },
+        "mainMemory": {
+          "rss": 268353536,
+          "heapUsed": 5519632,
+          "heapTotal": 7069696,
+          "external": 2549831,
+          "arrayBuffers": 143615
+        }
+      }
+    },
+    {
+      "mode": "arrays",
+      "startedAt": "2026-10-12T16:58:17.559Z",
+      "completedAt": "2026-10-12T16:58:36.633Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "requestCount": 40,
+      "sampleCounts": [
+        42898
+      ],
+      "responseSha256": [
+        "e848645e6c9d3625e578b639de31da27a4cb57bab5b02138413d6abe73d45427"
+      ],
+      "meanMs": 22.866372500000217,
+      "p95Ms": 25.86989999999969,
+      "peakProcessRssBytes": 250249216,
+      "peakWorkerHeapUsedBytes": 89202320,
+      "peakWorkerHeapTotalBytes": 164691968,
+      "maximumMainHeapUsedBytes": 5939264,
+      "maximumWorkerExternalBytes": 5326640,
+      "idleEnd": {
+        "type": "idle",
+        "index": 4,
+        "memory": {
+          "rss": 239841280,
+          "heapUsed": 16573504,
+          "heapTotal": 155189248,
+          "external": 4066104,
+          "arrayBuffers": 143643
+        },
+        "mainMemory": {
+          "rss": 239841280,
+          "heapUsed": 5461616,
+          "heapTotal": 7069696,
+          "external": 2549831,
+          "arrayBuffers": 143615
+        }
+      }
+    },
+    {
+      "mode": "chunks",
+      "startedAt": "2026-10-12T17:01:59.080Z",
+      "completedAt": "2026-10-12T17:02:18.599Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "requestCount": 40,
+      "sampleCounts": [
+        42898
+      ],
+      "responseSha256": [
+        "e848645e6c9d3625e578b639de31da27a4cb57bab5b02138413d6abe73d45427"
+      ],
+      "meanMs": 66.27830250000004,
+      "p95Ms": 91.0051999999996,
+      "peakProcessRssBytes": 135802880,
+      "peakWorkerHeapUsedBytes": 39137328,
+      "peakWorkerHeapTotalBytes": 59469824,
+      "maximumMainHeapUsedBytes": 5934664,
+      "maximumWorkerExternalBytes": 5326640,
+      "idleEnd": {
+        "type": "idle",
+        "index": 4,
+        "memory": {
+          "rss": 92352512,
+          "heapUsed": 15322272,
+          "heapTotal": 17301504,
+          "external": 4066104,
+          "arrayBuffers": 143643
+        },
+        "mainMemory": {
+          "rss": 92364800,
+          "heapUsed": 5469224,
+          "heapTotal": 7069696,
+          "external": 2549831,
+          "arrayBuffers": 143615
+        }
+      }
+    },
+    {
+      "mode": "keyset",
+      "startedAt": "2026-10-12T17:02:53.612Z",
+      "completedAt": "2026-10-12T17:03:12.660Z",
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "requestCount": 40,
+      "sampleCounts": [
+        42898
+      ],
+      "responseSha256": [
+        "e848645e6c9d3625e578b639de31da27a4cb57bab5b02138413d6abe73d45427"
+      ],
+      "meanMs": 25.598262499999965,
+      "p95Ms": 40.53390000000036,
+      "peakProcessRssBytes": 135778304,
+      "peakWorkerHeapUsedBytes": 39409352,
+      "peakWorkerHeapTotalBytes": 59125760,
+      "maximumMainHeapUsedBytes": 5938536,
+      "maximumWorkerExternalBytes": 5326640,
+      "idleEnd": {
+        "type": "idle",
+        "index": 4,
+        "memory": {
+          "rss": 92073984,
+          "heapUsed": 15322616,
+          "heapTotal": 17563648,
+          "external": 4066104,
+          "arrayBuffers": 143643
+        },
+        "mainMemory": {
+          "rss": 92086272,
+          "heapUsed": 5454672,
+          "heapTotal": 7331840,
+          "external": 2549831,
+          "arrayBuffers": 143615
+        }
+      }
+    }
+  ],
+  "plans": [
+    {
+      "phase": "first",
+      "rows": [
+        {
+          "id": 6,
+          "parent": 0,
+          "notused": 46,
+          "detail": "SEARCH checks USING COVERING INDEX checks_monitor_started (monitor_id=? AND started_at>? AND started_at<?)"
+        }
+      ]
+    },
+    {
+      "phase": "following",
+      "rows": [
+        {
+          "id": 6,
+          "parent": 0,
+          "notused": 46,
+          "detail": "SEARCH checks USING COVERING INDEX checks_monitor_started (monitor_id=? AND started_at>? AND started_at<?)"
+        }
+      ]
+    }
+  ],
+  "compiledStoreSha256": "ae181b880223ae44236b9587d650342d98290ca8bfa6349212553b1f75a85ec7",
+  "baselineModuleSha256": "520028847de51bf707849814b4218ebb099945af27c3ba86acbc05df5e782554",
+  "digestTiming": "Compiled and baseline module hashes captured after component profiles; all profile response hashes verify identical data at the fixed query instant.",
+  "cause": "Large full-projection object batches expand and retain the SQLite worker V8 heap capacity. Process RSS includes that worker; the parent harness and Chromium are separate processes. Compact keyset batches retain at most 4096 row arrays plus bounded numeric percentile values and buckets. Full runtime RSS remains an independent 300MiB gate.",
+  "result": "PASS"
+}

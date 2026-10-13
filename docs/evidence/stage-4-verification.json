@@ -1,0 +1,168 @@
+{
+  "recordedAt": "2026-10-12T16:38:51.575Z",
+  "version": "0.1.0",
+  "candidate": {
+    "name": "pulse-http-monitor",
+    "sha256": "6af6d446dedc1535f0429c9493a899c3a526ddbdf3c987102ba3740834463106",
+    "bytes": 300998,
+    "files": 55,
+    "runtimeSourceDigest": "894ec35561ad1bb73bf03b591a3785a384a2c89d8c2c0f552c2ee9dea94c6b73",
+    "compiledDigest": "695ae7fdb05da43814f3a4ad385e38d7be45ece60f570e94b7f28d1063229e48",
+    "testSuiteDigest": "b62e0912ab964fb929b505e7548b72e6f063c13d9c7de447f975f8c9c0fc678c"
+  },
+  "counts": {
+    "vitest": 235,
+    "browser": 8,
+    "cleanSourceBrowser": 8,
+    "package": 17,
+    "hygiene": 4,
+    "linux": {
+      "vitest": 235,
+      "browser": 8,
+      "package": 17
+    }
+  },
+  "documentation": {
+    "relativeLinks": 274,
+    "result": "PASS"
+  },
+  "startup": {
+    "budgetMs": 60000
+  },
+  "gates": {
+    "archiveIdentity": false,
+    "windowsRegressions": false,
+    "linuxRegressions": false,
+    "windowsBrowser": false,
+    "linuxBrowser": false,
+    "windowsTypeAndLint": false,
+    "linuxTypeAndLint": false,
+    "windowsInstalledPackage": false,
+    "linuxInstalledPackage": false,
+    "cleanSource": false,
+    "hygiene": false,
+    "windowsFullReferenceAndSoak": false,
+    "linuxFullReferenceAndSoak": false,
+    "controlledTlsProxy": false,
+    "storageFull": false,
+    "storageReadonly": false,
+    "storageIoerr": false,
+    "finalIndependentSecurity": false,
+    "dependencyAdvisories": false,
+    "productionAdvisories": true,
+    "dependencyLicenses": false,
+    "npmAccount": true,
+    "githubRepositoryAccess": true,
+    "securityReportingChannel": true,
+    "productionProxyScope": true
+  },
+  "result": "BLOCKED",
+  "evidence": {
+    "tests": {
+      "path": "docs/evidence/stage-4-tests.json",
+      "recordedAt": "2026-10-12T15:18:45.657Z",
+      "identityMatches": false
+    },
+    "browser": {
+      "path": "docs/evidence/stage-4-browser.json",
+      "recordedAt": null,
+      "identityMatches": false
+    },
+    "checks": {
+      "path": "docs/evidence/stage-4-checks.json",
+      "recordedAt": null,
+      "identityMatches": false
+    },
+    "linuxTests": {
+      "path": "docs/evidence/stage-4-linux-tests.json",
+      "recordedAt": "2026-10-12T15:27:31.597Z",
+      "identityMatches": false
+    },
+    "linuxBrowser": {
+      "path": "docs/evidence/stage-4-linux-browser.json",
+      "recordedAt": null,
+      "identityMatches": false
+    },
+    "linuxChecks": {
+      "path": "docs/evidence/stage-4-linux-checks.json",
+      "recordedAt": null,
+      "identityMatches": false
+    },
+    "installed": {
+      "path": "docs/evidence/stage-4-package.json",
+      "recordedAt": "2026-10-11T23:04:22.223Z",
+      "identityMatches": false
+    },
+    "linuxInstalled": {
+      "path": "docs/evidence/stage-4-linux-package-final.json",
+      "recordedAt": "2026-10-11T23:04:29.859Z",
+      "identityMatches": false
+    },
+    "hygiene": {
+      "path": "docs/evidence/stage-4-hygiene.json",
+      "recordedAt": "2026-10-12T15:31:51.932Z",
+      "identityMatches": false
+    },
+    "source": {
+      "path": "docs/evidence/stage-4-source-install.json",
+      "recordedAt": "2026-10-11T22:49:57.067Z",
+      "identityMatches": false
+    },
+    "windowsPerformance": {
+      "path": "docs/evidence/stage-4-performance-windows.json",
+      "recordedAt": null,
+      "identityMatches": false
+    },
+    "linuxPerformance": {
+      "path": "docs/evidence/stage-4-performance-linux.json",
+      "recordedAt": null,
+      "identityMatches": false
+    },
+    "proxy": {
+      "path": "docs/evidence/stage-4-nginx-proxy.json",
+      "recordedAt": "2026-10-12T12:53:21.272Z",
+      "identityMatches": false
+    },
+    "storageFull": {
+      "path": "docs/evidence/stage-4-storage-full.json",
+      "recordedAt": "2026-10-12T12:52:53.971Z",
+      "identityMatches": false
+    },
+    "storageReadonly": {
+      "path": "docs/evidence/stage-4-storage-readonly.json",
+      "recordedAt": "2026-10-12T12:52:57.234Z",
+      "identityMatches": false
+    },
+    "storageIoerr": {
+      "path": "docs/evidence/stage-4-storage-ioerr.json",
+      "recordedAt": "2026-10-12T12:53:01.278Z",
+      "identityMatches": false
+    },
+    "security": {
+      "path": "docs/evidence/stage-4-final-security.json",
+      "recordedAt": null,
+      "identityMatches": false
+    },
+    "dependencies": {
+      "path": "docs/evidence/stage-4-dependencies.json",
+      "recordedAt": "2026-10-11T23:11:20.957Z",
+      "identityMatches": false
+    },
+    "productionAudit": {
+      "path": "docs/evidence/stage-4-production-audit.json",
+      "recordedAt": "2026-10-12T15:32:16.717Z",
+      "identityMatches": false
+    },
+    "licenses": {
+      "path": "docs/evidence/stage-4-licenses.json",
+      "recordedAt": null,
+      "identityMatches": false
+    },
+    "external": {
+      "path": "docs/evidence/stage-4-external-gates.json",
+      "recordedAt": "2026-10-12T15:32:18.438Z",
+      "identityMatches": false
+    }
+  },
+  "publication": "This verifier does not publish. Publication requires explicit authorization, fresh target-account checks and the exact tested archive digest."
+}

@@ -1,0 +1,16 @@
+{
+  "recordedAt": "2026-10-13T16:24:06.963Z",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "releaseIdentity": {
+    "runtimeSourceDigest": "32190c9d600d48b40dedcdd3c68ec106238742810ea41d042181085ebffb86af",
+    "compiledDigest": "d89831c97f04b60e6f5a906e7291cc49811b8b765baf443a46c5ceb15b7702f6",
+    "testSuiteDigest": "d970e5df851c7cc0cd49c3fa4d06b5709e0998e17f7d6a18711ddf925737e024"
+  },
+  "sourceUnchangedDuringRun": true,
+  "total": 256,
+  "passed": 256,
+  "failed": 0,
+  "skipped": 0,
+  "files": 32
+}

@@ -1,0 +1,23 @@
+# Private local agent instructions; public docs/ must stay eligible for tracking.
+/.private/
+/AGENTS.md
+
+# Local runtime state and credentials, never public project content.
+/data/
+/secrets/
+.env
+.env.*
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+/backups/
+/logs/
+node_modules/
+**/dist/
+coverage/
+*.tsbuildinfo
+test-results/
+playwright-report/
+release/
+*.tgz
+*.zip

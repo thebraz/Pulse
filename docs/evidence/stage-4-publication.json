@@ -1,0 +1,16 @@
+{
+  "recordedAt": "2026-10-11T23:11:20.957Z",
+  "github": {
+    "status": "NOT PUBLISHED",
+    "lookup": "thebraz/Pulse returned 404 through available connector",
+    "pushTagReleaseAttempted": false
+  },
+  "npm": {
+    "status": "NOT PUBLISHED",
+    "authentication": "E401",
+    "publishAttempted": false,
+    "requiredInteraction": "Secure interactive npm login using a verified account authorized to create/publish pulse-http-monitor and any required 2FA challenge. Never send credentials in chat."
+  },
+  "candidateSha256": "33328000c6ed716c81c90fd590fce188013e13a124a02665a2b5d2c3ef194117",
+  "readiness": "BLOCKED by unresolved technical and operational gates"
+}

@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-11T17:43:25.087Z",
+  "bytes": 2139942912,
+  "measurements": [
+    {
+      "name": "count",
+      "ms": 16425.2901,
+      "rows": 1,
+      "count": 4320000
+    },
+    {
+      "name": "quick_check",
+      "ms": 199956.4056,
+      "rows": 1
+    },
+    {
+      "name": "foreign_key_check",
+      "ms": 5276.150200000004,
+      "rows": 0
+    },
+    {
+      "name": "completion_max",
+      "ms": 3619.393700000015,
+      "rows": 1
+    },
+    {
+      "name": "queued_max",
+      "ms": 3835.781100000022,
+      "rows": 1
+    },
+    {
+      "name": "started_max",
+      "ms": 2104.6610999999975,
+      "rows": 1
+    }
+  ],
+  "conditions": {
+    "platform": "win32",
+    "node": "v24.19.0",
+    "checks": 4320000,
+    "description": "Read-only diagnostic on the retained-history fixture; sequential queries, shared workstation, cache and competing load not controlled."
+  }
+}

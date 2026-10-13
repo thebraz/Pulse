@@ -1,0 +1,75 @@
+{
+  "startedAt": "2026-10-11T22:39:24.114Z",
+  "completedAt": "2026-10-11T22:39:43.166Z",
+  "conditions": {
+    "os": "linux",
+    "release": "6.18.33.2-microsoft-standard-WSL2",
+    "arch": "x64",
+    "node": "v24.19.0",
+    "sqlite": "3.53.3",
+    "cpu": "12th Gen Intel(R) Core(TM) i7-1255U",
+    "logicalCpus": 12,
+    "totalMemoryBytes": 8183758848,
+    "definitions": 10000,
+    "concurrency": 10,
+    "intervalMs": 15000,
+    "timeoutMs": 1000,
+    "selectionWarmup": 20,
+    "selectionSamples": 1000,
+    "pipelineWarmup": 0,
+    "completedChecks": 500,
+    "realInternetRequests": 0,
+    "executor": "Explicit promise gates; successful synthetic observations; real SQLite worker/WAL/FULL commits.",
+    "hostLoad": "Shared workstation; competing load not controlled.",
+    "limits": "Short Vitest process including test harness and worker. Bulk-seeded definitions, small check history, no real HTTP cost, no sustained soak, no production capacity guarantee."
+  },
+  "seedMs": 707.1476650000002,
+  "recoveryMs": 2586.867587,
+  "dueSelectionMs": {
+    "count": 1000,
+    "meanMs": 0.006315888000000541,
+    "minMs": 0.004594999999881111,
+    "maxMs": 0.21531600000002982,
+    "p50Ms": 0.004850000000033106,
+    "p95Ms": 0.008395000000064101,
+    "p99Ms": 0.03137900000001537,
+    "method": "nearest-rank",
+    "lowSample": false,
+    "p95Sufficient": true,
+    "p99Sufficient": true
+  },
+  "dueQueryPlan": [
+    {
+      "id": 4,
+      "parent": 0,
+      "notused": 181,
+      "detail": "SEARCH monitors USING COVERING INDEX monitors_due (next_due_at<?)"
+    },
+    {
+      "id": 12,
+      "parent": 0,
+      "notused": 0,
+      "detail": "CORRELATED SCALAR SUBQUERY 1"
+    },
+    {
+      "id": 17,
+      "parent": 12,
+      "notused": 45,
+      "detail": "SEARCH checks USING INDEX checks_one_unsettled (monitor_id=?)"
+    }
+  ],
+  "processingMs": 15102.612374,
+  "completedPerSecond": 33.106855133273385,
+  "peakConcurrency": 10,
+  "maxObservedDatabaseQueue": 0,
+  "rssBytes": {
+    "beforeSeed": 106258432,
+    "afterSeed": 122642432,
+    "afterProcessing": 408145920
+  },
+  "eventLoopDelayMs": {
+    "p95": 11.075583,
+    "p99": 11.714559
+  },
+  "result": "PASS"
+}

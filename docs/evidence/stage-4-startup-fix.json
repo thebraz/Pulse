@@ -1,0 +1,87 @@
+{
+  "recordedAt": "2026-10-12T13:37:17.768Z",
+  "result": "PASS",
+  "scope": "Startup defect closure only; execution stopped at the user-requested boundary. This is not Stage 4 release approval.",
+  "compiledPersistenceSha256": "efae53e81328c8785579ec4c447ef1d0ffec7ccd022f68af1f9be4cb0f0cf020",
+  "budgetMs": 10000,
+  "historicalStartupMs": 318496.0257,
+  "windows": {
+    "minimumMs": 7805.362299999993,
+    "maximumMs": 9820.665099999998,
+    "trials": [
+      9017.619200000001,
+      9820.665099999998,
+      7805.362299999993
+    ],
+    "migrationAndValidationMs": 42284.399099999995
+  },
+  "ubuntu2404UserspaceOnWSL2": {
+    "minimumMs": 6395.5084940000015,
+    "maximumMs": 7782.568424000005,
+    "trials": [
+      7782.568424000005,
+      6395.5084940000015,
+      6577.417633999998
+    ],
+    "migrationAndValidationMs": 30610.502993000002
+  },
+  "dataset": {
+    "checks": 4320000,
+    "monitors": 100,
+    "bytes": 2271559680,
+    "versions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "originalFixture": {
+    "sha256": "c4c2b8e2f9e2e9b4f227393d59430fdecab45a21e472d7a298c77b09e3385586",
+    "preserved": true
+  },
+  "finalRegression": {
+    "command": "node node_modules/vitest/vitest.mjs run tests/metrics-retention.test.ts tests/release.test.ts tests/incident-persistence.test.ts tests/checks-migration.test.ts",
+    "platform": "win32",
+    "passed": 60,
+    "failed": 0,
+    "files": 4,
+    "durationSeconds": 24.06,
+    "evidence": "Successful subprocess exit and Vitest stdout recorded in this session after the final mapping change."
+  },
+  "completeSuites": {
+    "scope": "Both complete suites passed before the final admission-mapping-only adjustment; the final regression run and six complete starts verify that last change.",
+    "windows": {
+      "recordedAt": "2026-10-12T13:20:38.429Z",
+      "platform": "win32",
+      "node": "v24.19.0",
+      "total": 233,
+      "passed": 233,
+      "failed": 0,
+      "skipped": 0,
+      "files": 28
+    },
+    "linux": {
+      "recordedAt": "2026-10-12T13:21:59.245Z",
+      "node": "v24.19.0",
+      "platform": "linux",
+      "total": 233,
+      "passed": 233,
+      "failed": 0,
+      "skipped": 0,
+      "files": 28
+    }
+  },
+  "release": {
+    "result": "BLOCKED",
+    "github": "NOT PUBLISHED",
+    "npm": "NOT PUBLISHED",
+    "remaining": [
+      "Full reference load and two-hour soak on the final candidate, with dedicated reference-host conditions",
+      "Rebuild and reverify the final runtime/source archives; retained earlier archives and verification manifest are historical",
+      "Actual operator production route/firewall and confidential security reporting channel",
+      "npm interactive authentication/publishing permission and verified GitHub repository access"
+    ]
+  }
+}

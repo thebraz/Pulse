@@ -1,0 +1,11 @@
+{
+  "recordedAt": "2026-10-13T16:53:46.047Z",
+  "result": "PASS",
+  "previouslyInstalledSha256": "69ffd089d476baf46865719a4341c00a610a4c19fb38426a950665c49fdcf83f",
+  "finalSha256": "4679613261559f6f72a626686091329f0fe113e059263ff80cc97598fb25261a",
+  "changedFiles": [
+    "docs/guides/BETA.md"
+  ],
+  "unchangedFiles": 56,
+  "scope": "Only the beta acceptance guide changed after the complete two-platform verification. All executable files, contracts, assets, dependency locks and other content are byte-identical. The final archive is inspected and independently clean-installed."
+}

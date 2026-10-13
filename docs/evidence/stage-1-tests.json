@@ -1,0 +1,1284 @@
+{
+  "numTotalTestSuites": 21,
+  "numPassedTestSuites": 21,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 90,
+  "numPassedTests": 90,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1791579078354,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API creates and edits with revision checks, confirmed deletion and safe error envelopes",
+          "status": "passed",
+          "title": "creates and edits with revision checks, confirmed deletion and safe error envelopes",
+          "duration": 520.92,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API executes automatic and manual checks against an actual target and polls terminal persistence",
+          "status": "passed",
+          "title": "executes automatic and manual checks against an actual target and polls terminal persistence",
+          "duration": 382.91780000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API validates inputs, protocol/address policy, unknown properties, media, payload and UUIDs",
+          "status": "passed",
+          "title": "validates inputs, protocol/address policy, unknown properties, media, payload and UUIDs",
+          "duration": 459.09760000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API bounded monitor pagination, literal wildcard search and later-stage resources",
+          "status": "passed",
+          "title": "bounded monitor pagination, literal wildcard search and later-stage resources",
+          "duration": 383.92960000000016,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API disabled monitors refuse checks and health/configuration expose no paths or targets",
+          "status": "passed",
+          "title": "disabled monitors refuse checks and health/configuration expose no paths or targets",
+          "duration": 262.1905999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579091315,
+      "endTime": 1791579093325.1907,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/api.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "documented npm run example serves a real configurable local target",
+          "status": "passed",
+          "title": "documented npm run example serves a real configurable local target",
+          "duration": 1774.8813999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "documented npm run start launches a backend that contacts the fixture and persists the observation",
+          "status": "passed",
+          "title": "documented npm run start launches a backend that contacts the fixture and persists the observation",
+          "duration": 2209.7455000000004,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "documented npm run dev launches a backend that contacts the fixture and persists the observation",
+          "status": "passed",
+          "title": "documented npm run dev launches a backend that contacts the fixture and persists the observation",
+          "duration": 11332.7929,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579100011,
+      "endTime": 1791579115328.793,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/commands.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "shared input contracts"
+          ],
+          "fullName": "shared input contracts applies defaults and normalizes name/status codes",
+          "status": "passed",
+          "title": "applies defaults and normalizes name/status codes",
+          "duration": 6.567799999999977,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "shared input contracts"
+          ],
+          "fullName": "shared input contracts patch preserves omitted fields and rejects empty/server fields/coercion",
+          "status": "passed",
+          "title": "patch preserves omitted fields and rejects empty/server fields/coercion",
+          "duration": 3.5090000000000146,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "shared input contracts"
+          ],
+          "fullName": "shared input contracts accepts timing boundaries and rejects malformed pagination",
+          "status": "passed",
+          "title": "accepts timing boundaries and rejects malformed pagination",
+          "duration": 1.8059000000000083,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target ftp://example.com",
+          "status": "passed",
+          "title": "rejects unsafe target ftp://example.com",
+          "duration": 1.472500000000025,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://user:pass@example.com",
+          "status": "passed",
+          "title": "rejects unsafe target http://user:pass@example.com",
+          "duration": 0.4119999999999777,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://@example.com",
+          "status": "passed",
+          "title": "rejects unsafe target http://@example.com",
+          "duration": 0.3745000000000118,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://example.com/?secret=x",
+          "status": "passed",
+          "title": "rejects unsafe target http://example.com/?secret=x",
+          "duration": 0.315400000000011,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://example.com/#x",
+          "status": "passed",
+          "title": "rejects unsafe target http://example.com/#x",
+          "duration": 0.33799999999996544,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://0x7f000001",
+          "status": "passed",
+          "title": "rejects unsafe target http://0x7f000001",
+          "duration": 5.716199999999958,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://2130706433",
+          "status": "passed",
+          "title": "rejects unsafe target http://2130706433",
+          "duration": 1.8963999999999714,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://127.1",
+          "status": "passed",
+          "title": "rejects unsafe target http://127.1",
+          "duration": 0.37979999999993197,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://0177.0.0.1",
+          "status": "passed",
+          "title": "rejects unsafe target http://0177.0.0.1",
+          "duration": 0.2762000000000171,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://169.254.169.254",
+          "status": "passed",
+          "title": "rejects unsafe target http://169.254.169.254",
+          "duration": 3.15930000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://[::ffff:127.0.0.1]",
+          "status": "passed",
+          "title": "rejects unsafe target http://[::ffff:127.0.0.1]",
+          "duration": 1.3053999999999633,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://metadata.google.internal",
+          "status": "passed",
+          "title": "rejects unsafe target http://metadata.google.internal",
+          "duration": 0.23419999999998709,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://instance-data",
+          "status": "passed",
+          "title": "rejects unsafe target http://instance-data",
+          "duration": 0.19830000000001746,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://example.local",
+          "status": "passed",
+          "title": "rejects unsafe target http://example.local",
+          "duration": 0.19479999999998654,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 0.0.0.0",
+          "status": "passed",
+          "title": "denies non-global IP 0.0.0.0",
+          "duration": 0.2074000000000069,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 127.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 127.0.0.1",
+          "duration": 0.322400000000016,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 10.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 10.0.0.1",
+          "duration": 0.2596999999999525,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 100.64.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 100.64.0.1",
+          "duration": 0.18189999999992779,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 192.168.1.1",
+          "status": "passed",
+          "title": "denies non-global IP 192.168.1.1",
+          "duration": 0.23730000000000473,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 169.254.1.1",
+          "status": "passed",
+          "title": "denies non-global IP 169.254.1.1",
+          "duration": 0.10239999999998872,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 192.0.2.1",
+          "status": "passed",
+          "title": "denies non-global IP 192.0.2.1",
+          "duration": 0.165300000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 198.18.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 198.18.0.1",
+          "duration": 0.22469999999998436,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 224.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 224.0.0.1",
+          "duration": 0.09640000000001692,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 240.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 240.0.0.1",
+          "duration": 0.13670000000001892,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP ::",
+          "status": "passed",
+          "title": "denies non-global IP ::",
+          "duration": 0.17070000000001073,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP ::1",
+          "status": "passed",
+          "title": "denies non-global IP ::1",
+          "duration": 0.1816000000000031,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP fc00::1",
+          "status": "passed",
+          "title": "denies non-global IP fc00::1",
+          "duration": 0.209699999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP fe80::1",
+          "status": "passed",
+          "title": "denies non-global IP fe80::1",
+          "duration": 0.17410000000006676,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP ff02::1",
+          "status": "passed",
+          "title": "denies non-global IP ff02::1",
+          "duration": 0.12319999999999709,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 2001:db8::1",
+          "status": "passed",
+          "title": "denies non-global IP 2001:db8::1",
+          "duration": 0.2779000000000451,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 2002:7f00:1::",
+          "status": "passed",
+          "title": "denies non-global IP 2002:7f00:1::",
+          "duration": 0.2841000000000804,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 64:ff9b::7f00:1",
+          "status": "passed",
+          "title": "denies non-global IP 64:ff9b::7f00:1",
+          "duration": 0.3048000000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP ::ffff:127.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP ::ffff:127.0.0.1",
+          "duration": 0.33969999999999345,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification allows public ports only and narrow private opt-in",
+          "status": "passed",
+          "title": "allows public ports only and narrow private opt-in",
+          "duration": 1.141999999999939,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "startup configuration and secret containment"
+          ],
+          "fullName": "startup configuration and secret containment remote startup rejects a fixture file with broadly readable platform permissions",
+          "status": "passed",
+          "title": "remote startup rejects a fixture file with broadly readable platform permissions",
+          "duration": 459.77189999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "startup configuration and secret containment"
+          ],
+          "fullName": "startup configuration and secret containment safe defaults and unknown/invalid settings fail",
+          "status": "passed",
+          "title": "safe defaults and unknown/invalid settings fail",
+          "duration": 4.733899999999949,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "startup configuration and secret containment"
+          ],
+          "fullName": "startup configuration and secret containment reads bounded administrator token files and denies traversal, directories and weak files",
+          "status": "passed",
+          "title": "reads bounded administrator token files and denies traversal, directories and weak files",
+          "duration": 423.5937,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "startup configuration and secret containment"
+          ],
+          "fullName": "startup configuration and secret containment denies symlink escape using a directory junction on Windows",
+          "status": "passed",
+          "title": "denies symlink escape using a directory junction on Windows",
+          "duration": 7.679700000000139,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "clock and due slots"
+          ],
+          "fullName": "clock and due slots skips missed slots and leaves future manual slots intact",
+          "status": "passed",
+          "title": "skips missed slots and leaves future manual slots intact",
+          "duration": 0.3010999999999058,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "clock and due slots"
+          ],
+          "fullName": "clock and due slots clamps regressing clock at persisted seed",
+          "status": "passed",
+          "title": "clamps regressing clock at persisted seed",
+          "duration": 0.7053000000000793,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579089822,
+      "endTime": 1791579090753.7053,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/contracts-config.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "history pagination preserves immutable ordering, snapshot and bound filters",
+          "status": "passed",
+          "title": "history pagination preserves immutable ordering, snapshot and bound filters",
+          "duration": 79.80940000000004,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579118583,
+      "endTime": 1791579118662.8093,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/history.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations GET and HEAD contact real target with fixed headers and ignore slow infinite bodies",
+          "status": "passed",
+          "title": "GET and HEAD contact real target with fixed headers and ignore slow infinite bodies",
+          "duration": 44.479600000000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations classifies 500 without throwing",
+          "status": "passed",
+          "title": "classifies 500 without throwing",
+          "duration": 8.584600000000023,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations enforces absolute timeout and closes stalled socket",
+          "status": "passed",
+          "title": "enforces absolute timeout and closes stalled socket",
+          "duration": 1034.1804,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations classifies connection refusal and reset without raw error content",
+          "status": "passed",
+          "title": "classifies connection refusal and reset without raw error content",
+          "duration": 6.426600000000008,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations DNS errors are distinct and unexpected resolver exceptions are sanitized",
+          "status": "passed",
+          "title": "DNS errors are distinct and unexpected resolver exceptions are sanitized",
+          "duration": 0.5267999999998665,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations pins actual address while retaining original Host and never resolves twice",
+          "status": "passed",
+          "title": "pins actual address while retaining original Host and never resolves twice",
+          "duration": 3.463999999999942,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations rejects a mixed DNS answer set before any actual contact",
+          "status": "passed",
+          "title": "rejects a mixed DNS answer set before any actual contact",
+          "duration": 1.511700000000019,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations revalidates redirects, denies metadata before connecting and bounds loops",
+          "status": "passed",
+          "title": "revalidates redirects, denies metadata before connecting and bounds loops",
+          "duration": 12.874900000000025,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations administrative cancellation has no fabricated observation",
+          "status": "passed",
+          "title": "administrative cancellation has no fabricated observation",
+          "duration": 5.024400000000014,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations bounds DNS under the total deadline and blocks late socket creation",
+          "status": "passed",
+          "title": "bounds DNS under the total deadline and blocks late socket creation",
+          "duration": 1004.7708999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations rejects an untrusted TLS certificate with TLS_ERROR",
+          "status": "passed",
+          "title": "rejects an untrusted TLS certificate with TLS_ERROR",
+          "duration": 14.105800000000272,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579087107,
+      "endTime": 1791579089243.1057,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/http.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite persists monitors/checks, WAL/FULL and indexes survive reopening",
+          "status": "passed",
+          "title": "persists monitors/checks, WAL/FULL and indexes survive reopening",
+          "duration": 66.33550000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite enforces unique unsettled/FKs/check constraints and rolls back invalid transactions",
+          "status": "passed",
+          "title": "enforces unique unsettled/FKs/check constraints and rolls back invalid transactions",
+          "duration": 21.514999999999986,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite restart abandons unfinished work without pretending downtime",
+          "status": "passed",
+          "title": "restart abandons unfinished work without pretending downtime",
+          "duration": 28.320299999999975,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite fences stale results after edit and cascades only confirmed service deletion",
+          "status": "passed",
+          "title": "fences stale results after edit and cascades only confirmed service deletion",
+          "duration": 23.8506000000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite refuses newer schema and checksum mismatch without resetting existing records",
+          "status": "passed",
+          "title": "refuses newer schema and checksum mismatch without resetting existing records",
+          "duration": 41.66100000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite single-instance canonical lock refuses second owner and releases cleanly",
+          "status": "passed",
+          "title": "single-instance canonical lock refuses second owner and releases cleanly",
+          "duration": 15.398300000000063,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite worker queue bounds reads and exposes worker death as a persistence fault",
+          "status": "passed",
+          "title": "worker queue bounds reads and exposes worker death as a persistence fault",
+          "duration": 245.50420000000008,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579086031,
+      "endTime": 1791579086474.5042,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/persistence.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "built production process lifecycle"
+          ],
+          "fullName": "built production process lifecycle actual target receipt, graceful platform stop, persisted history and restart",
+          "status": "passed",
+          "title": "actual target receipt, graceful platform stop, persisted history and restart",
+          "duration": 1884.5230999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "built production process lifecycle"
+          ],
+          "fullName": "built production process lifecycle forced death releases OS lock and recovery abandons running work",
+          "status": "passed",
+          "title": "forced death releases OS lock and recovery abandons running work",
+          "duration": 2312.5661999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "built production process lifecycle"
+          ],
+          "fullName": "built production process lifecycle unsafe startup and occupied API port exit unsuccessfully without lingering resources",
+          "status": "passed",
+          "title": "unsafe startup and occupied API port exit unsuccessfully without lingering resources",
+          "duration": 1342.1828999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579093898,
+      "endTime": 1791579099438.1829,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/process.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates due intervals skip missed slots without overlapping or replay bursts",
+          "status": "passed",
+          "title": "due intervals skip missed slots without overlapping or replay bursts",
+          "duration": 563.3077,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates manual calls coalesce, queue saturates, all work shares global concurrency",
+          "status": "passed",
+          "title": "manual calls coalesce, queue saturates, all work shares global concurrency",
+          "duration": 426.70039999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates pause cancels running work, retains history, ignores late results and resume dispatches once",
+          "status": "passed",
+          "title": "pause cancels running work, retains history, ignores late results and resume dispatches once",
+          "duration": 384.4614999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates edit/delete races cancel active resources and disabled monitors are never dispatched",
+          "status": "passed",
+          "title": "edit/delete races cancel active resources and disabled monitors are never dispatched",
+          "duration": 337.6963999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates unexpected executor exceptions fail readiness without inventing target downtime",
+          "status": "passed",
+          "title": "unexpected executor exceptions fail readiness without inventing target downtime",
+          "duration": 277.11699999999973,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates alternates automatic/manual candidates with oldest-due ordering",
+          "status": "passed",
+          "title": "alternates automatic/manual candidates with oldest-due ordering",
+          "duration": 496.65049999999974,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579079271,
+      "endTime": 1791579081758.6504,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/scheduler.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness sessions expire after eight hours without a sliding extension",
+          "status": "passed",
+          "title": "sessions expire after eight hours without a sliding extension",
+          "duration": 486.249,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness remote declared HTTPS mode requires auth and issues Secure session cookies through the actual listener",
+          "status": "passed",
+          "title": "remote declared HTTPS mode requires auth and issues Secure session cookies through the actual listener",
+          "duration": 726.4027,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness Host/Origin and JSON checks protect local unauthenticated mode",
+          "status": "passed",
+          "title": "Host/Origin and JSON checks protect local unauthenticated mode",
+          "duration": 301.27139999999986,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness bearer auth, login cookie, CSRF and logout enforce separate authority",
+          "status": "passed",
+          "title": "bearer auth, login cookie, CSRF and logout enforce separate authority",
+          "duration": 347.8775999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness supplied hostile Origin cannot be bypassed by bearer or forwarded headers",
+          "status": "passed",
+          "title": "supplied hostile Origin cannot be bypassed by bearer or forwarded headers",
+          "duration": 244.64429999999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness bounds login attempts with Retry-After and does not echo fake token canaries",
+          "status": "passed",
+          "title": "bounds login attempts with Retry-After and does not echo fake token canaries",
+          "duration": 378.1188000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness real database worker death fails readiness and prevents new mutations",
+          "status": "passed",
+          "title": "real database worker death fails readiness and prevents new mutations",
+          "duration": 562.9323999999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579082365,
+      "endTime": 1791579085413.9324,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/security.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "snapshot excludes an earlier allocated execution terminalized later in the same millisecond, even after owner deletion",
+          "status": "passed",
+          "title": "snapshot excludes an earlier allocated execution terminalized later in the same millisecond, even after owner deletion",
+          "duration": 81.52319999999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "Unicode name pagination follows the same normalization as SQL search and stored last observation survives pause",
+          "status": "passed",
+          "title": "Unicode name pagination follows the same normalization as SQL search and stored last observation survives pause",
+          "duration": 28.07779999999991,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579115935,
+      "endTime": 1791579116045.078,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/snapshot.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "pinned TLS socket preserves SNI and normal hostname verification with a fixture-only trust root",
+          "status": "passed",
+          "title": "pinned TLS socket preserves SNI and normal hostname verification with a fixture-only trust root",
+          "duration": 387.1261999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "redirect hops share one absolute timeout and the fourth hop is not contacted",
+          "status": "passed",
+          "title": "redirect hops share one absolute timeout and the fourth hop is not contacted",
+          "duration": 1024.5902999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791579116612,
+      "endTime": 1791579118023.5903,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/tls-redirect.test.ts"
+    }
+  ]
+}

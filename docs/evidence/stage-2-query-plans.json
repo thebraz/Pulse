@@ -1,0 +1,259 @@
+{
+  "recordedAt": "2026-10-11T14:52:05.684Z",
+  "sqlite": "3.53.3",
+  "plans": [
+    {
+      "index": "checks_monitor_started",
+      "sql": "SELECT * FROM checks WHERE monitor_id=? AND started_at>=? AND started_at<? ORDER BY started_at,sequence",
+      "plan": [
+        {
+          "id": 4,
+          "parent": 0,
+          "notused": 49,
+          "detail": "SEARCH checks USING INDEX checks_monitor_started (monitor_id=? AND started_at>? AND started_at<?)"
+        }
+      ]
+    },
+    {
+      "index": "checks_retention",
+      "sql": "SELECT sequence FROM checks WHERE completed_at<? AND lifecycle IN('COMPLETED','CANCELLED','ABANDONED') LIMIT 1000",
+      "plan": [
+        {
+          "id": 4,
+          "parent": 0,
+          "notused": 192,
+          "detail": "SEARCH checks USING INDEX checks_retention (completed_at<?)"
+        }
+      ]
+    },
+    {
+      "index": "checks_queued",
+      "sql": "SELECT id FROM checks WHERE lifecycle='QUEUED' ORDER BY queued_at,id LIMIT 1",
+      "plan": [
+        {
+          "id": 4,
+          "parent": 0,
+          "notused": 200,
+          "detail": "SCAN checks USING COVERING INDEX checks_queued"
+        }
+      ]
+    },
+    {
+      "index": "checks_cancelled",
+      "sql": "SELECT count(*) AS n FROM checks WHERE lifecycle='CANCELLED'",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 200,
+          "detail": "SCAN checks USING COVERING INDEX checks_cancelled"
+        }
+      ]
+    },
+    {
+      "index": "checks_abandoned",
+      "sql": "SELECT count(*) AS n FROM checks WHERE lifecycle='ABANDONED'",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 200,
+          "detail": "SCAN checks USING COVERING INDEX checks_abandoned"
+        }
+      ]
+    },
+    {
+      "index": "incidents_one_open",
+      "sql": "SELECT * FROM incidents WHERE status='OPEN' AND monitor_id=?",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 45,
+          "detail": "SEARCH incidents USING INDEX incidents_one_open (monitor_id=?)"
+        }
+      ]
+    },
+    {
+      "index": "incidents_monitor_time",
+      "sql": "SELECT * FROM incidents WHERE monitor_id=? AND opened_at<? ORDER BY opened_at",
+      "plan": [
+        {
+          "id": 4,
+          "parent": 0,
+          "notused": 51,
+          "detail": "SEARCH incidents USING INDEX incidents_monitor_time (monitor_id=? AND opened_at<?)"
+        }
+      ]
+    },
+    {
+      "index": "incidents_detected",
+      "sql": "SELECT * FROM incidents WHERE detected_at<? ORDER BY detected_at,id LIMIT 50",
+      "plan": [
+        {
+          "id": 5,
+          "parent": 0,
+          "notused": 203,
+          "detail": "SEARCH incidents USING INDEX incidents_detected (detected_at<?)"
+        }
+      ]
+    },
+    {
+      "index": "incidents_resolved",
+      "sql": "SELECT id FROM incidents WHERE status='RESOLVED' AND resolved_at<? LIMIT 1000",
+      "plan": [
+        {
+          "id": 4,
+          "parent": 0,
+          "notused": 192,
+          "detail": "SEARCH incidents USING INDEX incidents_resolved (resolved_at<?)"
+        }
+      ]
+    },
+    {
+      "index": "transitions_monitor_time",
+      "sql": "SELECT * FROM state_transitions WHERE monitor_id=? AND occurred_at<=? ORDER BY occurred_at DESC,sequence DESC LIMIT 1",
+      "plan": [
+        {
+          "id": 5,
+          "parent": 0,
+          "notused": 50,
+          "detail": "SEARCH state_transitions USING INDEX transitions_monitor_time (monitor_id=? AND occurred_at<?)"
+        }
+      ]
+    },
+    {
+      "index": "transitions_retention",
+      "sql": "SELECT sequence FROM state_transitions WHERE occurred_at<? LIMIT 1000",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 187,
+          "detail": "SEARCH state_transitions USING COVERING INDEX transitions_retention (occurred_at<?)"
+        }
+      ]
+    },
+    {
+      "index": "activity_monitor_time",
+      "sql": "SELECT * FROM monitor_activity_windows WHERE monitor_id=? AND enabled_at<? ORDER BY enabled_at",
+      "plan": [
+        {
+          "id": 4,
+          "parent": 0,
+          "notused": 51,
+          "detail": "SEARCH monitor_activity_windows USING INDEX activity_monitor_time (monitor_id=? AND enabled_at<?)"
+        }
+      ]
+    },
+    {
+      "index": "activity_one_open",
+      "sql": "SELECT * FROM monitor_activity_windows WHERE monitor_id=? AND disabled_at IS NULL",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 46,
+          "detail": "SEARCH monitor_activity_windows USING INDEX activity_one_open (monitor_id=?)"
+        }
+      ]
+    },
+    {
+      "index": "service_runs_coverage",
+      "sql": "SELECT * FROM service_runs WHERE ready_at<? ORDER BY ready_at",
+      "plan": [
+        {
+          "id": 4,
+          "parent": 0,
+          "notused": 203,
+          "detail": "SEARCH service_runs USING INDEX service_runs_coverage (ready_at<?)"
+        }
+      ]
+    },
+    {
+      "index": "status_open_incident",
+      "sql": "SELECT * FROM monitor_status WHERE open_incident_id=?",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 61,
+          "detail": "SEARCH monitor_status USING INDEX status_open_incident (open_incident_id=?)"
+        }
+      ]
+    },
+    {
+      "index": "status_check",
+      "sql": "SELECT * FROM monitor_status WHERE last_check_id=?",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 61,
+          "detail": "SEARCH monitor_status USING INDEX status_check (last_check_id=?)"
+        }
+      ]
+    },
+    {
+      "index": "transitions_check",
+      "sql": "SELECT * FROM state_transitions WHERE check_id=?",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 61,
+          "detail": "SEARCH state_transitions USING INDEX transitions_check (check_id=?)"
+        }
+      ]
+    },
+    {
+      "index": "incidents_opening_check",
+      "sql": "SELECT * FROM incidents WHERE opening_check_id=?",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 61,
+          "detail": "SEARCH incidents USING INDEX incidents_opening_check (opening_check_id=?)"
+        }
+      ]
+    },
+    {
+      "index": "incidents_resolving_check",
+      "sql": "SELECT * FROM incidents WHERE resolving_check_id=?",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 61,
+          "detail": "SEARCH incidents USING INDEX incidents_resolving_check (resolving_check_id=?)"
+        }
+      ]
+    },
+    {
+      "index": "incidents_opening_transition",
+      "sql": "SELECT * FROM incidents WHERE opening_transition_id=?",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 61,
+          "detail": "SEARCH incidents USING INDEX incidents_opening_transition (opening_transition_id=?)"
+        }
+      ]
+    },
+    {
+      "index": "incidents_resolving_transition",
+      "sql": "SELECT * FROM incidents WHERE resolving_transition_id=?",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 61,
+          "detail": "SEARCH incidents USING INDEX incidents_resolving_transition (resolving_transition_id=?)"
+        }
+      ]
+    }
+  ],
+  "scopeNote": "This sidecar was regenerated by the Stage 3 regression precheck. It is not the original Stage 2 candidate sidecar. Original Stage 2 test and source manifests remain in stage-2-tests.json and stage-2-verification.json; current final query plans are in stage-3-query-plans.json."
+}

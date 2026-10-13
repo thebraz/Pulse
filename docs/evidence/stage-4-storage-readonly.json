@@ -1,0 +1,47 @@
+{
+  "scenario": "readonly",
+  "result": "PASS",
+  "startedAt": "2026-10-12T12:52:55.006Z",
+  "completedAt": "2026-10-12T12:52:57.234Z",
+  "environment": {
+    "os": "Ubuntu 24.04 userspace",
+    "kernel": "6.18.33.2-microsoft-standard-WSL2",
+    "node": "v24.19.0",
+    "sqlite": "3.53.3"
+  },
+  "scope": "Disposable local filesystem fault injection; no physical power-loss or hardware durability claim",
+  "runtimeSha256": "2fe5425428707531332de5c0b2523a5b75eb83aaa6da64590265a4e44aaff82c",
+  "schemaMigrations": [
+    {
+      "version": 1,
+      "checksum": "ce8f7daf47fcaf49f72e286ac824c84b364d07200bcf297d1393246a8c6a60fd"
+    },
+    {
+      "version": 2,
+      "checksum": "949ad899a59415277602642296b3bfda8a0e893836f252687df0356ec33f725c"
+    },
+    {
+      "version": 3,
+      "checksum": "8c31232722c661f4ac975627e09203d12fbfa50debbb28a82c062dd63eea2060"
+    },
+    {
+      "version": 4,
+      "checksum": "94df4a996d066576998e9a56a3818e9de5602885845ab827bab0619bb625ead5"
+    }
+  ],
+  "fault": {
+    "nativeSqliteCode": 14,
+    "startupRejected": true,
+    "listenerAbsent": true
+  },
+  "assertions": {
+    "dispatchStopped": true,
+    "noSyntheticDowntime": true,
+    "committedCheckPreserved": true,
+    "committedMonitorPreserved": true,
+    "uncertainCheckRecoveredAbandoned": false,
+    "noUncommittedIncidentOrDelivery": true,
+    "postRestartIntegrity": "ok",
+    "foreignKeyViolations": 0
+  }
+}

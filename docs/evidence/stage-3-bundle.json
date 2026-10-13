@@ -1,0 +1,54 @@
+{
+  "recordedAt": "2026-10-11T15:10:05.959Z",
+  "candidateSha256": "4d161d64b0b45e88e4ffecc34f63826e3791bf534b6469ec2adfa3a6d9865b86",
+  "files": [
+    {
+      "path": "apps/web/dist/assets/Dashboard-C5ZqN55a.js",
+      "gzipBytes": 2573
+    },
+    {
+      "path": "apps/web/dist/assets/HistoryChart-Dj3vVPlX.js",
+      "gzipBytes": 2523
+    },
+    {
+      "path": "apps/web/dist/assets/Incidents-9BIqKLvA.js",
+      "gzipBytes": 2244
+    },
+    {
+      "path": "apps/web/dist/assets/index-BjMR5_X6.js",
+      "gzipBytes": 77311
+    },
+    {
+      "path": "apps/web/dist/assets/index-qQpiIVst.css",
+      "gzipBytes": 5028
+    },
+    {
+      "path": "apps/web/dist/assets/MonitorDetail-iHGMTEtG.js",
+      "gzipBytes": 3533
+    },
+    {
+      "path": "apps/web/dist/assets/MonitorForm-A3eTME-N.js",
+      "gzipBytes": 2587
+    },
+    {
+      "path": "apps/web/dist/assets/Notifications-B4BGB1-b.js",
+      "gzipBytes": 2774
+    },
+    {
+      "path": "apps/web/dist/assets/Settings-DCide3Xy.js",
+      "gzipBytes": 1417
+    },
+    {
+      "path": "apps/web/dist/assets/ui-BSykrtiy.js",
+      "gzipBytes": 46394
+    },
+    {
+      "path": "apps/web/dist/assets/useMutation-D8rhTnJy.js",
+      "gzipBytes": 949
+    }
+  ],
+  "allJavaScriptGzipBytes": 142305,
+  "initialBudgetBytes": 358400,
+  "method": "Sum of every independently gzipped JavaScript chunk is an upper bound on initial JavaScript; includes lazy routes/chart.",
+  "result": "PASS"
+}

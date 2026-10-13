@@ -1,0 +1,34 @@
+{
+  "recordedAt": "2026-10-12T17:06:47.272Z",
+  "scope": "External access and owner-selected local-only operating scope. Runtime, test, artifact, performance, storage and proxy certification are evaluated separately by verify-release.mjs.",
+  "gates": [
+    {
+      "name": "productionProxy",
+      "result": "PASS",
+      "reason": "Owner explicitly selected local-only initial operation; no actual operator remote HTTPS deployment is part of this release scope. Controlled real nginx/TLS/auth/CSRF/SSE validation has separate evidence and still requires final-candidate operational reverification.",
+      "previousVerificationRecordedAt": "2026-10-12T15:32:18.438Z"
+    },
+    {
+      "name": "npmAccount",
+      "result": "PASS",
+      "reason": "Official interactive npm CLI login completed; npm whoami reverified thebraz on 2026-10-12. Credentials are outside the repository. Namespace/version permission and any required 2FA must be rechecked immediately before technically ready publication; no publish attempted.",
+      "previousVerificationRecordedAt": "2026-10-12T15:32:18.438Z"
+    },
+    {
+      "name": "githubRepositoryAccess",
+      "result": "PASS",
+      "reason": "Public thebraz/Pulse exists, repository ID 1415687292, currently empty. Live connector reverified owner admin, maintain, pull, push and triage permissions on 2026-10-12. No product push, tag or release performed.",
+      "previousVerificationRecordedAt": "2026-10-12T15:32:18.438Z"
+    },
+    {
+      "name": "securityReportingChannel",
+      "result": "PASS",
+      "reason": "GitHub Private vulnerability reporting was explicitly authorized, enabled and verified in the official repository security UI on 2026-10-12. SECURITY.md points to the actual confidential reporting destination.",
+      "previousVerificationRecordedAt": "2026-10-12T15:32:18.438Z"
+    }
+  ],
+  "remainingPublicationAuthentication": "The independent local GitHub CLI is not authenticated. A secure official browser authorization may be needed after all technical gates pass. The connected GitHub account has verified repository admin/push access. npm CLI identity thebraz is authenticated; publication permission, namespace and any 2FA challenge are checked immediately before publication.",
+  "productPush": "NOT PERFORMED",
+  "githubRelease": "NOT PERFORMED",
+  "npmPublication": "NOT PERFORMED"
+}

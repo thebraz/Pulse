@@ -1,0 +1,193 @@
+{
+  "recordedAt": "2026-10-13T16:24:47.412Z",
+  "platform": {
+    "os": "Ubuntu 24.04 userspace",
+    "kernel": "6.18.33.2-microsoft-standard-WSL2",
+    "node": "v24.19.0",
+    "sqlite": "3.53.3"
+  },
+  "scope": "Isolated loopback nginx TLS proxy; no operator deployment, public certificate or external firewall is certified",
+  "checks": [
+    {
+      "name": "nginx validates the shipped production configuration with fixture paths and ports",
+      "result": "PASS"
+    },
+    {
+      "name": "TLS peer identity and CA verification stay enabled",
+      "result": "PASS"
+    },
+    {
+      "name": "unauthorized proxied and direct backend requests remain denied, including spoofed forwarding headers",
+      "result": "PASS"
+    },
+    {
+      "name": "nginx preserves exact public Host and browser Origin enforcement",
+      "result": "PASS"
+    },
+    {
+      "name": "authenticated login issues a Secure HttpOnly SameSite cookie and permits protected reads",
+      "result": "PASS"
+    },
+    {
+      "name": "SSE requires the session cookie and rejects credentials in query strings or bearer-only streams",
+      "result": "PASS"
+    },
+    {
+      "name": "twenty authenticated streams connect without buffering; the twenty-first receives 429",
+      "result": "PASS"
+    },
+    {
+      "name": "the real fifteen-second heartbeat reaches all twenty clients through nginx",
+      "result": "PASS"
+    },
+    {
+      "name": "after an idle heartbeat, mutations require CSRF and their committed invalidation reaches every stream promptly",
+      "result": "PASS"
+    },
+    {
+      "name": "SSE contains no target or credentials; SPA responses retain their CSP",
+      "result": "PASS"
+    },
+    {
+      "name": "fixture proxy logs contain no credential canaries",
+      "result": "PASS"
+    }
+  ],
+  "releaseIdentity": {
+    "runtimeSourceDigest": "32190c9d600d48b40dedcdd3c68ec106238742810ea41d042181085ebffb86af",
+    "compiledDigest": "d89831c97f04b60e6f5a906e7291cc49811b8b765baf443a46c5ceb15b7702f6",
+    "testSuiteDigest": "d970e5df851c7cc0cd49c3fa4d06b5709e0998e17f7d6a18711ddf925737e024"
+  },
+  "nginx": "nginx version: nginx/1.24.0 (Ubuntu)",
+  "productionConfigSha256": "28f60bdd30ccf1982c14bcd5ac18e4b67e88726cfde99b88189b3285f3cbad3f",
+  "negotiatedTls": "TLSv1.3",
+  "twentyStreamConnectionMs": 85.27974699999982,
+  "allStreamHeartbeatMs": 15089.118124999999,
+  "committedInvalidationMs": 29.729010999999446,
+  "runtimeSha256": "6bd9ce8e6f0aca46fe9566eabc59a9deb97b73d304cec263aa9fd759c17c30ed",
+  "candidateUnchangedDuringRun": true,
+  "result": "PASS",
+  "streams": [
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": null,
+      "error": null,
+      "heartbeatReceived": true
+    }
+  ],
+  "completedAt": "2026-10-13T16:25:03.187Z"
+}

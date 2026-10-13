@@ -1,0 +1,113 @@
+{
+  "recordedAt": "2026-10-11T23:34:06.439Z",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "dataset": {
+    "monitors": 100,
+    "checks": 4320000,
+    "bytes": 2139942912
+  },
+  "sourceSha256": "f944f7060ce9eafe208cf4c77b4ba3198ac1ef93fd41bcea2cfcf4a23bcefac1",
+  "measurements": [
+    {
+      "name": "completed",
+      "sql": "SELECT max(completed_at) AS t FROM checks WHERE lifecycle IN('COMPLETED','CANCELLED','ABANDONED')",
+      "plan": [
+        {
+          "id": 4,
+          "parent": 0,
+          "notused": 212,
+          "detail": "SEARCH checks USING INDEX checks_retention"
+        }
+      ],
+      "rows": [
+        {
+          "t": 1791739626548
+        }
+      ],
+      "ms": 0.4881999999999991
+    },
+    {
+      "name": "queued",
+      "sql": "SELECT max(queued_at) AS t FROM checks WHERE lifecycle='QUEUED'",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 200,
+          "detail": "SEARCH checks USING COVERING INDEX checks_queued"
+        }
+      ],
+      "rows": [
+        {
+          "t": null
+        }
+      ],
+      "ms": 0.05559999999999832
+    },
+    {
+      "name": "started",
+      "sql": "SELECT max((SELECT max(started_at) FROM checks WHERE monitor_id=monitors.id)) AS t FROM monitors",
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 210,
+          "detail": "SEARCH monitors USING COVERING INDEX sqlite_autoindex_monitors_1"
+        },
+        {
+          "id": 6,
+          "parent": 0,
+          "notused": 0,
+          "detail": "CORRELATED SCALAR SUBQUERY 1"
+        },
+        {
+          "id": 11,
+          "parent": 6,
+          "notused": 54,
+          "detail": "SEARCH checks USING COVERING INDEX checks_monitor_started (monitor_id=?)"
+        }
+      ],
+      "rows": [
+        {
+          "t": 1791739626528
+        }
+      ],
+      "ms": 37.6509
+    },
+    {
+      "name": "recovery",
+      "sql": "UPDATE checks SET lifecycle='ABANDONED',terminal_order=(SELECT value FROM check_commit_clock WHERE id=1),completed_at=1,outcome=NULL,http_status=NULL,duration_ms=NULL,error_code=NULL WHERE lifecycle IN('QUEUED','RUNNING')",
+      "plan": [
+        {
+          "id": 5,
+          "parent": 0,
+          "notused": 213,
+          "detail": "SCAN checks USING INDEX checks_one_unsettled"
+        },
+        {
+          "id": 40,
+          "parent": 0,
+          "notused": 0,
+          "detail": "SCALAR SUBQUERY 1"
+        },
+        {
+          "id": 44,
+          "parent": 40,
+          "notused": 33,
+          "detail": "SEARCH check_commit_clock USING INTEGER PRIMARY KEY (rowid=?)"
+        }
+      ],
+      "rows": [],
+      "ms": 0.006599999999991724
+    }
+  ],
+  "regression": {
+    "command": "npx vitest run tests/release.test.ts",
+    "passed": 13,
+    "failed": 0
+  },
+  "rationale": "After full integrity and foreign-key validation, terminal completion bounds queued/started clocks, RUNNING requires a started clock, and QUEUED is probed independently. Each monitor uses the existing covering started-time index. These exact maxima preserve nullable and unfinished execution recovery without scanning retained checks.",
+  "limitation": "Component measurements only; application startup still includes mandatory full writable quick_check and foreign_key_check. No ten-second startup pass is claimed.",
+  "result": "PASS"
+}

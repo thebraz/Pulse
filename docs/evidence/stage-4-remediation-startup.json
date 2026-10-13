@@ -1,0 +1,18 @@
+{
+  "recordedAt": "2026-10-11T18:47:47.360Z",
+  "node": "v24.19.0",
+  "platform": "win32",
+  "dataset": {
+    "monitors": 100,
+    "checks": 4320000
+  },
+  "compiledSha256": "3326f44499a68a682c742bac9ae9e5ba3ba63568d733691c2d08c87ad5f8a569",
+  "result": "PASS",
+  "measurements": {
+    "readyMs": 26543.7782,
+    "isReady": true,
+    "shutdownMs": 27.523300000000745
+  },
+  "tenSecondBudget": "FAIL",
+  "completedAt": "2026-10-11T18:48:13.935Z"
+}

@@ -1,0 +1,89 @@
+{
+  "startedAt": "2026-10-13T16:25:17.664Z",
+  "completedAt": "2026-10-13T16:26:07.681Z",
+  "candidateSha256": "69ffd089d476baf46865719a4341c00a610a4c19fb38426a950665c49fdcf83f",
+  "releaseIdentity": {
+    "runtimeSourceDigest": "32190c9d600d48b40dedcdd3c68ec106238742810ea41d042181085ebffb86af",
+    "compiledDigest": "d89831c97f04b60e6f5a906e7291cc49811b8b765baf443a46c5ceb15b7702f6",
+    "testSuiteDigest": "d970e5df851c7cc0cd49c3fa4d06b5709e0998e17f7d6a18711ddf925737e024"
+  },
+  "candidateUnchangedDuringRun": true,
+  "platform": {
+    "os": "win32",
+    "release": "10.0.26200",
+    "arch": "x64",
+    "node": "v24.19.0"
+  },
+  "passed": 17,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Clean archive installation without workspace dependencies",
+      "result": "PASS"
+    },
+    {
+      "name": "Exact archive contents and credential/path exclusions",
+      "result": "PASS"
+    },
+    {
+      "name": "Installed CLI startup and database initialization",
+      "result": "PASS"
+    },
+    {
+      "name": "Built dashboard, static assets and deep links on the API origin",
+      "result": "PASS"
+    },
+    {
+      "name": "Create monitor in installed dashboard and observe real HTTP success",
+      "result": "PASS"
+    },
+    {
+      "name": "Provisioned signed test webhook received by actual receiver",
+      "result": "PASS"
+    },
+    {
+      "name": "Confirmed incident and signed incident-opened receipt",
+      "result": "PASS"
+    },
+    {
+      "name": "Confirmed recovery of the same incident and recovery receipt",
+      "result": "PASS"
+    },
+    {
+      "name": "Historical metrics contain actual successful and failed observations",
+      "result": "PASS"
+    },
+    {
+      "name": "Installed real-browser interface without page errors",
+      "result": "PASS"
+    },
+    {
+      "name": "Installed diagnostic, help and version commands",
+      "result": "PASS"
+    },
+    {
+      "name": "Real failed receipt persists a pending retry before backup",
+      "result": "PASS"
+    },
+    {
+      "name": "Graceful installed process shutdown",
+      "result": "PASS"
+    },
+    {
+      "name": "Stopped SQLite backup, checksum, integrity and foreign keys",
+      "result": "PASS"
+    },
+    {
+      "name": "Isolated restore preserves IDs and delivers the pending signed retry",
+      "result": "PASS"
+    },
+    {
+      "name": "Restart from another directory preserves configured data",
+      "result": "PASS"
+    },
+    {
+      "name": "Installed package remains free of runtime data and secret logs",
+      "result": "PASS"
+    }
+  ]
+}

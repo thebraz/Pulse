@@ -1,0 +1,174 @@
+{
+  "recordedAt": "2026-10-11T23:46:01.191Z",
+  "platform": {
+    "os": "Ubuntu 24.04 userspace",
+    "kernel": "6.18.33.2-microsoft-standard-WSL2",
+    "node": "v24.19.0",
+    "sqlite": "3.53.3"
+  },
+  "scope": "Isolated loopback nginx TLS proxy; no operator deployment, public certificate or external firewall is certified",
+  "checks": [
+    {
+      "name": "nginx validates the shipped production configuration with fixture paths and ports",
+      "result": "PASS"
+    },
+    {
+      "name": "TLS peer identity and CA verification stay enabled",
+      "result": "PASS"
+    },
+    {
+      "name": "unauthorized proxied and direct backend requests remain denied, including spoofed forwarding headers",
+      "result": "PASS"
+    },
+    {
+      "name": "nginx preserves exact public Host and browser Origin enforcement",
+      "result": "PASS"
+    },
+    {
+      "name": "authenticated login issues a Secure HttpOnly SameSite cookie and permits protected reads",
+      "result": "PASS"
+    },
+    {
+      "name": "SSE requires the session cookie and rejects credentials in query strings or bearer-only streams",
+      "result": "PASS"
+    },
+    {
+      "name": "twenty authenticated streams connect without buffering; the twenty-first receives 429",
+      "result": "PASS"
+    },
+    {
+      "name": "mutations require CSRF and their committed invalidation reaches every stream promptly",
+      "result": "PASS"
+    }
+  ],
+  "nginx": "nginx version: nginx/1.24.0 (Ubuntu)",
+  "productionConfigSha256": "28f60bdd30ccf1982c14bcd5ac18e4b67e88726cfde99b88189b3285f3cbad3f",
+  "negotiatedTls": "TLSv1.3",
+  "twentyStreamConnectionMs": 52.000711000000024,
+  "committedInvalidationMs": 14.413190999999983,
+  "result": "FAIL",
+  "failure": "ERR_ASSERTION",
+  "streams": [
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10069.980777,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10067.809408,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10064.604726000001,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10064.265137,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10060.512515999999,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10057.278994,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10054.696676,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10052.323402,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10049.801569000001,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10046.745174,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10043.309006000001,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10040.737719,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10038.364007,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10035.761972,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10033.563523,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10030.616245,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10027.974583,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10025.389958,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10023.034978,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    },
+    {
+      "endedAfterMs": null,
+      "closedAfterMs": 10021.090767,
+      "error": "ECONNRESET",
+      "heartbeatReceived": false
+    }
+  ],
+  "completedAt": "2026-10-11T23:46:19.672Z"
+}

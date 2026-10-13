@@ -1,0 +1,2563 @@
+{
+  "numTotalTestSuites": 39,
+  "numPassedTestSuites": 39,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 182,
+  "numPassedTests": 182,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1791731194814,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API creates and edits with revision checks, confirmed deletion and safe error envelopes",
+          "status": "passed",
+          "title": "creates and edits with revision checks, confirmed deletion and safe error envelopes",
+          "duration": 683.7257,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API executes automatic and manual checks against an actual target and polls terminal persistence",
+          "status": "passed",
+          "title": "executes automatic and manual checks against an actual target and polls terminal persistence",
+          "duration": 437.27970000000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API validates inputs, protocol/address policy, unknown properties, media, payload and UUIDs",
+          "status": "passed",
+          "title": "validates inputs, protocol/address policy, unknown properties, media, payload and UUIDs",
+          "duration": 569.1478999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API bounded monitor pagination, literal wildcard search and later-stage resources",
+          "status": "passed",
+          "title": "bounded monitor pagination, literal wildcard search and later-stage resources",
+          "duration": 416.1377000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real Fastify listener, destination and persisted API"
+          ],
+          "fullName": "real Fastify listener, destination and persisted API disabled monitors refuse checks and health/configuration expose no paths or targets",
+          "status": "passed",
+          "title": "disabled monitors refuse checks and health/configuration expose no paths or targets",
+          "duration": 403.44129999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731309390,
+      "endTime": 1791731311901.4414,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/api.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "cached builds restore missing worker and contract artifacts with identical compiled contents",
+          "status": "passed",
+          "title": "cached builds restore missing worker and contract artifacts with identical compiled contents",
+          "duration": 18031.0113,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731226648,
+      "endTime": 1791731244679.0112,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/build.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "local CLI reports health through the built runtime and rejects invalid commands without printing secrets",
+          "status": "passed",
+          "title": "local CLI reports health through the built runtime and rejects invalid commands without printing secrets",
+          "duration": 2029.2831999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731320864,
+      "endTime": 1791731322893.2832,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/cli.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "documented npm run example serves a real configurable local target",
+          "status": "passed",
+          "title": "documented npm run example serves a real configurable local target",
+          "duration": 1868.0955,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "documented npm run start launches a backend that contacts the fixture and persists the observation",
+          "status": "passed",
+          "title": "documented npm run start launches a backend that contacts the fixture and persists the observation",
+          "duration": 2427.1689,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "documented npm run dev launches a backend that contacts the fixture and persists the observation",
+          "status": "passed",
+          "title": "documented npm run dev launches a backend that contacts the fixture and persists the observation",
+          "duration": 8434.3442,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731245474,
+      "endTime": 1791731258203.3442,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/commands.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "shared input contracts"
+          ],
+          "fullName": "shared input contracts applies defaults and normalizes name/status codes",
+          "status": "passed",
+          "title": "applies defaults and normalizes name/status codes",
+          "duration": 18.954400000000078,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "shared input contracts"
+          ],
+          "fullName": "shared input contracts patch preserves omitted fields and rejects empty/server fields/coercion",
+          "status": "passed",
+          "title": "patch preserves omitted fields and rejects empty/server fields/coercion",
+          "duration": 5.261499999999955,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "shared input contracts"
+          ],
+          "fullName": "shared input contracts accepts timing boundaries and rejects malformed pagination",
+          "status": "passed",
+          "title": "accepts timing boundaries and rejects malformed pagination",
+          "duration": 1.9175000000000182,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target ftp://example.com",
+          "status": "passed",
+          "title": "rejects unsafe target ftp://example.com",
+          "duration": 1.6050000000000182,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://user:pass@example.com",
+          "status": "passed",
+          "title": "rejects unsafe target http://user:pass@example.com",
+          "duration": 0.467899999999986,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://@example.com",
+          "status": "passed",
+          "title": "rejects unsafe target http://@example.com",
+          "duration": 0.280399999999986,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://example.com/?secret=x",
+          "status": "passed",
+          "title": "rejects unsafe target http://example.com/?secret=x",
+          "duration": 0.3039999999999736,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://example.com/#x",
+          "status": "passed",
+          "title": "rejects unsafe target http://example.com/#x",
+          "duration": 0.2545000000000073,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://0x7f000001",
+          "status": "passed",
+          "title": "rejects unsafe target http://0x7f000001",
+          "duration": 6.087100000000078,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://2130706433",
+          "status": "passed",
+          "title": "rejects unsafe target http://2130706433",
+          "duration": 2.28469999999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://127.1",
+          "status": "passed",
+          "title": "rejects unsafe target http://127.1",
+          "duration": 0.3405999999999949,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://0177.0.0.1",
+          "status": "passed",
+          "title": "rejects unsafe target http://0177.0.0.1",
+          "duration": 0.2702999999999065,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://169.254.169.254",
+          "status": "passed",
+          "title": "rejects unsafe target http://169.254.169.254",
+          "duration": 2.8333999999999833,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://[::ffff:127.0.0.1]",
+          "status": "passed",
+          "title": "rejects unsafe target http://[::ffff:127.0.0.1]",
+          "duration": 1.2676000000000158,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://metadata.google.internal",
+          "status": "passed",
+          "title": "rejects unsafe target http://metadata.google.internal",
+          "duration": 0.25490000000002055,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://instance-data",
+          "status": "passed",
+          "title": "rejects unsafe target http://instance-data",
+          "duration": 0.14650000000006003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification rejects unsafe target http://example.local",
+          "status": "passed",
+          "title": "rejects unsafe target http://example.local",
+          "duration": 0.10969999999997526,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 0.0.0.0",
+          "status": "passed",
+          "title": "denies non-global IP 0.0.0.0",
+          "duration": 0.2015999999999849,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 127.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 127.0.0.1",
+          "duration": 0.261600000000044,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 10.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 10.0.0.1",
+          "duration": 0.1917999999999438,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 100.64.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 100.64.0.1",
+          "duration": 0.16020000000003165,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 192.168.1.1",
+          "status": "passed",
+          "title": "denies non-global IP 192.168.1.1",
+          "duration": 0.1693000000000211,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 169.254.1.1",
+          "status": "passed",
+          "title": "denies non-global IP 169.254.1.1",
+          "duration": 0.07819999999992433,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 192.0.2.1",
+          "status": "passed",
+          "title": "denies non-global IP 192.0.2.1",
+          "duration": 0.1534000000000333,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 198.18.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 198.18.0.1",
+          "duration": 0.1673999999999296,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 224.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 224.0.0.1",
+          "duration": 0.08210000000008222,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 240.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP 240.0.0.1",
+          "duration": 0.08769999999992706,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP ::",
+          "status": "passed",
+          "title": "denies non-global IP ::",
+          "duration": 0.1230000000000473,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP ::1",
+          "status": "passed",
+          "title": "denies non-global IP ::1",
+          "duration": 0.16280000000006112,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP fc00::1",
+          "status": "passed",
+          "title": "denies non-global IP fc00::1",
+          "duration": 0.15760000000000218,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP fe80::1",
+          "status": "passed",
+          "title": "denies non-global IP fe80::1",
+          "duration": 0.11379999999996926,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP ff02::1",
+          "status": "passed",
+          "title": "denies non-global IP ff02::1",
+          "duration": 0.10130000000003747,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 2001:db8::1",
+          "status": "passed",
+          "title": "denies non-global IP 2001:db8::1",
+          "duration": 0.22130000000004202,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 2002:7f00:1::",
+          "status": "passed",
+          "title": "denies non-global IP 2002:7f00:1::",
+          "duration": 0.22709999999995034,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP 64:ff9b::7f00:1",
+          "status": "passed",
+          "title": "denies non-global IP 64:ff9b::7f00:1",
+          "duration": 0.2176000000000613,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification denies non-global IP ::ffff:127.0.0.1",
+          "status": "passed",
+          "title": "denies non-global IP ::ffff:127.0.0.1",
+          "duration": 0.2380000000000564,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "static SSRF and address classification"
+          ],
+          "fullName": "static SSRF and address classification allows public ports only and narrow private opt-in",
+          "status": "passed",
+          "title": "allows public ports only and narrow private opt-in",
+          "duration": 1.1669999999999163,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "startup configuration and secret containment"
+          ],
+          "fullName": "startup configuration and secret containment remote Windows secrets fail closed when no ACL probe is available",
+          "status": "passed",
+          "title": "remote Windows secrets fail closed when no ACL probe is available",
+          "duration": 35.68259999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "startup configuration and secret containment"
+          ],
+          "fullName": "startup configuration and secret containment remote startup rejects a fixture file with broadly readable platform permissions",
+          "status": "passed",
+          "title": "remote startup rejects a fixture file with broadly readable platform permissions",
+          "duration": 2358.6907,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "startup configuration and secret containment"
+          ],
+          "fullName": "startup configuration and secret containment safe defaults and unknown/invalid settings fail",
+          "status": "passed",
+          "title": "safe defaults and unknown/invalid settings fail",
+          "duration": 8.51949999999988,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "startup configuration and secret containment"
+          ],
+          "fullName": "startup configuration and secret containment reads bounded administrator token files and denies traversal, directories and weak files",
+          "status": "passed",
+          "title": "reads bounded administrator token files and denies traversal, directories and weak files",
+          "duration": 918.7886999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "startup configuration and secret containment"
+          ],
+          "fullName": "startup configuration and secret containment denies symlink escape using a directory junction on Windows",
+          "status": "passed",
+          "title": "denies symlink escape using a directory junction on Windows",
+          "duration": 24.452700000000732,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "clock and due slots"
+          ],
+          "fullName": "clock and due slots skips missed slots and leaves future manual slots intact",
+          "status": "passed",
+          "title": "skips missed slots and leaves future manual slots intact",
+          "duration": 0.44629999999961,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "clock and due slots"
+          ],
+          "fullName": "clock and due slots clamps regressing clock at persisted seed",
+          "status": "passed",
+          "title": "clamps regressing clock at persisted seed",
+          "duration": 1.350999999999658,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731305268,
+      "endTime": 1791731308666.351,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/contracts-config.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "kill after actual receipt consumes a durable attempt and retries identical bytes after restart",
+          "status": "passed",
+          "title": "kill after actual receipt consumes a durable attempt and retries identical bytes after restart",
+          "duration": 1060.702,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "real worker retries exactly five times with persistent backoff and never changes event bytes",
+          "status": "passed",
+          "title": "real worker retries exactly five times with persistent backoff and never changes event bytes",
+          "duration": 3510.5725999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731312658,
+      "endTime": 1791731317229.5725,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/delivery-restart.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "actual same-origin SSE"
+          ],
+          "fullName": "actual same-origin SSE bounded streams invalidate after committed changes and enforce query, Host and Origin rules",
+          "status": "passed",
+          "title": "bounded streams invalidate after committed changes and enforce query, Host and Origin rules",
+          "duration": 701.1331,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual same-origin SSE"
+          ],
+          "fullName": "actual same-origin SSE authenticated streams require a session cookie, never query tokens or bearer alone",
+          "status": "passed",
+          "title": "authenticated streams require a session cookie, never query tokens or bearer alone",
+          "duration": 3469.4982,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731295773,
+      "endTime": 1791731299943.4983,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/events.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "absent measurements stay absent, zero measurements remain zero and statuses have text beyond color",
+          "status": "passed",
+          "title": "absent measurements stay absent, zero measurements remain zero and statuses have text beyond color",
+          "duration": 41.24289999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "safe errors retain a request ID without rendering target content, and destination edits preserve omitted settings",
+          "status": "passed",
+          "title": "safe errors retain a request ID without rendering target content, and destination edits preserve omitted settings",
+          "duration": 7.009500000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "the rendered chart breaks latency lines across unknown covered-health gaps and exposes its real samples as a table",
+          "status": "passed",
+          "title": "the rendered chart breaks latency lines across unknown covered-health gaps and exposes its real samples as a table",
+          "duration": 77.2758,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731331209,
+      "endTime": 1791731331334.276,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/frontend.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "history pagination preserves immutable ordering, snapshot and bound filters",
+          "status": "passed",
+          "title": "history pagination preserves immutable ordering, snapshot and bound filters",
+          "duration": 103.3528,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731330117,
+      "endTime": 1791731330220.3528,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/history.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations GET and HEAD contact real target with fixed headers and ignore slow infinite bodies",
+          "status": "passed",
+          "title": "GET and HEAD contact real target with fixed headers and ignore slow infinite bodies",
+          "duration": 57.527900000000045,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations classifies 500 without throwing",
+          "status": "passed",
+          "title": "classifies 500 without throwing",
+          "duration": 7.427799999999934,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations enforces absolute timeout and closes stalled socket",
+          "status": "passed",
+          "title": "enforces absolute timeout and closes stalled socket",
+          "duration": 1048.4146999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations classifies connection refusal and reset without raw error content",
+          "status": "passed",
+          "title": "classifies connection refusal and reset without raw error content",
+          "duration": 8.806400000000167,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations DNS errors are distinct and unexpected resolver exceptions are sanitized",
+          "status": "passed",
+          "title": "DNS errors are distinct and unexpected resolver exceptions are sanitized",
+          "duration": 0.621599999999944,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations pins actual address while retaining original Host and never resolves twice",
+          "status": "passed",
+          "title": "pins actual address while retaining original Host and never resolves twice",
+          "duration": 4.8900000000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations rejects a mixed DNS answer set before any actual contact",
+          "status": "passed",
+          "title": "rejects a mixed DNS answer set before any actual contact",
+          "duration": 2.4411999999999807,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations revalidates redirects, denies metadata before connecting and bounds loops",
+          "status": "passed",
+          "title": "revalidates redirects, denies metadata before connecting and bounds loops",
+          "duration": 17.111699999999928,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations administrative cancellation has no fabricated observation",
+          "status": "passed",
+          "title": "administrative cancellation has no fabricated observation",
+          "duration": 4.23090000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations bounds DNS under the total deadline and blocks late socket creation",
+          "status": "passed",
+          "title": "bounds DNS under the total deadline and blocks late socket creation",
+          "duration": 1012.9497000000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "actual HTTP socket observations"
+          ],
+          "fullName": "actual HTTP socket observations rejects an untrusted TLS certificate with TLS_ERROR",
+          "status": "passed",
+          "title": "rejects an untrusted TLS certificate with TLS_ERROR",
+          "duration": 18.35759999999982,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731317968,
+      "endTime": 1791731320152.3577,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/http.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine uses timestamp, queue and evidence-link indexes in actual SQLite query plans",
+          "status": "passed",
+          "title": "uses timestamp, queue and evidence-link indexes in actual SQLite query plans",
+          "duration": 89.78059999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine active incidents older than ninety days remain listable; incident and transition cursors reject mismatched contexts",
+          "status": "passed",
+          "title": "active incidents older than ninety days remain listable; incident and transition cursors reject mismatched contexts",
+          "duration": 111.28100000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine rejects a backwards completion atomically and preserves counters across rename-only edits",
+          "status": "passed",
+          "title": "rejects a backwards completion atomically and preserves counters across rename-only edits",
+          "duration": 59.99559999999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine one transient failure opens no incident; three mixed failures open exactly one; confirmed recovery resolves it",
+          "status": "passed",
+          "title": "one transient failure opens no incident; three mixed failures open exactly one; confirmed recovery resolves it",
+          "duration": 200.3773000000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine pause, redundant pause, rename, resume and restart preserve the unresolved outage",
+          "status": "passed",
+          "title": "pause, redundant pause, rename, resume and restart preserve the unresolved outage",
+          "duration": 91.09450000000015,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine restart abandons running/queued attempts, clears runs, reuses incident and recovers overdue work once",
+          "status": "passed",
+          "title": "restart abandons running/queued attempts, clears runs, reuses incident and recovers overdue work once",
+          "duration": 84.48750000000018,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine duplicate and stale completions cannot change persisted history or counters",
+          "status": "passed",
+          "title": "duplicate and stale completions cannot change persisted history or counters",
+          "duration": 47.85179999999991,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine rolls back every effect on failure at BEFORE UPDATE ON checks",
+          "status": "passed",
+          "title": "rolls back every effect on failure at BEFORE UPDATE ON checks",
+          "duration": 46.15380000000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine rolls back every effect on failure at BEFORE INSERT ON state_transitions",
+          "status": "passed",
+          "title": "rolls back every effect on failure at BEFORE INSERT ON state_transitions",
+          "duration": 41.39659999999981,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine rolls back every effect on failure at BEFORE INSERT ON incidents",
+          "status": "passed",
+          "title": "rolls back every effect on failure at BEFORE INSERT ON incidents",
+          "duration": 39.28110000000015,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine rolls back every effect on failure at BEFORE UPDATE ON monitor_status",
+          "status": "passed",
+          "title": "rolls back every effect on failure at BEFORE UPDATE ON monitor_status",
+          "duration": 43.011999999999944,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine rolls back every effect on failure at BEFORE UPDATE ON monitors",
+          "status": "passed",
+          "title": "rolls back every effect on failure at BEFORE UPDATE ON monitors",
+          "duration": 44.065000000000055,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine recovery rollback retains the OPEN incident and the RUNNING execution",
+          "status": "passed",
+          "title": "recovery rollback retains the OPEN incident and the RUNNING execution",
+          "duration": 47.6579999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine enforces uniqueness, deferred anchors and confirmed owner deletion with cyclic links",
+          "status": "passed",
+          "title": "enforces uniqueness, deferred anchors and confirmed owner deletion with cyclic links",
+          "duration": 52.443500000000085,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine migrates a real Stage 1 database without rewriting checks or fabricating old coverage",
+          "status": "passed",
+          "title": "migrates a real Stage 1 database without rewriting checks or fabricating old coverage",
+          "duration": 109.91930000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "transactional on-disk incident engine"
+          ],
+          "fullName": "transactional on-disk incident engine read-only SQLite and actual page-limit exhaustion preserve committed records",
+          "status": "passed",
+          "title": "read-only SQLite and actual page-limit exhaustion preserve committed records",
+          "duration": 37.49849999999992,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731325964,
+      "endTime": 1791731327112.4985,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/incident-persistence.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "qualified analytics and bounded retention"
+          ],
+          "fullName": "qualified analytics and bounded retention calculates exact fixed-window 80% availability and nearest-rank latency with half-open boundaries",
+          "status": "passed",
+          "title": "calculates exact fixed-window 80% availability and nearest-rank latency with half-open boundaries",
+          "duration": 109.49569999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "qualified analytics and bounded retention"
+          ],
+          "fullName": "qualified analytics and bounded retention partitions 60 minutes into paused 10, offline 10, UNKNOWN 5, known 35, and clips outage to known intervals",
+          "status": "passed",
+          "title": "partitions 60 minutes into paused 10, offline 10, UNKNOWN 5, known 35, and clips outage to known intervals",
+          "duration": 112.77840000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "qualified analytics and bounded retention"
+          ],
+          "fullName": "qualified analytics and bounded retention empty, cancelled, policy-blocked, pre-creation and insufficient histories never become successful availability",
+          "status": "passed",
+          "title": "empty, cancelled, policy-blocked, pre-creation and insufficient histories never become successful availability",
+          "duration": 51.861099999999965,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "qualified analytics and bounded retention"
+          ],
+          "fullName": "qualified analytics and bounded retention window options 24h/7d/30d, caps, UTC bucket clipping and weighted means are explicit",
+          "status": "passed",
+          "title": "window options 24h/7d/30d, caps, UTC bucket clipping and weighted means are explicit",
+          "duration": 64.457,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "qualified analytics and bounded retention"
+          ],
+          "fullName": "qualified analytics and bounded retention bounds raw sample sorting and refuses oversized queries instead of silently truncating",
+          "status": "passed",
+          "title": "bounds raw sample sorting and refuses oversized queries instead of silently truncating",
+          "duration": 7244.5856,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "qualified analytics and bounded retention"
+          ],
+          "fullName": "qualified analytics and bounded retention retention is strictly bounded, protects unresolved incidents/anchors and preserves cutoff rows and unsettled work",
+          "status": "passed",
+          "title": "retention is strictly bounded, protects unresolved incidents/anchors and preserves cutoff rows and unsettled work",
+          "duration": 188.3293999999987,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "qualified analytics and bounded retention"
+          ],
+          "fullName": "qualified analytics and bounded retention resolved incident retention removes anchors later while preserving the state predecessor and actual cutoff",
+          "status": "passed",
+          "title": "resolved incident retention removes anchors later while preserving the state predecessor and actual cutoff",
+          "duration": 89.23329999999987,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "qualified analytics and bounded retention"
+          ],
+          "fullName": "qualified analytics and bounded retention nearest-rank percentiles, finite zero cases, interval union and intersection use exact arithmetic",
+          "status": "passed",
+          "title": "nearest-rank percentiles, finite zero cases, interval union and intersection use exact arithmetic",
+          "duration": 1.2881000000015774,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731281280,
+      "endTime": 1791731289142.288,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/metrics-retention.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "durable notification outbox"
+          ],
+          "fullName": "durable notification outbox restart logical time includes durable notification mutations without newer checks",
+          "status": "passed",
+          "title": "restart logical time includes durable notification mutations without newer checks",
+          "duration": 73.78319999999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "durable notification outbox"
+          ],
+          "fullName": "durable notification outbox incident changes and outbox roll back together; stable events deduplicate and preserve ordering",
+          "status": "passed",
+          "title": "incident changes and outbox roll back together; stable events deduplicate and preserve ordering",
+          "duration": 79.44569999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "durable notification outbox"
+          ],
+          "fullName": "durable notification outbox finite backoff, Retry-After, uncertainty budget, cancellation and retention protection survive reopen",
+          "status": "passed",
+          "title": "finite backoff, Retry-After, uncertainty budget, cancellation and retention protection survive reopen",
+          "duration": 103.70989999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries denies private DNS answers, rejects untrusted TLS and bounds a real stalled response",
+          "status": "passed",
+          "title": "denies private DNS answers, rejects untrusted TLS and bounds a real stalled response",
+          "duration": 5065.0383,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries actual receiver sees signed immutable bytes; incident alerts and fixed test are masked and persisted",
+          "status": "passed",
+          "title": "actual receiver sees signed immutable bytes; incident alerts and fixed test are masked and persisted",
+          "duration": 2997.526100000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries real receiver HTTP 204 has the specified bounded outcome",
+          "status": "passed",
+          "title": "real receiver HTTP 204 has the specified bounded outcome",
+          "duration": 10.621499999999287,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries real receiver HTTP 301 has the specified bounded outcome",
+          "status": "passed",
+          "title": "real receiver HTTP 301 has the specified bounded outcome",
+          "duration": 7.74369999999908,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries real receiver HTTP 400 has the specified bounded outcome",
+          "status": "passed",
+          "title": "real receiver HTTP 400 has the specified bounded outcome",
+          "duration": 7.8060999999997875,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries real receiver HTTP 408 has the specified bounded outcome",
+          "status": "passed",
+          "title": "real receiver HTTP 408 has the specified bounded outcome",
+          "duration": 7.316600000000108,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries real receiver HTTP 429 has the specified bounded outcome",
+          "status": "passed",
+          "title": "real receiver HTTP 429 has the specified bounded outcome",
+          "duration": 10.10399999999936,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries real receiver HTTP 500 has the specified bounded outcome",
+          "status": "passed",
+          "title": "real receiver HTTP 500 has the specified bounded outcome",
+          "duration": 5.6085000000002765,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries alias traversal, drive paths, symlink escape and insecure public HTTP fail with safe errors",
+          "status": "passed",
+          "title": "alias traversal, drive paths, symlink escape and insecure public HTTP fail with safe errors",
+          "duration": 35.38169999999991,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real webhook and browser integration boundaries"
+          ],
+          "fullName": "real webhook and browser integration boundaries slow delivery cancellation does not starve real monitoring",
+          "status": "passed",
+          "title": "slow delivery cancellation does not starve real monitoring",
+          "duration": 647.5105000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731271405,
+      "endTime": 1791731280457.5105,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/notifications.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "10,000 monitor definitions: indexed selection, bounded pipeline, measured memory and synthetic throughput",
+          "status": "passed",
+          "title": "10,000 monitor definitions: indexed selection, bounded pipeline, measured memory and synthetic throughput",
+          "duration": 6611.5879,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731196162,
+      "endTime": 1791731202773.588,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/performance.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite persists monitors/checks, WAL/FULL and indexes survive reopening",
+          "status": "passed",
+          "title": "persists monitors/checks, WAL/FULL and indexes survive reopening",
+          "duration": 98.91589999999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite enforces unique unsettled/FKs/check constraints and rolls back invalid transactions",
+          "status": "passed",
+          "title": "enforces unique unsettled/FKs/check constraints and rolls back invalid transactions",
+          "duration": 39.58929999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite restart abandons unfinished work without pretending downtime",
+          "status": "passed",
+          "title": "restart abandons unfinished work without pretending downtime",
+          "duration": 57.02099999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite fences stale results after edit and cascades only confirmed service deletion",
+          "status": "passed",
+          "title": "fences stale results after edit and cascades only confirmed service deletion",
+          "duration": 40.912900000000036,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite refuses newer schema and checksum mismatch without resetting existing records",
+          "status": "passed",
+          "title": "refuses newer schema and checksum mismatch without resetting existing records",
+          "duration": 78.06409999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite single-instance canonical lock refuses second owner and releases cleanly",
+          "status": "passed",
+          "title": "single-instance canonical lock refuses second owner and releases cleanly",
+          "duration": 25.635899999999992,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "real on-disk SQLite"
+          ],
+          "fullName": "real on-disk SQLite worker queue bounds reads and exposes worker death as a persistence fault",
+          "status": "passed",
+          "title": "worker queue bounds reads and exposes worker death as a persistence fault",
+          "duration": 287.90559999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731327829,
+      "endTime": 1791731328457.9055,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/persistence.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "built production process lifecycle"
+          ],
+          "fullName": "built production process lifecycle kill inside the incident transaction recovers atomically without duplicate incidents",
+          "status": "passed",
+          "title": "kill inside the incident transaction recovers atomically without duplicate incidents",
+          "duration": 497.08089999999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "built production process lifecycle"
+          ],
+          "fullName": "built production process lifecycle kill after the incident transaction recovers atomically without duplicate incidents",
+          "status": "passed",
+          "title": "kill after the incident transaction recovers atomically without duplicate incidents",
+          "duration": 532.2049999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "built production process lifecycle"
+          ],
+          "fullName": "built production process lifecycle forced crash with an unresolved incident preserves its identity and requires confirmed recovery after restart",
+          "status": "passed",
+          "title": "forced crash with an unresolved incident preserves its identity and requires confirmed recovery after restart",
+          "duration": 3446.6726000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "built production process lifecycle"
+          ],
+          "fullName": "built production process lifecycle actual target receipt, graceful platform stop, persisted history and restart",
+          "status": "passed",
+          "title": "actual target receipt, graceful platform stop, persisted history and restart",
+          "duration": 2552.5179,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "built production process lifecycle"
+          ],
+          "fullName": "built production process lifecycle forced death releases OS lock and recovery abandons running work",
+          "status": "passed",
+          "title": "forced death releases OS lock and recovery abandons running work",
+          "duration": 2927.2772000000004,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "built production process lifecycle"
+          ],
+          "fullName": "built production process lifecycle unsafe startup and occupied API port exit unsuccessfully without lingering resources",
+          "status": "passed",
+          "title": "unsafe startup and occupied API port exit unsuccessfully without lingering resources",
+          "duration": 1693.8071,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731258961,
+      "endTime": 1791731270611.8071,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/process.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Stage 2 actual listener, worker and target boundary"
+          ],
+          "fullName": "Stage 2 actual listener, worker and target boundary real HTTP errors, timeout and connection reset confirm one outage; slow successful recovery resolves it as DEGRADED",
+          "status": "passed",
+          "title": "real HTTP errors, timeout and connection reset confirm one outage; slow successful recovery resolves it as DEGRADED",
+          "duration": 2004.0504,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Stage 2 actual listener, worker and target boundary"
+          ],
+          "fullName": "Stage 2 actual listener, worker and target boundary persists the periodic heartbeat and automatically prunes expired observations without changing paused health",
+          "status": "passed",
+          "title": "persists the periodic heartbeat and automatically prunes expired observations without changing paused health",
+          "duration": 10424.7463,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Stage 2 actual listener, worker and target boundary"
+          ],
+          "fullName": "Stage 2 actual listener, worker and target boundary fails and recovers a real HTTP target; exposes persistent incidents, history, metrics and summaries",
+          "status": "passed",
+          "title": "fails and recovers a real HTTP target; exposes persistent incidents, history, metrics and summaries",
+          "duration": 1086.6309,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Stage 2 actual listener, worker and target boundary"
+          ],
+          "fullName": "Stage 2 actual listener, worker and target boundary validates all new query bounds, UUIDs, sorts, filters and cursor contexts",
+          "status": "passed",
+          "title": "validates all new query bounds, UUIDs, sorts, filters and cursor contexts",
+          "duration": 684.595299999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Stage 2 actual listener, worker and target boundary"
+          ],
+          "fullName": "Stage 2 actual listener, worker and target boundary simultaneous failures respect pool bounds and graceful shutdown cancels all loaded work without false recovery",
+          "status": "passed",
+          "title": "simultaneous failures respect pool bounds and graceful shutdown cancels all loaded work without false recovery",
+          "duration": 683.8153000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Stage 2 actual listener, worker and target boundary"
+          ],
+          "fullName": "Stage 2 actual listener, worker and target boundary SQLite write failure stops dispatch/readiness and restart recovers the unfinished execution without an incident",
+          "status": "passed",
+          "title": "SQLite write failure stops dispatch/readiness and restart recovers the unfinished execution without an incident",
+          "duration": 1114.9259999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "Stage 2 actual listener, worker and target boundary"
+          ],
+          "fullName": "Stage 2 actual listener, worker and target boundary real competing SQLite writer times out once, faults readiness, and retains data for controlled restart",
+          "status": "passed",
+          "title": "real competing SQLite writer times out once, faults readiness, and retains data for controlled restart",
+          "duration": 6539.5442,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731203711,
+      "endTime": 1791731226251.5442,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/reliability-api.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates an unexpected executor fault prevents the active pump from dispatching remaining monitors",
+          "status": "passed",
+          "title": "an unexpected executor fault prevents the active pump from dispatching remaining monitors",
+          "duration": 636.3164,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates due intervals skip missed slots without overlapping or replay bursts",
+          "status": "passed",
+          "title": "due intervals skip missed slots without overlapping or replay bursts",
+          "duration": 393.337,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates manual calls coalesce, queue saturates, all work shares global concurrency",
+          "status": "passed",
+          "title": "manual calls coalesce, queue saturates, all work shares global concurrency",
+          "duration": 418.43949999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates pause cancels running work, retains history, ignores late results and resume dispatches once",
+          "status": "passed",
+          "title": "pause cancels running work, retains history, ignores late results and resume dispatches once",
+          "duration": 416.4679000000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates edit/delete races cancel active resources and disabled monitors are never dispatched",
+          "status": "passed",
+          "title": "edit/delete races cancel active resources and disabled monitors are never dispatched",
+          "duration": 426.80470000000014,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates unexpected executor exceptions fail readiness without inventing target downtime",
+          "status": "passed",
+          "title": "unexpected executor exceptions fail readiness without inventing target downtime",
+          "duration": 566.1538,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "central bounded scheduler with controlled clock/executor gates"
+          ],
+          "fullName": "central bounded scheduler with controlled clock/executor gates alternates automatic/manual candidates with oldest-due ordering",
+          "status": "passed",
+          "title": "alternates automatic/manual candidates with oldest-due ordering",
+          "duration": 657.4304999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731300726,
+      "endTime": 1791731304242.4304,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/scheduler.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness sessions expire after eight hours without a sliding extension",
+          "status": "passed",
+          "title": "sessions expire after eight hours without a sliding extension",
+          "duration": 657.683,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness remote declared HTTPS mode requires auth and issues Secure session cookies through the actual listener",
+          "status": "passed",
+          "title": "remote declared HTTPS mode requires auth and issues Secure session cookies through the actual listener",
+          "duration": 1501.1607999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness Host/Origin and JSON checks protect local unauthenticated mode",
+          "status": "passed",
+          "title": "Host/Origin and JSON checks protect local unauthenticated mode",
+          "duration": 472.9223999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness bearer auth, login cookie, CSRF and logout enforce separate authority",
+          "status": "passed",
+          "title": "bearer auth, login cookie, CSRF and logout enforce separate authority",
+          "duration": 593.3072000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness supplied hostile Origin cannot be bypassed by bearer or forwarded headers",
+          "status": "passed",
+          "title": "supplied hostile Origin cannot be bypassed by bearer or forwarded headers",
+          "duration": 557.4966000000004,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness bounds login attempts with Retry-After and does not echo fake token canaries",
+          "status": "passed",
+          "title": "bounds login attempts with Retry-After and does not echo fake token canaries",
+          "duration": 610.0603000000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "API trust boundaries, secret handling and readiness"
+          ],
+          "fullName": "API trust boundaries, secret handling and readiness real database worker death fails readiness and prevents new mutations",
+          "status": "passed",
+          "title": "real database worker death fails readiness and prevents new mutations",
+          "duration": 575.8468999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731289935,
+      "endTime": 1791731294905.847,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/security.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "snapshot excludes an earlier allocated execution terminalized later in the same millisecond, even after owner deletion",
+          "status": "passed",
+          "title": "snapshot excludes an earlier allocated execution terminalized later in the same millisecond, even after owner deletion",
+          "duration": 112.0648000000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "Unicode name pagination follows the same normalization as SQL search and stored last observation survives pause",
+          "status": "passed",
+          "title": "Unicode name pagination follows the same normalization as SQL search and stored last observation survives pause",
+          "duration": 57.196300000000065,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731329173,
+      "endTime": 1791731329342.1963,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/snapshot.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence h produces exact states",
+          "status": "passed",
+          "title": "sequence h produces exact states",
+          "duration": 2.983799999999974,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence s produces exact states",
+          "status": "passed",
+          "title": "sequence s produces exact states",
+          "duration": 0.3325999999999567,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence ff produces exact states",
+          "status": "passed",
+          "title": "sequence ff produces exact states",
+          "duration": 0.26490000000001146,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence fff produces exact states",
+          "status": "passed",
+          "title": "sequence fff produces exact states",
+          "duration": 0.23839999999995598,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence hff produces exact states",
+          "status": "passed",
+          "title": "sequence hff produces exact states",
+          "duration": 0.2866000000000213,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence hfff produces exact states",
+          "status": "passed",
+          "title": "sequence hfff produces exact states",
+          "duration": 0.23919999999998254,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence hfhh produces exact states",
+          "status": "passed",
+          "title": "sequence hfhh produces exact states",
+          "duration": 0.24350000000004002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence hsss produces exact states",
+          "status": "passed",
+          "title": "sequence hsss produces exact states",
+          "duration": 0.25110000000006494,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence hssshh produces exact states",
+          "status": "passed",
+          "title": "sequence hssshh produces exact states",
+          "duration": 0.3465999999999667,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence sh produces exact states",
+          "status": "passed",
+          "title": "sequence sh produces exact states",
+          "duration": 0.39449999999999363,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence sff produces exact states",
+          "status": "passed",
+          "title": "sequence sff produces exact states",
+          "duration": 1.6328999999999496,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence sfff produces exact states",
+          "status": "passed",
+          "title": "sequence sfff produces exact states",
+          "duration": 0.7467999999998938,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence fffff produces exact states",
+          "status": "passed",
+          "title": "sequence fffff produces exact states",
+          "duration": 4.4401000000000295,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence fffh produces exact states",
+          "status": "passed",
+          "title": "sequence fffh produces exact states",
+          "duration": 0.1369000000000824,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence fffhh produces exact states",
+          "status": "passed",
+          "title": "sequence fffhh produces exact states",
+          "duration": 0.12479999999993652,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence fffhs produces exact states",
+          "status": "passed",
+          "title": "sequence fffhs produces exact states",
+          "duration": 0.07280000000002929,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence fffss produces exact states",
+          "status": "passed",
+          "title": "sequence fffss produces exact states",
+          "duration": 0.05889999999999418,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence fffhfhh produces exact states",
+          "status": "passed",
+          "title": "sequence fffhfhh produces exact states",
+          "duration": 0.05930000000000746,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence hpfff produces exact states",
+          "status": "passed",
+          "title": "sequence hpfff produces exact states",
+          "duration": 0.0724999999999909,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence ffh produces exact states",
+          "status": "passed",
+          "title": "sequence ffh produces exact states",
+          "duration": 0.09230000000002292,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence hsh produces exact states",
+          "status": "passed",
+          "title": "sequence hsh produces exact states",
+          "duration": 0.08579999999994925,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model sequence hshshs produces exact states",
+          "status": "passed",
+          "title": "sequence hshshs produces exact states",
+          "duration": 0.05819999999994252,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model retained incident after reset reuses outage and requires two successes",
+          "status": "passed",
+          "title": "retained incident after reset reuses outage and requires two successes",
+          "duration": 1.1761999999999944,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model thresholds are independent and support their minimum/maximum",
+          "status": "passed",
+          "title": "thresholds are independent and support their minimum/maximum",
+          "duration": 0.5738000000000056,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model records onset and uninterrupted recovery starts, not confirmation times",
+          "status": "passed",
+          "title": "records onset and uninterrupted recovery starts, not confirmation times",
+          "duration": 0.20500000000004093,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model flapping below failure/recovery thresholds cannot emit unlimited incident transitions",
+          "status": "passed",
+          "title": "flapping below failure/recovery thresholds cannot emit unlimited incident transitions",
+          "duration": 2.668900000000008,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model counts HTTP_ERROR consistently",
+          "status": "passed",
+          "title": "counts HTTP_ERROR consistently",
+          "duration": 0.18700000000001182,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model counts DNS_ERROR consistently",
+          "status": "passed",
+          "title": "counts DNS_ERROR consistently",
+          "duration": 0.07039999999994961,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model counts TLS_ERROR consistently",
+          "status": "passed",
+          "title": "counts TLS_ERROR consistently",
+          "duration": 0.050299999999992906,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model counts CONNECTION_ERROR consistently",
+          "status": "passed",
+          "title": "counts CONNECTION_ERROR consistently",
+          "duration": 0.05229999999994561,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model counts TIMEOUT consistently",
+          "status": "passed",
+          "title": "counts TIMEOUT consistently",
+          "duration": 0.05229999999994561,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model counts REDIRECT_ERROR consistently",
+          "status": "passed",
+          "title": "counts REDIRECT_ERROR consistently",
+          "duration": 0.04510000000004766,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "complete deterministic health transition model"
+          ],
+          "fullName": "complete deterministic health transition model policy block clears pending counters and preserves an unresolved incident",
+          "status": "passed",
+          "title": "policy block clears pending counters and preserves an unresolved incident",
+          "duration": 0.22709999999995034,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731332007,
+      "endTime": 1791731332026.227,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/state-machine.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "pinned TLS socket preserves SNI and normal hostname verification with a fixture-only trust root",
+          "status": "passed",
+          "title": "pinned TLS socket preserves SNI and normal hostname verification with a fixture-only trust root",
+          "duration": 508.5882999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "redirect hops share one absolute timeout and the fourth hop is not contacted",
+          "status": "passed",
+          "title": "redirect hops share one absolute timeout and the fourth hop is not contacted",
+          "duration": 1033.8278,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1791731323656,
+      "endTime": 1791731325198.828,
+      "status": "passed",
+      "message": "",
+      "name": "<workspace>/tests/tls-redirect.test.ts"
+    }
+  ]
+}

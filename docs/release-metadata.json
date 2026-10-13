@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "status": "unreleased-candidate",
+  "intendedGithubOwner": "thebraz",
+  "intendedRepositoryName": "Pulse",
+  "description": "Self-hosted HTTP monitoring with confirmed incidents, qualified history and persistent webhook alerts.",
+  "topics": ["monitoring", "http", "uptime", "self-hosted", "sqlite", "typescript", "react", "webhooks"],
+  "proposedNpmName": "pulse-http-monitor",
+  "npmAccount": "NOT VERIFIED",
+  "license": "MIT",
+  "copyrightHolder": "braz",
+  "privateSecurityReporting": "NOT VERIFIED",
+  "publishedRepositoryUrl": null,
+  "publishedPackageUrl": null,
+  "notes": "Publication requires all release gates and verified account access. Name lookup does not establish ownership."
+}

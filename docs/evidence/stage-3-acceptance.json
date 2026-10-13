@@ -1,0 +1,663 @@
+{
+  "recordedAt": "2026-10-11T15:16:05.815Z",
+  "candidateSha256": "4d161d64b0b45e88e4ffecc34f63826e3791bf534b6469ec2adfa3a6d9865b86",
+  "platform": {
+    "os": "win32",
+    "release": "10.0.26200",
+    "arch": "x64",
+    "node": "v24.19.0",
+    "sqlite": "3.53.3"
+  },
+  "verificationFrom": "2026-10-11T15:05:46.776Z",
+  "verificationTo": "2026-10-11T15:10:05.868Z",
+  "operationsFrom": "2026-10-11T15:12:08.076Z",
+  "operationsTo": "2026-10-11T15:12:13.008Z",
+  "commands": [
+    {
+      "command": "npm run typecheck",
+      "startedAt": "2026-10-11T15:05:46.776Z",
+      "completedAt": "2026-10-11T15:06:13.983Z",
+      "exitCode": 0,
+      "result": "PASS"
+    },
+    {
+      "command": "npm run lint",
+      "startedAt": "2026-10-11T15:06:13.986Z",
+      "completedAt": "2026-10-11T15:06:21.170Z",
+      "exitCode": 0,
+      "result": "PASS"
+    },
+    {
+      "command": "npm test -- --reporter=default --reporter=json --outputFile.json=docs/evidence/stage-3-tests.json",
+      "startedAt": "2026-10-11T15:06:21.171Z",
+      "completedAt": "2026-10-11T15:08:52.199Z",
+      "exitCode": 0,
+      "result": "PASS"
+    },
+    {
+      "command": "npm run build",
+      "startedAt": "2026-10-11T15:08:52.199Z",
+      "completedAt": "2026-10-11T15:08:55.733Z",
+      "exitCode": 0,
+      "result": "PASS"
+    },
+    {
+      "command": "npm run test:e2e",
+      "startedAt": "2026-10-11T15:08:55.733Z",
+      "completedAt": "2026-10-11T15:10:05.868Z",
+      "exitCode": 0,
+      "result": "PASS"
+    }
+  ],
+  "tests": {
+    "passed": 182,
+    "failed": 0,
+    "files": 22,
+    "browserPassed": 7,
+    "browserFailed": 0,
+    "browserSkipped": 0,
+    "additionalOperationalScenarios": 3
+  },
+  "result": "PASS",
+  "criteria": [
+    {
+      "id": "PULSE-S3-001",
+      "status": "PASS",
+      "observed": "Dashboard totals, 24h sample/latency/coverage, recent history and stale/error presentation match the real API.",
+      "tests": [
+        "tests/e2e/journeys.spec.ts",
+        "tests/notifications.test.ts"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    },
+    {
+      "id": "PULSE-S3-002",
+      "status": "PASS",
+      "observed": "Creation, validated edits/conflict preservation, deletion, pause/resume, immediate check completion and real historical charts persist across reload/restart.",
+      "tests": [
+        "tests/e2e/journeys.spec.ts",
+        "tests/frontend.test.ts"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    },
+    {
+      "id": "PULSE-S3-003",
+      "status": "PASS",
+      "observed": "Incident opening/recovery, null recovery fields, raw observed span, coverage gaps and transition anchors use backend data.",
+      "tests": [
+        "tests/e2e/journeys.spec.ts",
+        "tests/incident-persistence.test.ts",
+        "tests/metrics-retention.test.ts"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    },
+    {
+      "id": "PULSE-S3-004",
+      "status": "PASS",
+      "observed": "Real SSE admission/authentication and cleanup plus missed-event refetch in anonymous/authenticated browser modes; offline state is immediately visible.",
+      "tests": [
+        "tests/events.test.ts",
+        "tests/e2e/journeys.spec.ts"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    },
+    {
+      "id": "PULSE-S3-005",
+      "status": "PASS",
+      "observed": "A forced SQL rollback leaves neither incident nor delivery; enabled snapshots produce stable, deduplicated event/destination jobs.",
+      "tests": [
+        "tests/notifications.test.ts"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    },
+    {
+      "id": "PULSE-S3-006",
+      "status": "PASS",
+      "observed": "Actual signed receiver bytes, finite five-attempt backoff, ordering, cancellation, independent probes, real process kill/restart uncertainty and credential rotation pass.",
+      "tests": [
+        "tests/notifications.test.ts",
+        "tests/delivery-restart.test.ts",
+        "docs/evidence/stage-3-operations.json"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    },
+    {
+      "id": "PULSE-S3-007",
+      "status": "PASS",
+      "observed": "Destination API/browser reads mask URLs/aliases/keys; unsafe aliases and egress fail safely; disabled jobs cancel, missing configured signing never sends unsigned.",
+      "tests": [
+        "tests/notifications.test.ts",
+        "tests/e2e/journeys.spec.ts",
+        "docs/evidence/stage-3-operations.json"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    },
+    {
+      "id": "PULSE-S3-008",
+      "status": "PASS",
+      "observed": "Name search, health/enabled filters, sort, keyset pagination and historical ranges agree with URL-backed API reads; 36 monitors paginate 25/11.",
+      "tests": [
+        "tests/e2e/journeys.spec.ts",
+        "tests/reliability-api.test.ts",
+        "tests/api.test.ts"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    },
+    {
+      "id": "PULSE-S3-009",
+      "status": "PASS",
+      "observed": "Keyboard run/edit/save/confirmation operations, semantic controls, textual statuses, visible focus/reduced-motion CSS and Axe zero serious/critical violations in tested detail/overview pages. No manual screen-reader audit is claimed.",
+      "tests": [
+        "tests/e2e/journeys.spec.ts",
+        "tests/frontend.test.ts"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    },
+    {
+      "id": "PULSE-S3-010",
+      "status": "PASS",
+      "observed": "Built application passes 360/768/1440 viewport checks, reachable scrollable tables, keyboard controls and 200% zoom without page overflow; screenshots were visually inspected.",
+      "tests": [
+        "tests/e2e/journeys.spec.ts"
+      ],
+      "reports": [
+        "docs/evidence/stage-3-verification.json",
+        "docs/evidence/stage-3-tests.json",
+        "docs/evidence/stage-3-browser.json"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "S3-SCENARIO-01",
+      "scenario": "Dashboard loads correctly",
+      "status": "PASS",
+      "observed": "Real built SPA, API totals and live status"
+    },
+    {
+      "id": "S3-SCENARIO-02",
+      "scenario": "Empty state is useful",
+      "status": "PASS",
+      "observed": "Empty installation links to Create monitor"
+    },
+    {
+      "id": "S3-SCENARIO-03",
+      "scenario": "Monitor creation succeeds",
+      "status": "PASS",
+      "observed": "Real target contact and persisted detail"
+    },
+    {
+      "id": "S3-SCENARIO-04",
+      "scenario": "Invalid configuration is rejected",
+      "status": "PASS",
+      "observed": "Invalid URL stays in draft with focused error; backend malformed-input tests"
+    },
+    {
+      "id": "S3-SCENARIO-05",
+      "scenario": "Monitor editing persists",
+      "status": "PASS",
+      "observed": "Rename survives reload and process restart; 409 retains unsaved input"
+    },
+    {
+      "id": "S3-SCENARIO-06",
+      "scenario": "Monitor deletion works",
+      "status": "PASS",
+      "observed": "Named confirmation cancel and keyboard permanent-delete flow"
+    },
+    {
+      "id": "S3-SCENARIO-07",
+      "scenario": "Pause and resume work",
+      "status": "PASS",
+      "observed": "Detail and overview actions commit backend enablement"
+    },
+    {
+      "id": "S3-SCENARIO-08",
+      "scenario": "Immediate check updates data",
+      "status": "PASS",
+      "observed": "202 execution is polled to its real stored terminal result"
+    },
+    {
+      "id": "S3-SCENARIO-09",
+      "scenario": "Live updates reflect backend changes",
+      "status": "PASS",
+      "observed": "Real outage/recovery SSE plus offline missed events in both auth modes"
+    },
+    {
+      "id": "S3-SCENARIO-10",
+      "scenario": "Status indicators match actual backend states",
+      "status": "PASS",
+      "observed": "Real target produces UP/DOWN, overview counts and UNKNOWN/paused states"
+    },
+    {
+      "id": "S3-SCENARIO-11",
+      "scenario": "Latency chart displays real data",
+      "status": "PASS",
+      "observed": "Real successful checks; qualified buckets and explicit gap-breaking render test"
+    },
+    {
+      "id": "S3-SCENARIO-12",
+      "scenario": "Historical time ranges work",
+      "status": "PASS",
+      "observed": "24h/7d/30d/custom range against actual metrics API"
+    },
+    {
+      "id": "S3-SCENARIO-13",
+      "scenario": "Incident list displays correct history",
+      "status": "PASS",
+      "observed": "Confirmed HTTP outage appears and resolves"
+    },
+    {
+      "id": "S3-SCENARIO-14",
+      "scenario": "Incident detail view is accurate",
+      "status": "PASS",
+      "observed": "Open recovery fields remain absent; backend onset/detection/recovery/coverage math"
+    },
+    {
+      "id": "S3-SCENARIO-15",
+      "scenario": "Search and filters work",
+      "status": "PASS",
+      "observed": "URL-backed name search, health filtering, clear/reload and backend shared queries"
+    },
+    {
+      "id": "S3-SCENARIO-16",
+      "scenario": "Large monitor lists remain usable",
+      "status": "PASS",
+      "observed": "36 real records paginate 25/11; backend separately tests 10,000 definitions"
+    },
+    {
+      "id": "S3-SCENARIO-17",
+      "scenario": "Navigation works",
+      "status": "PASS",
+      "observed": "Overview, monitor forms/detail, incidents/detail and notifications routes; protected login"
+    },
+    {
+      "id": "S3-SCENARIO-18",
+      "scenario": "Webhook test notification is delivered",
+      "status": "PASS",
+      "observed": "Actual receiver HTTP acknowledgment, immutable JSON and valid HMAC"
+    },
+    {
+      "id": "S3-SCENARIO-19",
+      "scenario": "Webhook failures are recorded",
+      "status": "PASS",
+      "observed": "Real 400 DEAD and 503 pending/retry histories; timeout/TLS/policy failures"
+    },
+    {
+      "id": "S3-SCENARIO-20",
+      "scenario": "Retries are bounded and deduplicated",
+      "status": "PASS",
+      "observed": "Exactly five attempts through real worker/fake clock; stable IDs/bytes; crash uncertainty"
+    },
+    {
+      "id": "S3-SCENARIO-21",
+      "scenario": "Dashboard recovers after backend restart",
+      "status": "PASS",
+      "observed": "Persisted checks/incidents/destinations and no repeated incident enqueueing; session expiry"
+    },
+    {
+      "id": "S3-SCENARIO-22",
+      "scenario": "Empty and error states remain usable",
+      "status": "PASS",
+      "observed": "Filtered empty state, invalid/conflicting drafts, offline/reconnect and offline sign-out error"
+    },
+    {
+      "id": "S3-SCENARIO-23",
+      "scenario": "No unexpected horizontal overflow",
+      "status": "PASS",
+      "observed": "Document width checks plus labelled keyboard-scroll table regions"
+    },
+    {
+      "id": "S3-SCENARIO-24",
+      "scenario": "Mobile and desktop layouts are functional",
+      "status": "PASS",
+      "observed": "360/768/1440 screenshots, accessibility checks and 200% zoom"
+    },
+    {
+      "id": "S3-SCENARIO-25",
+      "scenario": "Browser console contains no unexpected errors",
+      "status": "PASS",
+      "observed": "Complete journey rejects unexpected console/page errors, allowing intentional restart connection failures; operational sign-out produces no page exceptions"
+    }
+  ],
+  "filesSinceStage2": [
+    {
+      "path": ".gitignore",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/api/assets.ts",
+      "change": "created"
+    },
+    {
+      "path": "apps/server/src/api/events.ts",
+      "change": "created"
+    },
+    {
+      "path": "apps/server/src/api/security.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/api/server.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/config/config.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/main.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/monitoring/policy.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/notifications/secrets.ts",
+      "change": "created"
+    },
+    {
+      "path": "apps/server/src/notifications/transport.ts",
+      "change": "created"
+    },
+    {
+      "path": "apps/server/src/notifications/worker.ts",
+      "change": "created"
+    },
+    {
+      "path": "apps/server/src/persistence/database.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/persistence/migration.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/persistence/notifications.ts",
+      "change": "created"
+    },
+    {
+      "path": "apps/server/src/persistence/protocol.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/persistence/store.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/server/src/runtime/runtime.ts",
+      "change": "modified"
+    },
+    {
+      "path": "apps/web/index.html",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/package.json",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/README.md",
+      "change": "modified"
+    },
+    {
+      "path": "apps/web/src/app/live.ts",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/components/HistoryChart.tsx",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/components/ui.tsx",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/features/dashboard/Dashboard.tsx",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/features/incidents/Incidents.tsx",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/features/monitors/MonitorDetail.tsx",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/features/monitors/MonitorForm.tsx",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/features/notifications/Notifications.tsx",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/features/settings/Settings.tsx",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/lib/api.ts",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/styles.css",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/src/vite-env.d.ts",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "change": "created"
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "change": "created"
+    },
+    {
+      "path": "bin/pulse.mjs",
+      "change": "created"
+    },
+    {
+      "path": "docs/specifications/01-PRODUCT-REQUIREMENTS.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/02-SYSTEM-ARCHITECTURE.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/03-DOMAIN-MODELS.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/04-API-CONTRACTS.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/08-METRICS-AND-ANALYTICS.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/09-DATABASE-AND-PERSISTENCE.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/11-NOTIFICATION-SYSTEM.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/12-FRONTEND-ARCHITECTURE.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/13-TESTING-STRATEGY.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/ARCHITECTURAL-DECISIONS.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/specifications/REQUIREMENTS-TRACEABILITY.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/stages/STAGE-3-DASHBOARD.md",
+      "change": "modified"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "change": "modified"
+    },
+    {
+      "path": "package-lock.json",
+      "change": "modified"
+    },
+    {
+      "path": "package.json",
+      "change": "modified"
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "change": "modified"
+    },
+    {
+      "path": "playwright.config.ts",
+      "change": "created"
+    },
+    {
+      "path": "README.md",
+      "change": "modified"
+    },
+    {
+      "path": "scripts/boundaries.mjs",
+      "change": "modified"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "change": "modified"
+    },
+    {
+      "path": "scripts/format.mjs",
+      "change": "modified"
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "change": "modified"
+    },
+    {
+      "path": "tests/api.test.ts",
+      "change": "modified"
+    },
+    {
+      "path": "tests/build.test.ts",
+      "change": "modified"
+    },
+    {
+      "path": "tests/cli.test.ts",
+      "change": "created"
+    },
+    {
+      "path": "tests/delivery-restart.test.ts",
+      "change": "created"
+    },
+    {
+      "path": "tests/e2e/fixture.ts",
+      "change": "created"
+    },
+    {
+      "path": "tests/e2e/journeys.spec.ts",
+      "change": "created"
+    },
+    {
+      "path": "tests/events.test.ts",
+      "change": "created"
+    },
+    {
+      "path": "tests/fixtures/delivery-crash.mjs",
+      "change": "created"
+    },
+    {
+      "path": "tests/frontend.test.ts",
+      "change": "created"
+    },
+    {
+      "path": "tests/incident-persistence.test.ts",
+      "change": "modified"
+    },
+    {
+      "path": "tests/notifications.test.ts",
+      "change": "created"
+    },
+    {
+      "path": "tests/performance.test.ts",
+      "change": "modified"
+    },
+    {
+      "path": "tests/process.test.ts",
+      "change": "modified"
+    },
+    {
+      "path": "tests/reliability-api.test.ts",
+      "change": "modified"
+    },
+    {
+      "path": "tests/reliability-helpers.ts",
+      "change": "modified"
+    },
+    {
+      "path": "tests/tsconfig.json",
+      "change": "modified"
+    }
+  ],
+  "limitations": [
+    "Windows/Chromium local scope only; remote HTTPS proxy deployment, Linux and manual screen-reader review are NOT TESTED.",
+    "The synthetic population benchmark is not a production capacity, retained-history or soak guarantee.",
+    "Optional sustained DEGRADED notifications are NOT IMPLEMENTED.",
+    "Stage 4 package/install/upgrade/restore/release/deployment gates remain NOT TESTED and were not begun.",
+    "The precheck regenerated the historical Stage 2 query-plan sidecar; it is explicitly marked, while the original Stage 2 test/source manifests remain intact."
+  ]
+}

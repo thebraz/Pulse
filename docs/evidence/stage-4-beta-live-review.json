@@ -1,0 +1,20 @@
+{
+  "recordedAt": "2026-10-13T16:19:25.940Z",
+  "result": "PASS",
+  "path": "apps/web/src/app/live.ts",
+  "scope": "Focused source review of the automatic live-refetch change; not a new exhaustive repository security scan",
+  "previousSha256": "cc3b3e71f34b2f7871e3437648c86a109cc68eb1e69a33a404aa7ad81c60690c",
+  "currentSha256": "c2131b841ed91cffcd812f6b3dc9651db1d05631a29f43ec6c9d1511ed2bb154",
+  "regressionTestSha256": "2b9e0d35fbb0580d3e4d1f996d67242580ab952df113e10d20038ba00b9b2c32",
+  "checks": [
+    "Existing invalidation schema validation remains the only SSE data ingress; events never replace domain DTOs.",
+    "Same-origin EventSource, authenticated session handling, CSRF, API decoding and secret containment are unchanged.",
+    "One in-flight automatic batch, one dirty trailing bit and at most one scheduled refresh bound pending work.",
+    "Automatic refresh no longer aborts an existing read whose admitted SQLite work cannot be cancelled.",
+    "Events during a slow batch schedule a trailing refresh after completion; the one-second rate limit is preserved.",
+    "Unmount marks the effect disposed before closing SSE and clearing timers; late batch completion cannot schedule work.",
+    "Hidden-tab behavior, reconnect/focus/poll recovery and explicit mutation/deletion/filter cancellation remain supported.",
+    "Regression uses a real QueryClient/QueryObserver, delayed response, burst events and cleanup; checks receipt, no abort and trailing refresh."
+  ],
+  "findings": []
+}

@@ -1,0 +1,41 @@
+{
+  "startedAt": "2026-10-11T17:27:06.430Z",
+  "conditions": {
+    "os": "win32",
+    "release": "10.0.26200",
+    "arch": "x64",
+    "node": "v24.19.0",
+    "cpu": "12th Gen Intel(R) Core(TM) i7-1255U",
+    "logicalCpus": 12,
+    "ramBytes": 16890978304,
+    "monitors": 100,
+    "historyRows": 4320000,
+    "intervalMs": 60000,
+    "timeoutMs": 10000,
+    "concurrency": 10,
+    "fastTargets": 95,
+    "timeoutTargets": 5,
+    "eventLoopResolutionMs": 10,
+    "hostLoad": "Shared workstation; competing load not controlled.",
+    "warmupMs": 300000,
+    "measurementMs": 1800000,
+    "requestedSoakMs": 7200000,
+    "browserClients": 0,
+    "webhookRate": 0,
+    "sqlite": "3.53.3"
+  },
+  "phase": "finished",
+  "result": "FAIL",
+  "limitations": [
+    "Browser and webhook load are tested separately; this run alone cannot pass the full reference envelope."
+  ],
+  "samples": [],
+  "measurements": {},
+  "seededRows": 3931200,
+  "seedMs": 797218.3436,
+  "failure": "STARTUP_EXCEEDED_30_SECONDS",
+  "completedAt": "2026-10-11T17:41:09.075Z",
+  "finalRowCountVerifiedBy": "stage-4-startup-profile.json",
+  "finalVerifiedRows": 4320000,
+  "seededRowsFieldMeaning": "Intermediate progress checkpoint from the original failed attempt; preserved unchanged."
+}

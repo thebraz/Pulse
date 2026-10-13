@@ -1,0 +1,342 @@
+[
+  {
+    "criterion": "PULSE-S1-001",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "api, persistence, snapshot",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-002",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "http, tls-redirect",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-003",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "http, process",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-004",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "scheduler",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-005",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "scheduler, api",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-006",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "scheduler, persistence",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-007",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "history, snapshot, api",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-008",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "contracts-config",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-009",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "security",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-010",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "process",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-011",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "api, commands, process",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-012",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "typecheck, contracts-config, api",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-013",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "lint, boundaries and source inspection",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-014",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "http, tls-redirect, contracts-config",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-015",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "security, contracts-config, process",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-016",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "security, contracts-config and build canary scan",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-017",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "verify and evidence inspection",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-018",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "authorization and stage-scope inspection",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-019",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "public source and documentation inspection",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  },
+  {
+    "criterion": "PULSE-S1-020",
+    "candidateSha256": "dbe408355f25af4ab1eb43ff1a46ed630c54c761caf9889da5c2b9853e59b4bb",
+    "utc": "2026-10-09T20:52:06.707Z",
+    "platform": {
+      "os": "win32",
+      "release": "10.0.26200",
+      "arch": "x64",
+      "node": "v24.19.0",
+      "sqlite": "3.53.3"
+    },
+    "commandOrScenario": "dependency manifest and local-runtime inspection",
+    "actualResult": "PASS",
+    "report": "docs/STAGE-1-REPORT.md",
+    "verification": "docs/evidence/stage-1-verification.json",
+    "tests": "docs/evidence/stage-1-tests.json"
+  }
+]

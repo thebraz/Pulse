@@ -1,0 +1,15 @@
+{
+  "startedAt": "2026-10-13T16:55:02.518Z",
+  "result": "PASS",
+  "candidateSha256": "4679613261559f6f72a626686091329f0fe113e059263ff80cc97598fb25261a",
+  "releaseIdentity": {
+    "runtimeSourceDigest": "32190c9d600d48b40dedcdd3c68ec106238742810ea41d042181085ebffb86af",
+    "compiledDigest": "d89831c97f04b60e6f5a906e7291cc49811b8b765baf443a46c5ceb15b7702f6",
+    "testSuiteDigest": "d970e5df851c7cc0cd49c3fa4d06b5709e0998e17f7d6a18711ddf925737e024"
+  },
+  "scope": "Final guide-only archive change: clean install, exact CLI, startup, assets, actual HTTP observation, graceful shutdown and SQLite integrity/FKs",
+  "freshDatabaseStartupMs": 1028.3967999999995,
+  "integrity": "ok",
+  "foreignKeyViolations": 0,
+  "completedAt": "2026-10-13T16:55:11.189Z"
+}

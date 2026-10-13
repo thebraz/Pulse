@@ -1,0 +1,121 @@
+{
+  "startedAt": "2026-10-11T23:44:19.960Z",
+  "platform": "linux",
+  "os": "6.18.33.2-microsoft-standard-WSL2",
+  "node": "v24.19.0",
+  "cpu": "12th Gen Intel(R) Core(TM) i7-1255U",
+  "logicalCpus": 12,
+  "memory": 8183758848,
+  "hostLoad": "Shared workstation; no deliberate concurrent benchmark/build/test load. Dedicated CPU/storage isolation unavailable.",
+  "budgetMs": 10000,
+  "trials": [
+    {
+      "index": 1,
+      "startedAt": "2026-10-11T23:44:37.594Z",
+      "phases": [
+        {
+          "op": "initialize",
+          "atMs": 4988.293959000002,
+          "durationMs": 32.0657289999981
+        },
+        {
+          "op": "heartbeat",
+          "atMs": 5092.781966999999,
+          "durationMs": 12.776340000000346
+        },
+        {
+          "op": "stop",
+          "atMs": 5107.347203000001,
+          "durationMs": 5.480648000000656
+        },
+        {
+          "op": "close",
+          "atMs": 5113.948683999999,
+          "durationMs": 9.665800000002491
+        }
+      ],
+      "readyMs": 5106.334251,
+      "ready": true,
+      "shutdownMs": 19.16562999999951,
+      "result": "PASS"
+    },
+    {
+      "index": 2,
+      "startedAt": "2026-10-11T23:44:42.721Z",
+      "phases": [
+        {
+          "op": "initialize",
+          "atMs": 6090.780304,
+          "durationMs": 44.82392700000128
+        },
+        {
+          "op": "heartbeat",
+          "atMs": 6148.467728,
+          "durationMs": 21.754437000003236
+        },
+        {
+          "op": "stop",
+          "atMs": 6171.548485000003,
+          "durationMs": 9.861299999996845
+        },
+        {
+          "op": "close",
+          "atMs": 6182.067399,
+          "durationMs": 16.874644000003173
+        }
+      ],
+      "readyMs": 6170.363494000001,
+      "ready": true,
+      "shutdownMs": 30.886940000000322,
+      "result": "PASS"
+    },
+    {
+      "index": 3,
+      "startedAt": "2026-10-11T23:44:48.924Z",
+      "phases": [
+        {
+          "op": "initialize",
+          "atMs": 6067.7831799999985,
+          "durationMs": 23.36950700000307
+        },
+        {
+          "op": "heartbeat",
+          "atMs": 6100.8640559999985,
+          "durationMs": 7.8525640000007115
+        },
+        {
+          "op": "stop",
+          "atMs": 6110.118751000002,
+          "durationMs": 9.054856000002474
+        },
+        {
+          "op": "close",
+          "atMs": 6119.428367,
+          "durationMs": 11.150312999998278
+        }
+      ],
+      "readyMs": 6108.869774999999,
+      "ready": true,
+      "shutdownMs": 22.814596000003803,
+      "result": "PASS"
+    }
+  ],
+  "fixtureCopyMs": 10866.170614999999,
+  "migrationAndValidationMs": 6678.896517000001,
+  "dataset": {
+    "checks": 4320000,
+    "monitors": 100,
+    "bytes": 2139942912,
+    "versions": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "completedAt": "2026-10-11T23:44:55.056Z",
+  "compiledSha256": "f2682302fbcfcd5cca21586bdeeb2d5abc79e6551fd482eb08572b62fc12a3f2",
+  "result": "PASS",
+  "minimumReadyMs": 5106.334251,
+  "maximumReadyMs": 6170.363494000001
+}

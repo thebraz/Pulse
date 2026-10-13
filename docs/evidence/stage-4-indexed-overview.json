@@ -1,0 +1,74 @@
+{
+  "recordedAt": "2026-10-11T23:36:46.685Z",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "dataset": {
+    "monitors": 100,
+    "checks": 4320000,
+    "pageMonitors": 50
+  },
+  "sourceSha256": "26390edaa31036260ecbaf1c0c5a2b4225c0282980505d998d5fdeee266fa293",
+  "queries": [
+    {
+      "name": "latestOld",
+      "ms": 16915.793400000002,
+      "rows": 50,
+      "plan": [
+        {
+          "id": 2,
+          "parent": 0,
+          "notused": 91,
+          "detail": "SEARCH checks USING INTEGER PRIMARY KEY (rowid=?)"
+        },
+        {
+          "id": 6,
+          "parent": 0,
+          "notused": 0,
+          "detail": "LIST SUBQUERY 1"
+        },
+        {
+          "id": 13,
+          "parent": 6,
+          "notused": 117,
+          "detail": "SEARCH checks USING INDEX checks_monitor_sequence (monitor_id=?)"
+        }
+      ]
+    },
+    {
+      "name": "latestIndexed",
+      "ms": 1.5050000000010186,
+      "rows": 50,
+      "plan": [
+        {
+          "id": 3,
+          "parent": 0,
+          "notused": 100,
+          "detail": "SEARCH monitors USING COVERING INDEX sqlite_autoindex_monitors_1 (id=?)"
+        },
+        {
+          "id": 165,
+          "parent": 0,
+          "notused": 45,
+          "detail": "SEARCH latest USING INTEGER PRIMARY KEY (rowid=?)"
+        },
+        {
+          "id": 167,
+          "parent": 0,
+          "notused": 0,
+          "detail": "CORRELATED SCALAR SUBQUERY 1"
+        },
+        {
+          "id": 173,
+          "parent": 167,
+          "notused": 61,
+          "detail": "SEARCH checks USING INDEX checks_monitor_sequence (monitor_id=?)"
+        }
+      ]
+    }
+  ],
+  "equivalentResults": true,
+  "defect": "Grouped max(sequence) visited the complete retained history for every overview card. The measured 16.9-second query exceeded the ordinary ten-second worker command deadline, potentially faulting readiness on an otherwise healthy database.",
+  "correction": "One SQL query now uses an index-backed maximum sequence probe per selected monitor and a rowid lookup; only COMPLETED rows supply latestLatencyMs, including failed HTTP observations. Newer unsettled/cancelled checks and monitors without observations retain their prior semantics.",
+  "limitation": "Isolated read-only query comparison on a shared workstation; reference-load API percentiles are separate.",
+  "result": "PASS"
+}

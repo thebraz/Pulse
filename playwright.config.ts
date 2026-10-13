@@ -1,0 +1,2 @@
+import { defineConfig } from '@playwright/test';
+export default defineConfig({testDir:'tests/e2e',timeout:90000,expect:{timeout:10000},workers:1,retries:0,reporter:[['list'],['json',{outputFile:`docs/evidence/${process.env.TEST_EVIDENCE_PREFIX??'stage-3'}-browser.json`}]],use:{browserName:'chromium',viewport:{width:1440,height:1000},actionTimeout:10000,trace:'off',screenshot:'only-on-failure'},outputDir:'test-results'});

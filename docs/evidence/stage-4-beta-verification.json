@@ -1,0 +1,159 @@
+{
+  "recordedAt": "2026-10-13T16:55:24.560Z",
+  "version": "0.1.0-beta.1",
+  "result": "PASS",
+  "scope": "Explicitly authorized experimental beta only; stable Stage 4 remains unapproved",
+  "releaseIdentity": {
+    "runtimeSourceDigest": "32190c9d600d48b40dedcdd3c68ec106238742810ea41d042181085ebffb86af",
+    "compiledDigest": "d89831c97f04b60e6f5a906e7291cc49811b8b765baf443a46c5ceb15b7702f6",
+    "testSuiteDigest": "d970e5df851c7cc0cd49c3fa4d06b5709e0998e17f7d6a18711ddf925737e024"
+  },
+  "candidateSha256": "4679613261559f6f72a626686091329f0fe113e059263ff80cc97598fb25261a",
+  "checks": [
+    {
+      "name": "Final archive differs only in the clarified beta guide; all runtime bytes unchanged and final archive clean install/start verified",
+      "result": "PASS"
+    },
+    {
+      "name": "windows: complete automated/browser suites and 17 clean-install scenarios before guide-only clarification",
+      "result": "PASS",
+      "automated": 256,
+      "browser": 8,
+      "installedScenarios": 17,
+      "testRecordedAt": "2026-10-13T16:24:06.963Z",
+      "installedSha256": "69ffd089d476baf46865719a4341c00a610a4c19fb38426a950665c49fdcf83f"
+    },
+    {
+      "name": "linux: complete automated/browser suites and 17 clean-install scenarios before guide-only clarification",
+      "result": "PASS",
+      "automated": 256,
+      "browser": 8,
+      "installedScenarios": 17,
+      "testRecordedAt": "2026-10-13T16:23:50.198Z",
+      "installedSha256": "69ffd089d476baf46865719a4341c00a610a4c19fb38426a950665c49fdcf83f"
+    },
+    {
+      "name": "Fresh source dependency install, identical compiled assets and eight browser journeys",
+      "result": "PASS"
+    },
+    {
+      "name": "Exact package inspection and four private-data/credential exclusion scenarios",
+      "result": "PASS"
+    },
+    {
+      "name": "Production/full dependency advisories absent; locked licenses and original notices verified",
+      "result": "PASS"
+    },
+    {
+      "name": "Eleven real nginx TLS, authentication, Origin/CSRF, SSE and secret-redaction checks",
+      "result": "PASS"
+    },
+    {
+      "name": "Runtime security boundaries checked against prior independent review; live refresh change reviewed with regression coverage",
+      "result": "PASS",
+      "unchangedFiles": 28,
+      "changedFile": "apps/web/src/app/live.ts",
+      "cliChange": "Version string only",
+      "scope": "Focused manual review, not a new exhaustive security scan"
+    },
+    {
+      "name": "Owner-clarified beta policy: 60-second starts, observed RSS <=400 MiB, healthy bounded work and full SQLite integrity/FKs",
+      "result": "PASS"
+    }
+  ],
+  "platforms": {
+    "windows": {
+      "automated": 256,
+      "browser": 8,
+      "installedScenarios": 17,
+      "testRecordedAt": "2026-10-13T16:24:06.963Z"
+    },
+    "linux": {
+      "automated": 256,
+      "browser": 8,
+      "installedScenarios": 17,
+      "testRecordedAt": "2026-10-13T16:23:50.198Z"
+    }
+  },
+  "limitations": [
+    "No two-hour soak or stable performance acceptance.",
+    "Windows large-fixture beta observation only; Ubuntu 24.04 userspace on WSL2 functional validation is not native Linux capacity certification.",
+    "Known API latency, automatic dispatch delay, browser long tasks and overload fairness limitations.",
+    "Local-only initial scope; no production proxy deployment or physical power-loss certification.",
+    "No npm publication.",
+    "The conservative short-window RSS trend is positive; its failure is preserved and disclosed. Long-term memory stability is not certified."
+  ],
+  "performance": {
+    "startupMs": 13205.32209999999,
+    "restartMs": 12119.515500000212,
+    "observationMs": 900006,
+    "overloadMs": 90013,
+    "peakRssBytes": 411430912,
+    "clarifiedBetaChecks": {
+      "complete": true,
+      "startup": true,
+      "memory": true,
+      "readWriteFlows": true,
+      "resources": true,
+      "browser": true,
+      "webhooks": true,
+      "shutdown": true,
+      "integrity": true
+    },
+    "originalConservativeHarnessResult": {
+      "result": "FAIL",
+      "policy": "v0.1.0-beta.1 only; not stable acceptance",
+      "checks": {
+        "complete": true,
+        "startup": true,
+        "memory": false,
+        "readWriteFlows": true,
+        "resources": true,
+        "browser": true,
+        "webhooks": true,
+        "shutdown": true,
+        "integrity": true
+      },
+      "peakRssBytes": 411430912,
+      "tailMemoryTrend": {
+        "result": "FAIL",
+        "firstQuarterMedianBytes": 385175552,
+        "lastQuarterMedianBytes": 410595328,
+        "slopeBytesPerSecond": 51771.28285362295
+      },
+      "tailWindowMs": 600000,
+      "limitations": "A 15-minute load observation and 90-second overload do not establish long-term stability, capacity or production suitability. Stable latency, fairness and overload failures remain recorded."
+    },
+    "postLoadIntegrity": {
+      "integrity": "ok",
+      "foreignKeyViolations": 0
+    },
+    "stableResult": "FAIL",
+    "stableBudgets": {
+      "startup": true,
+      "monitors": false,
+      "history": false,
+      "summary": false,
+      "metrics": false,
+      "mutations": false,
+      "dispatch": true,
+      "transactions": true,
+      "eventLoop": true,
+      "rss": false,
+      "memoryTrend": false,
+      "readiness": true,
+      "resourceBounds": true,
+      "browser": false,
+      "webhooks": true,
+      "shutdown": true,
+      "browserTransfer": true,
+      "overload": false
+    }
+  },
+  "ownerClarification": {
+    "date": "2026-10-13",
+    "scope": "Experimental beta only",
+    "policy": "Modest RSS increases within the 400MiB beta budget are disclosed, not held to stable zero-positive-trend acceptance. Security, integrity, usable flows, readiness and bounded work remain mandatory. Original measurements, diagnostics and stable tests are preserved."
+  },
+  "publication": "NOT ATTEMPTED by this pre-publication technical verification"
+}

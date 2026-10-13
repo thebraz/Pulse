@@ -1,0 +1,12 @@
+{
+  "recordedAt": "2026-10-11T22:44:10.848Z",
+  "result": "PASS",
+  "scenarios": [
+    "Npm private/data/credential canaries excluded",
+    "Source private/data/credential canaries excluded",
+    "Legitimate public specifications and stage contracts preserved",
+    "Personal paths sanitized in public source evidence"
+  ],
+  "npmFiles": 53,
+  "sourceFiles": 92
+}

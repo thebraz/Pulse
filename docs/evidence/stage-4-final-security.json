@@ -1,0 +1,318 @@
+{
+  "recordedAt": "2026-10-12T17:13:57.524Z",
+  "result": "PASS",
+  "releaseIdentity": {
+    "runtimeSourceDigest": "834f37884223ceab485b81ffa879caaafe62a57b18ede2051f77d36f37ed1474",
+    "compiledDigest": "5d3657f695aa80c210ee1ae21909699007049129f272ac4bfda20dd831fc8068",
+    "testSuiteDigest": "5ec62895da3c3b700cc22a8c2b56bb16b89f8e186d4fb205b3fa397e0c6b7727"
+  },
+  "reviewType": "Independent read-only review of final compact analytics batches, startup validation and benchmark-clock corrections, with unchanged previously reviewed runtime security boundaries verified by content hash.",
+  "reviewer": "release_audit agent; startup and analytics runtime changes authored by separate startup_fix and load_fix agents.",
+  "manualSourceReviewPerformed": true,
+  "priorBoundaryReview": {
+    "recordedAt": "2026-10-12T16:46:35.486Z",
+    "runtimeSourceDigest": "e8a6ee2bed860cae8bb1ac94dbc473f32042cffd2442405bc9e96b7020d1f32c",
+    "unchangedRuntimeFiles": [
+      "apps/server/src/main.ts",
+      "apps/server/src/config/config.ts",
+      "apps/server/src/api/security.ts",
+      "apps/server/src/api/server.ts",
+      "apps/server/src/api/events.ts",
+      "apps/server/src/api/assets.ts",
+      "apps/server/src/monitoring/policy.ts",
+      "apps/server/src/monitoring/http.ts",
+      "apps/server/src/notifications/secrets.ts",
+      "apps/server/src/notifications/transport.ts",
+      "apps/server/src/notifications/worker.ts",
+      "apps/server/src/persistence/validation-read.ts",
+      "apps/server/src/persistence/checks-migration.ts",
+      "apps/server/src/persistence/migration.ts",
+      "apps/server/src/persistence/database.ts",
+      "apps/server/src/persistence/worker.ts",
+      "apps/server/src/persistence/protocol.ts",
+      "apps/server/src/persistence/notifications.ts",
+      "apps/server/src/runtime/lock.ts",
+      "apps/server/src/runtime/runtime.ts",
+      "apps/server/src/scheduler/scheduler.ts",
+      "apps/server/src/scheduler/clock.ts",
+      "apps/server/src/application/errors.ts",
+      "apps/server/src/domain/metrics.ts",
+      "packages/contracts/src/index.ts",
+      "apps/web/src/features/monitors/MonitorDetail.tsx",
+      "apps/web/src/app/live.ts",
+      "apps/web/src/lib/api.ts",
+      "bin/pulse.mjs"
+    ],
+    "changedRuntimeSectionsReviewed": [
+      "apps/server/src/persistence/store.ts: metrics(), transaction wrapper, constructor and recovery seed"
+    ]
+  },
+  "reviewedFiles": [
+    {
+      "path": "apps/server/src/main.ts",
+      "sha256": "62d6600adf295471b528d12db192e268c439b58be4d477e72f2c2c285fb2f5b1",
+      "lines": 48
+    },
+    {
+      "path": "apps/server/src/config/config.ts",
+      "sha256": "a203bb7fd814ee9eb0bdfafe7fa48a8702f276496e40ab0c8c46e2edb5853186",
+      "lines": 137
+    },
+    {
+      "path": "apps/server/src/api/security.ts",
+      "sha256": "d4f3563fd892d96baf3dbc42463705463e20082d324085b9138797e77b91fc62",
+      "lines": 156
+    },
+    {
+      "path": "apps/server/src/api/server.ts",
+      "sha256": "0b0781e31fb82cd01c949486203f4799eeaa0a8bf503e798f2abbbfe3984ac83",
+      "lines": 289
+    },
+    {
+      "path": "apps/server/src/api/events.ts",
+      "sha256": "ac9501792288f16e9afa8b26e2df429ba5292215bef9bfa9ed11a2bf301cb7e0",
+      "lines": 63
+    },
+    {
+      "path": "apps/server/src/api/assets.ts",
+      "sha256": "8b967a6005e48dcbbc22e62b5b9fe3efcfafb05debd86b761250cdf07d4567b5",
+      "lines": 33
+    },
+    {
+      "path": "apps/server/src/monitoring/policy.ts",
+      "sha256": "3cac32a4266a959280d4fb3119a2a3a8e386da87a6e5e29e47b9f347d259b7be",
+      "lines": 71
+    },
+    {
+      "path": "apps/server/src/monitoring/http.ts",
+      "sha256": "a89dc68ed2899d426450c994a85613c30661ba0dcc174d832575579c7649d8dc",
+      "lines": 163
+    },
+    {
+      "path": "apps/server/src/notifications/secrets.ts",
+      "sha256": "44146d3ec3ea34f6936807c935bc520eefde43ad610f5347dc8cbedd79a7bf1c",
+      "lines": 44
+    },
+    {
+      "path": "apps/server/src/notifications/transport.ts",
+      "sha256": "fd277684dac1d6b4164cfa0b923d4353fc7e041aa006c3df7ec46a6d9f41b366",
+      "lines": 70
+    },
+    {
+      "path": "apps/server/src/notifications/worker.ts",
+      "sha256": "0fbf58eac0fded73cf3b7b598ec8cd5d31cb15e2487ba789defba40815659d05",
+      "lines": 103
+    },
+    {
+      "path": "apps/server/src/persistence/store.ts",
+      "sha256": "0a56ff3fc39582b70e41ca3150b10a4482db635c726730962b2be1f0a6537a87",
+      "lines": 774
+    },
+    {
+      "path": "apps/server/src/persistence/validation-read.ts",
+      "sha256": "1a667e110d12e01c9a56038cc2b99388cfe4b16147320f18d9ea3571f30ff7e9",
+      "lines": 55
+    },
+    {
+      "path": "apps/server/src/persistence/checks-migration.ts",
+      "sha256": "eaf59ac3002ba02ef4e362c6970a888942bae318236f92e7d43405beb4d3ae7e",
+      "lines": 52
+    },
+    {
+      "path": "apps/server/src/persistence/migration.ts",
+      "sha256": "d86d5516f654b457f684e0b6957d9f4c8f6ecf830d44715d9de542c3d382c282",
+      "lines": 183
+    },
+    {
+      "path": "apps/server/src/persistence/database.ts",
+      "sha256": "04a1d276432b321e6ffa2fd36cae1aae570e13313ec9ebc6e76c9ba1c8ed9bcd",
+      "lines": 144
+    },
+    {
+      "path": "apps/server/src/persistence/worker.ts",
+      "sha256": "d9336513fab4578364ee7d0f59c3ea9d7c35e8d7830e517e83abb2e8374f7cb3",
+      "lines": 48
+    },
+    {
+      "path": "apps/server/src/persistence/protocol.ts",
+      "sha256": "f2b11ec153fab40bfec3808e2480279dd3f71e43b3de17f911eed13725d7d818",
+      "lines": 150
+    },
+    {
+      "path": "apps/server/src/persistence/notifications.ts",
+      "sha256": "64b31fd5675cfe1e77c174f0aff3c9ab52f2faa6a368293dadef1e1f512da8fb",
+      "lines": 177
+    },
+    {
+      "path": "apps/server/src/runtime/lock.ts",
+      "sha256": "62504b5ad9601500ebeb7dc19d74714efe580a10053e20dd07927133b13d6ed4",
+      "lines": 26
+    },
+    {
+      "path": "apps/server/src/runtime/runtime.ts",
+      "sha256": "c0acdfad9c2ebadf502cfa8b39e0f62b62abc58e4306eb8d3e0ee6448c633f9c",
+      "lines": 142
+    },
+    {
+      "path": "apps/server/src/scheduler/scheduler.ts",
+      "sha256": "6efa4d42b2405aff102792472b6e6fef240681a5b2f068bb26a2355e15820ccb",
+      "lines": 126
+    },
+    {
+      "path": "apps/server/src/scheduler/clock.ts",
+      "sha256": "17d800fb03f41bef7c91f30cc6b3312076fa669c7a6f96a012554fa7eb836431",
+      "lines": 17
+    },
+    {
+      "path": "apps/server/src/application/errors.ts",
+      "sha256": "92d90c74eba423df7e288cdec125a19c40b41d63ad2abfd980259c6a38a3ebc3",
+      "lines": 9
+    },
+    {
+      "path": "apps/server/src/domain/metrics.ts",
+      "sha256": "642b5a85660b06c7d59ff812c7dc7979c2cc15e6aa398c0484576b229f332558",
+      "lines": 47
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "sha256": "547dd3ad34fca4bebb30b435f8ec19a5a261fbf3d2938318f9ec6c2f6c1732d1",
+      "lines": 220
+    },
+    {
+      "path": "apps/web/src/features/monitors/MonitorDetail.tsx",
+      "sha256": "c60444b0b8cee73e8ef64a33afecfda46cebdce56a5c2672906294546aa3cb38",
+      "lines": 124
+    },
+    {
+      "path": "apps/web/src/app/live.ts",
+      "sha256": "cc3b3e71f34b2f7871e3437648c86a109cc68eb1e69a33a404aa7ad81c60690c",
+      "lines": 87
+    },
+    {
+      "path": "apps/web/src/lib/api.ts",
+      "sha256": "4869bdd60848aed0bed764a324fb8c5e57caf488de543666506e7a05cb1c377f",
+      "lines": 95
+    },
+    {
+      "path": "bin/pulse.mjs",
+      "sha256": "beaca13b07d8d47f7d7b7464743edc7a02a987c2411766743b66fb61d131e35d",
+      "lines": 46
+    },
+    {
+      "path": "scripts/performance-helpers.mjs",
+      "sha256": "67cfec1757f3bfcdebbebd315450e253b7d1f596321971ffb7d93f7625ea3b12",
+      "lines": 91
+    },
+    {
+      "path": "scripts/release-performance.mjs",
+      "sha256": "f0a8f86c9ca67009c25b78b060a4e2b5ec32e83c0ec6c4e762043ea48d04b165",
+      "lines": 249
+    },
+    {
+      "path": "scripts/performance-server.mjs",
+      "sha256": "5eff3352ad7b696945cf1d0230e905ad6d7f9d94e75d9b48e586ad3bb6fb4f67",
+      "lines": 50
+    },
+    {
+      "path": "scripts/performance-probe.mjs",
+      "sha256": "05b8a5b43b5f498e1f30e512d0756e7431a23a5626b684478bbf72ea0395cb24",
+      "lines": 71
+    },
+    {
+      "path": "tests/metrics-retention.test.ts",
+      "sha256": "b4d8cc1ee190d19b0935f3adf3c4b7515df1664dda897d0d0cc6830e666e921f",
+      "lines": 375
+    },
+    {
+      "path": "tests/performance-harness.test.ts",
+      "sha256": "904ad1c7fa418502eda9a95720a8762afedecbe448ded7488cccbd12b237334a",
+      "lines": 174
+    },
+    {
+      "path": "tests/validation-read.test.ts",
+      "sha256": "72239f87fd63a4ed2913f163d51312de5115f30039d369ccd7d79fe717f1fc2e",
+      "lines": 87
+    },
+    {
+      "path": "docs/specifications/08-METRICS-AND-ANALYTICS.md",
+      "sha256": "a37ba7d47c8f498636f7b73d21e85913135125037f6aecfee3ee1442055e064e",
+      "lines": 87
+    },
+    {
+      "path": "docs/specifications/14-PERFORMANCE-REQUIREMENTS.md",
+      "sha256": "1d0521d4a942615bb9266f96891db7f60899ac873bf69680c82c8c16916b694d",
+      "lines": 48
+    },
+    {
+      "path": "docs/specifications/ARCHITECTURAL-DECISIONS.md",
+      "sha256": "cade7628e75398cbb974baa3f2c2ac38d34b88781eb6bf939d87e335b1a7bb58",
+      "lines": 207
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "27fbed4f343b709ed4da39e0d8ee62d383391fd4cd786d9121bd70c62bc633cd",
+      "lines": 10
+    }
+  ],
+  "unresolvedReleaseBlockingFindings": 0,
+  "newValidatedFindings": [],
+  "checks": [
+    "Mandatory writable quick_check and complete foreign_key_check remain before readiness. No read-only integrity shortcut, ignored CHECK constraint or skipped history validation was introduced.",
+    "Sequential startup pre-reading opens main/WAL files read-only, uses one bounded one-MiB buffer, rejects irregular/truncated/unreadable files, closes descriptors and exposes only the generic DATABASE_UNAVAILABLE error. It does not write data or create another SQLite owner.",
+    "Large native validation mapping is released before admission; the existing 64-MiB mapping and 16-MiB SQLite cache are restored for steady operation.",
+    "Guarded schema migration requires the expected old DDL/layout, transactional migration ownership and unchanged foreign-key/CHECK settings. Writable schema and defensive mode are restored in nested finally blocks; full validation remains mandatory.",
+    "Indexed restart recovery retains the maximum validated queued/started/completed logical clock and abandons unfinished checks without synthesizing a target outage.",
+    "Metrics transfer four analytical fields plus sequence in compact arrays of at most 4096 rows. The first query applies the inclusive lower time bound; following queries seek the composite started_at/sequence cursor within the same read transaction. This preserves tied timestamps and earlier observations with later sequences without rescanning the original prefix.",
+    "The metrics sentinel is reduced to the remaining 100001-row allowance in the final batch. Exactly 100000 counted rows remain accepted; the next row rejects the whole request with 422 before processing that batch. Only successful numeric durations and bounded bucket accumulators survive across batches; counted predicates, coverage, classification, exact percentiles and bucket sums remain intact.",
+    "The synthetic reference helper operates only after copying and checksumming a stopped fixture into a new verified temporary clone. It excludes only closed unreferenced rehearsal runs beginning after the latest modeled terminal check, retains historical empty runs and actual gaps, uniformly translates the remaining history inside one transaction, and rolls back if any field used by the production recovery seed exceeds the anchor.",
+    "The production LogicalClock, recovery seed and stored-observation contracts are not clamped or bypassed by fixture preparation. Source bytes of the original fixture and candidate identity remain checked before and after each load run.",
+    "The approved diagnostic-only profile is disclosed as 60-second warmup, 180-second measurement, 210-second observation and 90-second overload with 100 API observations. The mandatory full reference retains 300/1800/7200/600 seconds, 1000 API observations, all performance budgets and a diagnostic=false release gate. Short diagnostic evidence cannot certify release readiness.",
+    "Memory instrumentation reports whole-process RSS separately from main/worker V8 fields. Instrumentation, synthetic webhook injection and fixture IPC are benchmark-only imports; production entry points do not expose them.",
+    "Host/Origin enforcement, authenticated remote exposure, constant-time bearer comparison, bounded sessions, Secure/HttpOnly/SameSite cookie and session-bound CSRF protections remain in place.",
+    "Outbound monitor and webhook transport continue to validate all DNS answers, pin the actual selected address, retain TLS peer/hostname verification, revalidate permitted redirects and deny webhook redirects and permanent metadata destinations.",
+    "Secret file alias/realpath containment, bounded regular-file reads, POSIX permission checks and fail-closed remote Windows ACL validation remain intact. Browser code stores no operator token in local/session storage.",
+    "Worker commands/responses retain strict shared validation, bounded queues and sanitized failure envelopes. Asset realpath containment, CSP and React text rendering prevent new file/markup exposure.",
+    "Deletion query cancellation changes only the client refresh lifecycle; API revision checks, explicit deletion confirmation, mutation CSRF and persisted transaction behavior are preserved."
+  ],
+  "priorRegisteredScan": {
+    "scanId": "48469dbb-1b84-42f4-8506-92724ed0721a",
+    "status": "Previously completed for its original snapshot; not claimed as a new canonical scan of this candidate.",
+    "originalSnapshotWarning": "The original registered scan reported that directory contents changed during scanning.",
+    "initialMediumFindings": 2,
+    "fixReview": "Invalid cursor timestamps still fail validation without faulting persistence; peer HTTP statuses outside 100..599 still normalize to a safe invalid-status outcome before persistence."
+  },
+  "regressionSourceReview": {
+    "executionClaim": "No tests executed by this source-review pass while the full diagnostic was running; actual execution remains in separate candidate-bound reports.",
+    "metrics": [
+      "More than 4096 equal start timestamps",
+      "Earlier timestamps with later allocation sequences",
+      "Mixed success/failure and degradation classes",
+      "Exact means, nearest-rank percentiles and bucket counts",
+      "100000 accepted and 100001 rejected"
+    ],
+    "fixture": [
+      "Uniform translation retains observations and coverage arithmetic",
+      "Historical empty runs retained while later closed unreferenced rehearsals excluded",
+      "Real loopback runtime resumes automatic checks with the ordinary clock",
+      "Unexplained future metadata rejects preparation and rolls back all changes"
+    ]
+  },
+  "releaseControlVerification": {
+    "scope": "Release controls authored by this reviewer, independently of runtime authorship.",
+    "historicalRegressionTests": {
+      "executionTiming": "Before the final candidate freeze; original command result retained in the session evidence.",
+      "passed": 3,
+      "failed": 0,
+      "command": "node node_modules/vitest/vitest.mjs run tests/release-gates.test.ts",
+      "result": "PASS; earlier test-suite identity, not a rerun of the final candidate"
+    },
+    "currentAggregatorResult": "Not executed by this final source-review pass; the exact final candidate still requires all independent release gates."
+  },
+  "limitations": [
+    "This is an independent source review, not an exhaustive new registered Codex Security scan or proof of absence of vulnerabilities.",
+    "Final dependency advisory/license checks, exact archive exclusions/installation, clean-source byte reproducibility and actual operational fixtures remain separate required release gates.",
+    "Reference load, overload and two-hour stability results must independently meet every performance/security requirement; this source review cannot certify those measurements.",
+    "Initial operation is local-only by explicit owner choice. The controlled HTTPS/nginx fixture does not certify a remote operator deployment or external firewall.",
+    "Host-administrator compromise, physical power loss and malicious trusted dependencies remain outside this review evidence."
+  ]
+}

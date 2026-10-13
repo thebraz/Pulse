@@ -1,0 +1,315 @@
+{
+  "startedAt": "2026-10-13T16:26:25.965Z",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "result": "PASS",
+  "steps": [
+    {
+      "command": "npm ci --ignore-scripts --no-audit --no-fund",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e (clean source)",
+      "exitCode": 0
+    }
+  ],
+  "releaseIdentity": {
+    "runtimeSourceDigest": "32190c9d600d48b40dedcdd3c68ec106238742810ea41d042181085ebffb86af",
+    "compiledDigest": "d89831c97f04b60e6f5a906e7291cc49811b8b765baf443a46c5ceb15b7702f6",
+    "testSuiteDigest": "d970e5df851c7cc0cd49c3fa4d06b5709e0998e17f7d6a18711ddf925737e024"
+  },
+  "sourceDigest": "f84a00d6086fb0da493c695c5fce63ca6567a31e540b25d20a93d8d1f926c149",
+  "compiledFiles": [
+    {
+      "path": "apps/server/dist/main.d.ts",
+      "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+    },
+    {
+      "path": "apps/server/dist/main.js",
+      "sha256": "7d1076495f11218c346ee6b0409ae6d1b141777d7d6732a76f2db5180a9042f5"
+    },
+    {
+      "path": "apps/server/dist/api/assets.d.ts",
+      "sha256": "c1fa8b9a8aeecc47cce1af6ed86292453c4a2327df85f7ca1421b7cacfedbc09"
+    },
+    {
+      "path": "apps/server/dist/api/assets.js",
+      "sha256": "a27425ba06e73a4f80ec1cf30b7fe852c61f8fd043cb2e4f92730ec923e4c1fc"
+    },
+    {
+      "path": "apps/server/dist/api/events.d.ts",
+      "sha256": "e585c1a06d1093ed37a53eef233430288ea2f91afdb04f90da33249cd27882ab"
+    },
+    {
+      "path": "apps/server/dist/api/events.js",
+      "sha256": "b1eb9de183db9002cb1d86745db1b3d02a5c42147d554c800b27943392fe1c00"
+    },
+    {
+      "path": "apps/server/dist/api/security.d.ts",
+      "sha256": "823b955a6cb15498f3122fc5c1f901c79c48c71591321f91231d48f009620bd3"
+    },
+    {
+      "path": "apps/server/dist/api/security.js",
+      "sha256": "3c8ad9590efdf32c61313fc104b3d49a69747302749bc05101d493847247a3a2"
+    },
+    {
+      "path": "apps/server/dist/api/server.d.ts",
+      "sha256": "c1c641e9fe37f40b31a07b043e74ad7a5cb6f7f0dbde332d53e9df807a78a25d"
+    },
+    {
+      "path": "apps/server/dist/api/server.js",
+      "sha256": "e075903d97d726a80ef2c6a58ba7a9db8f41cb9fcd10b63dac3f40d915823a6c"
+    },
+    {
+      "path": "apps/server/dist/application/errors.d.ts",
+      "sha256": "d02ace1bbbbbe9d13b57950ccf953c7f77efdc4bcb50879246f8d97120e3f1a2"
+    },
+    {
+      "path": "apps/server/dist/application/errors.js",
+      "sha256": "5ce82a77557577c05a2f7ea7a6cd4fd72578673f0b226c0cb733fdb8f6cc634b"
+    },
+    {
+      "path": "apps/server/dist/application/monitors.d.ts",
+      "sha256": "70e06e9048e550b1de621cde3b26f21ae4c7d32a822b2d26af53bd92ff738ca0"
+    },
+    {
+      "path": "apps/server/dist/application/monitors.js",
+      "sha256": "a95ed1ed4b5fb92461624148b0296977e6b3a35e0901760887e90758a27c5944"
+    },
+    {
+      "path": "apps/server/dist/config/config.d.ts",
+      "sha256": "e51b4d3ff7d38ba17578a3c147b1617742781f2fc2355f6fd056fcf74fecd253"
+    },
+    {
+      "path": "apps/server/dist/config/config.js",
+      "sha256": "041a607cd7ff7054df7036953a65642646c2e2f60297a6cdb48c65a225bafed0"
+    },
+    {
+      "path": "apps/server/dist/domain/health.d.ts",
+      "sha256": "92d072f4ca57c25bc5ad34acf9b5163106e1e838b90c521f17e67d5c6da8618c"
+    },
+    {
+      "path": "apps/server/dist/domain/health.js",
+      "sha256": "7d3a4417014cbec85603ecaea717827caf4b03dbf6e89b032a4de49efaa67dbf"
+    },
+    {
+      "path": "apps/server/dist/domain/metrics.d.ts",
+      "sha256": "4084977344b29010eeb8ffde0f1a8d36dfd2d287d7f9f7d4c490acc489ae0287"
+    },
+    {
+      "path": "apps/server/dist/domain/metrics.js",
+      "sha256": "ee2b7c2b80c00d19dd10eb912bed84f013161e8cd4ace7943e3646286ac9ec7b"
+    },
+    {
+      "path": "apps/server/dist/monitoring/http.d.ts",
+      "sha256": "a9570f10acb3703d7af37a6f8f64add4394f8008c61e44d59ecbb73f3e038bcd"
+    },
+    {
+      "path": "apps/server/dist/monitoring/http.js",
+      "sha256": "d7429e451e8833a05a3f892096cb20771b079b8a6009d34762df685e7ab0d17f"
+    },
+    {
+      "path": "apps/server/dist/monitoring/policy.d.ts",
+      "sha256": "63d3fe0fe694c8934dd60d610f9d35b90c58cf9027d3ed2953fdb25cedad894a"
+    },
+    {
+      "path": "apps/server/dist/monitoring/policy.js",
+      "sha256": "1bb6e19122b73ba64b8a8f54bb43e7253941e07dc538f49bb078bd53c632d610"
+    },
+    {
+      "path": "apps/server/dist/notifications/secrets.d.ts",
+      "sha256": "239bfa453f9c40f257734ec5892e5346839a1b9e8898b1572c24b1dd6d937457"
+    },
+    {
+      "path": "apps/server/dist/notifications/secrets.js",
+      "sha256": "09d378ade6f51b3d594c837d1c8198fbe622f6e7f136db34063fe5651e6b8ce7"
+    },
+    {
+      "path": "apps/server/dist/notifications/transport.d.ts",
+      "sha256": "63d9f14bdeef9de8525ad52fa5dc9bc4e136378f15ded2efc73e54d7971cb1e5"
+    },
+    {
+      "path": "apps/server/dist/notifications/transport.js",
+      "sha256": "96e96c445d194bbef95f209701806aaffe2b1b0d6bd5335b0fa16ba366cf433a"
+    },
+    {
+      "path": "apps/server/dist/notifications/worker.d.ts",
+      "sha256": "646bb594215c8649dd8b0884a7dff6546c111e744b4657d4ec35ab50a2e753a6"
+    },
+    {
+      "path": "apps/server/dist/notifications/worker.js",
+      "sha256": "bb1ffbad3f2ac3d7377a34ebc7e4b67101981cbff9241d5a0ff49200df7cb819"
+    },
+    {
+      "path": "apps/server/dist/persistence/checks-migration.d.ts",
+      "sha256": "48e5ade64eda3db2c78967027703a8c59601bbb3cd443304906bc6fbb018b829"
+    },
+    {
+      "path": "apps/server/dist/persistence/checks-migration.js",
+      "sha256": "345b639733ad3f0ae59046e744d31c4e22f2b0a407966c141485ccf8760a5bfa"
+    },
+    {
+      "path": "apps/server/dist/persistence/database.d.ts",
+      "sha256": "06b7b9d7411d01bc5df5160eaf18f06365dd71c03fefe1f44548fb460d0afb2c"
+    },
+    {
+      "path": "apps/server/dist/persistence/database.js",
+      "sha256": "b54fea1417d1a9cb948c63300399b23ed29022ec8d457415d564a30532f8ecdb"
+    },
+    {
+      "path": "apps/server/dist/persistence/migration.d.ts",
+      "sha256": "a259a5812772af22de17b6089bc8abc2a69eb93ab7c3e66d3be68ef21771ea14"
+    },
+    {
+      "path": "apps/server/dist/persistence/migration.js",
+      "sha256": "72d6689c916563fcba0c24d7ba1e6ceca4d21a95ec98f5a1ae43b48d9ebf4259"
+    },
+    {
+      "path": "apps/server/dist/persistence/notifications.d.ts",
+      "sha256": "c86e838ae61a275e211346362908a97b8669eef3d0e3d7ec3110b52bcef43e2a"
+    },
+    {
+      "path": "apps/server/dist/persistence/notifications.js",
+      "sha256": "c702476bc88b43dc17d73168672989bda93955eebb7f0697617b5690055fa6b8"
+    },
+    {
+      "path": "apps/server/dist/persistence/protocol.d.ts",
+      "sha256": "f45cb2234b9e161738f6c5c6bcb1e34186233492282f981e5c9e45711c4ffffa"
+    },
+    {
+      "path": "apps/server/dist/persistence/protocol.js",
+      "sha256": "20acaa21579478e5d99a81c1ad3f4b7c0796bcbbb905d5cafacbf747e02bba85"
+    },
+    {
+      "path": "apps/server/dist/persistence/store.d.ts",
+      "sha256": "aa13a9f429a55341ef6444bfb1bd8896ce0c79b1cf5d9a08cc600c8323e105c1"
+    },
+    {
+      "path": "apps/server/dist/persistence/store.js",
+      "sha256": "ae181b880223ae44236b9587d650342d98290ca8bfa6349212553b1f75a85ec7"
+    },
+    {
+      "path": "apps/server/dist/persistence/validation-read.d.ts",
+      "sha256": "5d732140ac969aa75b3d08824e56399a9e6f655ae2133770afac7077b9906b9e"
+    },
+    {
+      "path": "apps/server/dist/persistence/validation-read.js",
+      "sha256": "d830a33a05177be62638d014d9c607b872d760d2ae052674082c5f981d40c0e8"
+    },
+    {
+      "path": "apps/server/dist/persistence/worker.d.ts",
+      "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+    },
+    {
+      "path": "apps/server/dist/persistence/worker.js",
+      "sha256": "76b04e2ecff17ce5f7a8a29ac63f1f7b630ff997d09c52525a6f14103d0ab284"
+    },
+    {
+      "path": "apps/server/dist/runtime/lock.d.ts",
+      "sha256": "ce04af1f52120077bfe3945fb98bfeeb3ee5ea559ef88385516b7bee3bd00244"
+    },
+    {
+      "path": "apps/server/dist/runtime/lock.js",
+      "sha256": "e02a648b72532130e31ae1b58c414cf529d5dc2dcd634db47c51a7c6483be140"
+    },
+    {
+      "path": "apps/server/dist/runtime/runtime.d.ts",
+      "sha256": "0360d4ca38bb17b3ad09e3835241df4e7e93fd2771b928e8cd52b2397efe7368"
+    },
+    {
+      "path": "apps/server/dist/runtime/runtime.js",
+      "sha256": "b93861c1ababd52960d0bdb078db99fd54927f32d4fdf0458a6de8d80f40ac06"
+    },
+    {
+      "path": "apps/server/dist/scheduler/clock.d.ts",
+      "sha256": "9eff5c7c93c60d21b15d88ab8757c20f8eab17fd77dc014b5b1481051529f188"
+    },
+    {
+      "path": "apps/server/dist/scheduler/clock.js",
+      "sha256": "e2276e87f5fe6274e39a0cef041ff2d84bed1990336f19cd8e511e73854522e3"
+    },
+    {
+      "path": "apps/server/dist/scheduler/scheduler.d.ts",
+      "sha256": "74fd789ffa7c0977d17883bd4cffa8e6c442e270154786704712e9d8e6c8706b"
+    },
+    {
+      "path": "apps/server/dist/scheduler/scheduler.js",
+      "sha256": "e455065c402672b20b175efabd84234ba5d10b945685310b37f6c96a720c2c6d"
+    },
+    {
+      "path": "packages/contracts/dist/index.d.ts",
+      "sha256": "044f856f61323361978f6766f231351d697042484294f3e1fa8136cb0d7369c2"
+    },
+    {
+      "path": "packages/contracts/dist/index.js",
+      "sha256": "afb5248f947c827762ad5647f38ba70ab0c378b7cfc2822dbf1af314ec31393b"
+    },
+    {
+      "path": "apps/web/dist/index.html",
+      "sha256": "c6774189ca4250e85911abd125572fb47a4637bced7430c0c14e675749141581"
+    },
+    {
+      "path": "apps/web/dist/assets/Dashboard-CUAbztzi.js",
+      "sha256": "f87ed0521ec8ac1e83817ff1b6c077ea700096e9a9453fa3508e722798ef1f99"
+    },
+    {
+      "path": "apps/web/dist/assets/HistoryChart-Dj3vVPlX.js",
+      "sha256": "d336207faebcc7ec8dd3e1f4349dbb8ec50ecd492bc71439971cb3661482ee45"
+    },
+    {
+      "path": "apps/web/dist/assets/Incidents-8ITZJiZj.js",
+      "sha256": "cf77decaa3f34305f46bea0566e6136e1f7116074a83b888452c0946668a9740"
+    },
+    {
+      "path": "apps/web/dist/assets/index-fvQnc9ra.js",
+      "sha256": "1ad95d7d04f257c2554fa134997dc5a10e892f5c7a3235c90364b3a11ca97507"
+    },
+    {
+      "path": "apps/web/dist/assets/index-qQpiIVst.css",
+      "sha256": "068827d36f9713c880c23de4857773857a1febe6179f53816a88e8305bd51bcd"
+    },
+    {
+      "path": "apps/web/dist/assets/MonitorDetail-BL4be36_.js",
+      "sha256": "754bf0fc9e344fa2c22960715d5a0ebaeb6bf264f17e82d1dd9bbd0b9f1254cf"
+    },
+    {
+      "path": "apps/web/dist/assets/MonitorForm-CW-TFQzA.js",
+      "sha256": "7395c9d6a7b49314298013404d507861b5d406102c1f7bde44049cae1c95bb11"
+    },
+    {
+      "path": "apps/web/dist/assets/Notifications-C7DqrG6O.js",
+      "sha256": "7a48a9803ef3f0dbeefa41e77e51730de5b60aa1acb61d21869fb8303284c5d1"
+    },
+    {
+      "path": "apps/web/dist/assets/Settings-CFPlXo2h.js",
+      "sha256": "f8d7154831127039fcbc6ccab9943893a6a94607bab8330f41d45ee93e4c2877"
+    },
+    {
+      "path": "apps/web/dist/assets/ui-BSykrtiy.js",
+      "sha256": "b3bce3da1f3461c27b72bc7ab688f446bb4579b016685f35991068c6e74e4065"
+    },
+    {
+      "path": "apps/web/dist/assets/useMutation-DbUKzD-h.js",
+      "sha256": "0dffa7fea9058b2339f59af1b49b746c1ba2f81d542adaa8649f58aad5bd7238"
+    }
+  ],
+  "frontendByteReproducibility": "PASS",
+  "frontendDifferences": [],
+  "browser": {
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0
+  },
+  "cleanReleaseIdentity": {
+    "runtimeSourceDigest": "32190c9d600d48b40dedcdd3c68ec106238742810ea41d042181085ebffb86af",
+    "compiledDigest": "d89831c97f04b60e6f5a906e7291cc49811b8b765baf443a46c5ceb15b7702f6",
+    "testSuiteDigest": "d970e5df851c7cc0cd49c3fa4d06b5709e0998e17f7d6a18711ddf925737e024"
+  },
+  "candidateUnchangedDuringRun": true,
+  "completedAt": "2026-10-13T16:27:54.795Z"
+}

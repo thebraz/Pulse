@@ -1,0 +1,19 @@
+{
+  "recordedAt": "2026-10-13T16:23:38.948Z",
+  "command": "npm audit --omit=dev --json",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "lockSha256": "f7e21a2097cd3fe127efa73c5c64eb5109c98c974fbd302795dafedb8afb4b42",
+  "result": "PASS",
+  "exitCode": 0,
+  "scope": "Actual npm registry advisory query for the immutable workspace lockfile; known-advisory checks cannot prove absence of vulnerabilities.",
+  "knownVulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "productionDependencies": 65
+}

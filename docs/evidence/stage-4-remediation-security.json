@@ -1,0 +1,85 @@
+{
+  "recordedAt": "2026-10-11T23:11:20.957Z",
+  "scanId": "48469dbb-1b84-42f4-8506-92724ed0721a",
+  "canonicalScan": "COMPLETE; report validated and indexed",
+  "coverage": "PARTIAL: actual operator production proxy deferred",
+  "initialFindings": 2,
+  "initialSeverity": "medium",
+  "currentFixesIndependentlyValidated": 2,
+  "residualIssuesInFixReview": [],
+  "reviewedFiles": [
+    {
+      "path": "apps/server/src/persistence/store.ts",
+      "sha256": "7d7dd643e299983008be405ab4de5f06718ca837f11b3768fd45d8e21e570770",
+      "lines": 729
+    },
+    {
+      "path": "apps/server/src/monitoring/http.ts",
+      "sha256": "a89dc68ed2899d426450c994a85613c30661ba0dcc174d832575579c7649d8dc",
+      "lines": 162
+    },
+    {
+      "path": "apps/server/src/notifications/transport.ts",
+      "sha256": "fd277684dac1d6b4164cfa0b923d4353fc7e041aa006c3df7ec46a6d9f41b366",
+      "lines": 69
+    },
+    {
+      "path": "apps/server/src/persistence/database.ts",
+      "sha256": "04a1d276432b321e6ffa2fd36cae1aae570e13313ec9ebc6e76c9ba1c8ed9bcd",
+      "lines": 143
+    },
+    {
+      "path": "apps/server/src/persistence/worker.ts",
+      "sha256": "d9336513fab4578364ee7d0f59c3ea9d7c35e8d7830e517e83abb2e8374f7cb3",
+      "lines": 47
+    },
+    {
+      "path": "apps/server/src/runtime/runtime.ts",
+      "sha256": "c0acdfad9c2ebadf502cfa8b39e0f62b62abc58e4306eb8d3e0ee6448c633f9c",
+      "lines": 141
+    },
+    {
+      "path": "apps/server/src/persistence/protocol.ts",
+      "sha256": "f2b11ec153fab40bfec3808e2480279dd3f71e43b3de17f911eed13725d7d818",
+      "lines": 149
+    },
+    {
+      "path": "tests/release-security.test.ts",
+      "sha256": "38cbc8ba9d942f4e11d336b6109f0c3bc43dc0d26540e0ffe522d8082a6f9937",
+      "lines": 72
+    },
+    {
+      "path": "tests/release.test.ts",
+      "sha256": "c04d27bbd8318da0820b8ee6bbdf7ecdb1ef3fc4733b90bae999d0ad94689f10",
+      "lines": 112
+    },
+    {
+      "path": "tests/proxy.test.ts",
+      "sha256": "550edeaf9cff12566d9288eac735e459a594681236ef036ef54a4aab30a76120",
+      "lines": 53
+    },
+    {
+      "path": "docs/specifications/10-SECURITY-MODEL.md",
+      "sha256": "943597463138a7c9d6a5a3a0768b4b6a562ad4508a459a9e170e817ab1b7f24e",
+      "lines": 91
+    }
+  ],
+  "realApiNetworkRegressions": 9,
+  "verifiedHttpsProxyFixture": "PASS; TLS verification/auth/Host/Origin/Secure cookie/CSRF/SPA/CSP",
+  "originalSnapshotWarning": "Directory contents changed while the scan was running; results were saved for the original snapshot.",
+  "binding": "Initial findings remain bound to the original snapshot. Current remediation is bound to independently reviewed file hashes and final execution evidence.",
+  "pluginMeasuredUsage": {
+    "source": "codex_rollout",
+    "coverage": "complete",
+    "threadCount": 4,
+    "totalTokens": 24179551,
+    "inputTokens": 24057278,
+    "cachedInputTokens": 23095040,
+    "outputTokens": 122273,
+    "reasoningOutputTokens": 47963
+  },
+  "limitations": [
+    "No operator production firewall/proxy or SSE route was available.",
+    "No security audit proves absence of all vulnerabilities."
+  ]
+}

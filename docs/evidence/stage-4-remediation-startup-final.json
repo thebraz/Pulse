@@ -1,0 +1,39 @@
+{
+  "recordedAt": "2026-10-11T22:24:19.652Z",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "dataset": {
+    "monitors": 100,
+    "checks": 4320000
+  },
+  "phases": [
+    {
+      "op": "initialize",
+      "atMs": 283765.6689,
+      "durationMs": 34009.00150000001
+    },
+    {
+      "op": "heartbeat",
+      "atMs": 318488.6753,
+      "durationMs": 5.293999999994412
+    },
+    {
+      "op": "stop",
+      "atMs": 318498.8013,
+      "durationMs": 3.1195999999763444
+    },
+    {
+      "op": "close",
+      "atMs": 318507.91199999995,
+      "durationMs": 67.28710000001593
+    }
+  ],
+  "result": "PASS",
+  "configMs": 41.11760000000004,
+  "readyMs": 318496.0257,
+  "ready": true,
+  "shutdownMs": 98.40109999995911,
+  "tenSecondBudget": "FAIL",
+  "compiledSha256": "c3fffabe3a65c6e125f4c9ad91071edcf94c7f91342c51643ab390163833f298",
+  "completedAt": "2026-10-11T22:29:38.278Z"
+}

@@ -1,0 +1,23 @@
+{
+  "candidateSha256": "4d161d64b0b45e88e4ffecc34f63826e3791bf534b6469ec2adfa3a6d9865b86",
+  "startedAt": "2026-10-11T15:12:08.076Z",
+  "completedAt": "2026-10-11T15:12:13.008Z",
+  "platform": {
+    "os": "win32",
+    "release": "10.0.26200",
+    "arch": "x64",
+    "node": "v24.19.0",
+    "sqlite": "3.53.3"
+  },
+  "browser": "156.0.8078.4",
+  "result": "PASS",
+  "scenarios": [
+    "Provisioned URL/key rotation plus restart routes the next incident only to the new real receiver with a valid new HMAC.",
+    "Missing configured signing key terminates the recovery delivery safely without unsigned receipt; real monitoring recovers to UP.",
+    "Authenticated browser shows a safe offline sign-out error, then clears its HttpOnly cookie after online sign-out without page exceptions."
+  ],
+  "firstReceiverCount": 1,
+  "secondReceiverCount": 1,
+  "commands": "node .private/development/stage-3-operations.mjs (built runtime, isolated temporary database and controlled local receivers)",
+  "driverSha256": "98281436c28fc69ea4a7cf596fa347b884ba20e655c13c97a92bc7b7a6c5ff20"
+}

@@ -1,0 +1,326 @@
+{
+  "recordedAt": "2026-10-11T13:10:32.848Z",
+  "candidateSha256": "f83410d5f5cbb80e1522fba4341ad40aa2405a07f739fde161d6175af1d2d442",
+  "platform": {
+    "os": "win32",
+    "release": "10.0.26200",
+    "arch": "x64",
+    "node": "v24.19.0",
+    "sqlite": "3.53.3"
+  },
+  "verificationFrom": "2026-10-11T13:03:18.707Z",
+  "verificationTo": "2026-10-11T13:07:09.837Z",
+  "command": "npm test -- --reporter=default --reporter=json --outputFile.json=docs/evidence/stage-2-tests.json",
+  "testReport": "docs/evidence/stage-2-tests.json",
+  "tests": {
+    "passed": 161,
+    "failed": 0,
+    "skipped": 0,
+    "files": 17
+  },
+  "scope": "Stage 2 backend on measured Windows platform. Frontend/SSE/notifications excluded; reference capacity, Linux and physical OS/storage rehearsals remain Stage 4.",
+  "criteria": [
+    {
+      "id": "PULSE-S2-001",
+      "result": "PASS",
+      "tests": [
+        "state-machine.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-002",
+      "result": "PASS",
+      "tests": [
+        "incident-persistence.test.ts",
+        "reliability-api.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-003",
+      "result": "PASS",
+      "tests": [
+        "metrics-retention.test.ts",
+        "reliability-api.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-004",
+      "result": "PASS",
+      "tests": [
+        "process.test.ts",
+        "incident-persistence.test.ts",
+        "scheduler.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-005",
+      "result": "PASS",
+      "tests": [
+        "metrics-retention.test.ts",
+        "reliability-api.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-006",
+      "result": "PASS",
+      "tests": [
+        "incident-persistence.test.ts",
+        "process.test.ts",
+        "scheduler.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-007",
+      "result": "PASS",
+      "tests": [
+        "metrics-retention.test.ts",
+        "process.test.ts",
+        "reliability-api.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-008",
+      "result": "PASS",
+      "tests": [
+        "scheduler.test.ts",
+        "reliability-api.test.ts",
+        "performance.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-009",
+      "result": "PASS",
+      "tests": [
+        "persistence.test.ts",
+        "incident-persistence.test.ts",
+        "process.test.ts",
+        "reliability-api.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-010",
+      "result": "PASS",
+      "tests": [
+        "metrics-retention.test.ts",
+        "reliability-api.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-011",
+      "result": "PASS",
+      "tests": [
+        "incident-persistence.test.ts",
+        "reliability-api.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    },
+    {
+      "id": "PULSE-S2-012",
+      "result": "PASS",
+      "tests": [
+        "security.test.ts",
+        "reliability-api.test.ts",
+        "performance.test.ts"
+      ],
+      "evidence": [
+        "docs/evidence/stage-2-tests.json",
+        "docs/STAGE-2-REPORT.md"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": 1,
+      "scenario": "Temporary failure followed by recovery",
+      "evidence": "state-machine; incident-persistence transient sequence",
+      "result": "PASS"
+    },
+    {
+      "id": 2,
+      "scenario": "Three failures open one incident",
+      "evidence": "incident-persistence; actual HTTP reliability-api",
+      "result": "PASS"
+    },
+    {
+      "id": 3,
+      "scenario": "Further failures do not duplicate incident",
+      "evidence": "incident-persistence 20 additional failures",
+      "result": "PASS"
+    },
+    {
+      "id": 4,
+      "scenario": "Threshold-confirmed recovery",
+      "evidence": "state-machine; actual HTTP/process recovery",
+      "result": "PASS"
+    },
+    {
+      "id": 5,
+      "scenario": "Flapping",
+      "evidence": "state-machine 1000 partial-recovery cycles",
+      "result": "PASS"
+    },
+    {
+      "id": 6,
+      "scenario": "High-latency DEGRADED",
+      "evidence": "complete state table; actual delayed HTTP recovery; fixed metrics fixture",
+      "result": "PASS"
+    },
+    {
+      "id": 7,
+      "scenario": "Timeout",
+      "evidence": "real HTTP stalled headers; shared redirect deadline",
+      "result": "PASS"
+    },
+    {
+      "id": 8,
+      "scenario": "HTTP/connection failure mix",
+      "evidence": "actual HTTP 500/timeout/socket-reset sequence plus persistence run",
+      "result": "PASS"
+    },
+    {
+      "id": 9,
+      "scenario": "Restart unresolved incident",
+      "evidence": "forced-crash production-process scenario",
+      "result": "PASS"
+    },
+    {
+      "id": 10,
+      "scenario": "Restart in-flight check",
+      "evidence": "forced production-process death; transaction-boundary harness",
+      "result": "PASS"
+    },
+    {
+      "id": 11,
+      "scenario": "Overdue schedule recovery",
+      "evidence": "scheduler clock jump; restart without catch-up replay",
+      "result": "PASS"
+    },
+    {
+      "id": 12,
+      "scenario": "Two monitors fail together",
+      "evidence": "reliability-api two gated concurrent failures",
+      "result": "PASS"
+    },
+    {
+      "id": 13,
+      "scenario": "Concurrency saturation",
+      "evidence": "scheduler shared pool/queue; synthetic pool 10",
+      "result": "PASS"
+    },
+    {
+      "id": 14,
+      "scenario": "Manual during automatic check",
+      "evidence": "scheduler/API coalescing with identical execution IDs",
+      "result": "PASS"
+    },
+    {
+      "id": 15,
+      "scenario": "Pause DOWN monitor",
+      "evidence": "incident-persistence unresolved lifecycle test",
+      "result": "PASS"
+    },
+    {
+      "id": 16,
+      "scenario": "Resume",
+      "evidence": "preserved incident, UNKNOWN then confirmed recovery",
+      "result": "PASS"
+    },
+    {
+      "id": 17,
+      "scenario": "Fixed-window availability",
+      "evidence": "exact 80%/weighted-bucket fixtures and actual API counts",
+      "result": "PASS"
+    },
+    {
+      "id": 18,
+      "scenario": "Known percentiles",
+      "evidence": "exact 4/5/100-sample nearest-rank fixtures",
+      "result": "PASS"
+    },
+    {
+      "id": 19,
+      "scenario": "Missing/UNKNOWN evidence",
+      "evidence": "empty/policy/cancelled/pre-creation samples; exact coverage gaps",
+      "result": "PASS"
+    },
+    {
+      "id": 20,
+      "scenario": "Retention cleanup",
+      "evidence": "bounded batch/cutoff/protected anchors; real periodic pruning",
+      "result": "PASS"
+    },
+    {
+      "id": 21,
+      "scenario": "SQLite write failure",
+      "evidence": "step triggers, page-limit FULL, query-only READONLY, actual writer BUSY and worker death",
+      "result": "PASS"
+    },
+    {
+      "id": 22,
+      "scenario": "Graceful shutdown under load",
+      "evidence": "gated shared pool + actual production process stop",
+      "result": "PASS"
+    },
+    {
+      "id": 23,
+      "scenario": "Duplicate scheduler prevention",
+      "evidence": "competing actual process; canonical lock; forced-death release",
+      "result": "PASS"
+    },
+    {
+      "id": 24,
+      "scenario": "Unexpected timing/ordering",
+      "evidence": "clock regression, backwards completion rollback, stale/duplicate fences and snapshot cursors",
+      "result": "PASS"
+    },
+    {
+      "id": 25,
+      "scenario": "Large synthetic population",
+      "evidence": "10,000 definitions, 1000 indexed queries, 500 persisted gated checks",
+      "result": "PASS"
+    }
+  ]
+}

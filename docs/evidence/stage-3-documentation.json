@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-10-11T15:16:48.657Z",
+  "candidateSha256": "4d161d64b0b45e88e4ffecc34f63826e3791bf534b6469ec2adfa3a6d9865b86",
+  "result": "PASS",
+  "checkedMarkdownFiles": 27,
+  "missingLinks": [],
+  "changedManifestFiles": [],
+  "stage3PassRows": 10,
+  "stage4UntestedRows": 7
+}

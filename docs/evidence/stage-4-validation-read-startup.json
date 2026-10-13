@@ -1,0 +1,67 @@
+{
+  "startedAt": "2026-10-12T16:19:44.610Z",
+  "platform": "win32",
+  "os": "10.0.26200",
+  "node": "v24.19.0",
+  "cpu": "12th Gen Intel(R) Core(TM) i7-1255U",
+  "logicalCpus": 12,
+  "totalMemory": 16890978304,
+  "source": "Previously load-mutated controlled diagnostic clone; no original/operator database access.",
+  "databaseBytes": 2272485376,
+  "pendingMigrations": false,
+  "budgetMs": 60000,
+  "host": "Operator-reserved local NVMe SSD workstation; no deliberate concurrent build/test/benchmark. OS cache was not flushed; these trials do not prove cold-cache or complete post-load acceptance.",
+  "compiledSha256": "2a3d43f0638331f029eed0665bf33a03ce405a8bf0ac4a263453cf51bd0abd68",
+  "trials": [
+    {
+      "index": 1,
+      "startedAt": "2026-10-12T16:19:44.621Z",
+      "processReadyMs": 5159.8879,
+      "ready": true,
+      "applicationReadyMs": 4813.1868,
+      "sqlite": "3.53.3",
+      "readinessStatus": 200,
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "shutdownMs": 42.32139999999981,
+      "result": "PASS"
+    },
+    {
+      "index": 2,
+      "startedAt": "2026-10-12T16:19:49.853Z",
+      "processReadyMs": 5669.2745,
+      "ready": true,
+      "applicationReadyMs": 5250.0302,
+      "sqlite": "3.53.3",
+      "readinessStatus": 200,
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "shutdownMs": 47.75290000000132,
+      "result": "PASS"
+    },
+    {
+      "index": 3,
+      "startedAt": "2026-10-12T16:19:55.587Z",
+      "processReadyMs": 6532.315100000002,
+      "ready": true,
+      "applicationReadyMs": 6008.7548,
+      "sqlite": "3.53.3",
+      "readinessStatus": 200,
+      "exit": {
+        "code": 0,
+        "signal": null
+      },
+      "shutdownMs": 51.04439999999886,
+      "result": "PASS"
+    }
+  ],
+  "completedAt": "2026-10-12T16:20:02.188Z",
+  "finalCompiledSha256": "2a3d43f0638331f029eed0665bf33a03ce405a8bf0ac4a263453cf51bd0abd68",
+  "result": "PASS",
+  "minimumReadyMs": 5159.8879,
+  "maximumReadyMs": 6532.315100000002
+}

@@ -1,0 +1,16 @@
+# Defense in depth; Stage 4 must also use an explicit package files allowlist.
+/.private/
+/AGENTS.md
+/data/
+/secrets/
+.env
+.env.*
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+/backups/
+/logs/
+/release/
+/node_modules/
+/test-results/
+/playwright-report/

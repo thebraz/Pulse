@@ -1,0 +1,38 @@
+{
+  "startedAt": "2026-10-13T16:18:21.561Z",
+  "platform": "linux",
+  "node": "v24.19.0",
+  "os": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+  "isolation": "Ubuntu 24.04 userspace chroot on WSL2, unprivileged UID 1000, local ext4",
+  "commands": [
+    {
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "completedAt": "2026-10-13T16:19:45.541Z"
+    },
+    {
+      "command": "npm run lint",
+      "exitCode": 0,
+      "completedAt": "2026-10-13T16:19:59.040Z"
+    },
+    {
+      "command": "npm run test -- --reporter=json --outputFile=/tmp/pulse-current-tests.json",
+      "exitCode": 0,
+      "completedAt": "2026-10-13T16:22:47.170Z"
+    },
+    {
+      "command": "npm run test:e2e",
+      "exitCode": 0,
+      "completedAt": "2026-10-13T16:23:50.086Z"
+    }
+  ],
+  "result": "PASS",
+  "releaseIdentity": {
+    "runtimeSourceDigest": "32190c9d600d48b40dedcdd3c68ec106238742810ea41d042181085ebffb86af",
+    "compiledDigest": "d89831c97f04b60e6f5a906e7291cc49811b8b765baf443a46c5ceb15b7702f6",
+    "testSuiteDigest": "d970e5df851c7cc0cd49c3fa4d06b5709e0998e17f7d6a18711ddf925737e024"
+  },
+  "sourceUnchangedDuringRun": true,
+  "browserEvidenceSha256": "a9a6ff6ffe2d1434ef9635508937464caa16055e04af1e618e65e6c200887bf5",
+  "completedAt": "2026-10-13T16:23:50.197Z"
+}

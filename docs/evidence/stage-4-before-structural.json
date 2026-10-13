@@ -1,0 +1,53 @@
+{
+  "recordedAt": "2026-10-11T23:11:31.122Z",
+  "version": "0.1.0",
+  "candidate": {
+    "name": "pulse-http-monitor",
+    "sha256": "33328000c6ed716c81c90fd590fce188013e13a124a02665a2b5d2c3ef194117",
+    "bytes": 297627,
+    "files": 53,
+    "runtimeSourceDigest": "25ea49458e1753120725bf7dd9192694e7cee75ad4a33833602a2076dd80cc82"
+  },
+  "counts": {
+    "vitest": 202,
+    "vitestFailed": 0,
+    "vitestFiles": 26,
+    "browser": 8,
+    "browserFailed": 0,
+    "cleanSourceBrowser": 8,
+    "package": 17,
+    "packageFailed": 0,
+    "hygiene": 4,
+    "linux": {
+      "vitest": 202,
+      "vitestFailed": 0,
+      "vitestFiles": 26,
+      "browser": 8,
+      "browserFailed": 0,
+      "package": 17,
+      "packageFailed": 0
+    }
+  },
+  "documentation": {
+    "relativeLinks": 254,
+    "result": "PASS"
+  },
+  "gates": {
+    "regressions": true,
+    "browser": true,
+    "installedPackage": true,
+    "hygiene": true,
+    "cleanSource": true,
+    "typeAndLint": true,
+    "startupBudget": false,
+    "ubuntu2404": true,
+    "fullReferenceAndSoak": false,
+    "productionProxy": false,
+    "independentSecurity": true,
+    "npmAccount": false,
+    "securityReportingChannel": false,
+    "frontendByteReproducibility": true
+  },
+  "result": "BLOCKED",
+  "publication": "NOT VERIFIED; no repository, tag, release or npm upload created."
+}

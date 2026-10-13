@@ -1,0 +1,55 @@
+{
+  "name": "pulse-workspace",
+  "version": "0.1.0-beta.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.19.0 <25"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "npm run build -w @pulse/contracts && tsc -p packages/contracts --noEmit && tsc -p apps/server --noEmit && tsc -p apps/web && tsc -p tests --noEmit",
+    "lint": "eslint . && node scripts/boundaries.mjs",
+    "test": "npm run build && vitest run",
+    "dev": "npm run build && node --watch apps/server/dist/main.js",
+    "start": "node apps/server/dist/main.js",
+    "example": "node examples/local-target.mjs",
+    "verify": "node scripts/verify.mjs",
+    "pulse": "node bin/pulse.mjs",
+    "test:e2e": "npm run build && playwright test",
+    "test:reliability": "npm run build && vitest run tests/state-machine.test.ts tests/incident-persistence.test.ts tests/metrics-retention.test.ts tests/reliability-api.test.ts tests/scheduler.test.ts tests/process.test.ts",
+    "test:performance": "npm run build && vitest run tests/performance.test.ts",
+    "package": "npm run build && node scripts/package.mjs",
+    "test:package": "npm run package && node scripts/test-package.mjs",
+    "test:release-performance": "npm run build && node scripts/release-performance.mjs",
+    "test:hygiene": "npm run build && node scripts/test-hygiene.mjs",
+    "package:source": "node scripts/source-archive.mjs",
+    "test:source": "npm run build && node scripts/test-source.mjs",
+    "verify:release": "node scripts/verify-release.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.0",
+    "@types/node": "26.6.5",
+    "eslint": "10.12.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.1",
+    "vitest": "5.0.3"
+  },
+  "files": [
+    "README.md",
+    "docs/",
+    "apps/server/dist/",
+    "apps/web/dist/",
+    "bin/",
+    "packages/contracts/dist/",
+    "examples/"
+  ],
+  "license": "MIT",
+  "author": "braz"
+}
