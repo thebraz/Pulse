@@ -21,6 +21,8 @@ Vitest covers pure logic and integration harnesses; Playwright covers browser wo
 
 Use temporary per-test directories and ephemeral loopback ports. Fixture destinations are allowed only by a test-instance private CIDR policy; do not weaken public-only production defaults. Certificates/DNS responses are controlled; tests do not depend on public internet services or real credentials. Generated fake secrets must be clearly non-production canaries. Tests never touch an operator's database or unrelated project.
 
+For an occupied-API-port startup test, hold the API listener first, then allocate the actual data directory through the lock-probed temporary-fixture helper. Probing a parent directory does not validate a child directory: each canonical path hashes to its own lock port, which can be occupied or unavailable on Windows. Preserve the strict STARTUP_FAILED assertion; an earlier DATA_DIRECTORY_LOCKED exit does not test API binding. Tests of competing owners and crash recovery retain their exact data directory and must never retry or bypass its production lock.
+
 ## Determinism and mock boundaries
 
 Inject monotonic/UTC clocks and deterministic ID sources into pure services. Fake timers test scheduling/backoff without sleeping minutes. Use explicit promise barriers for races, seeded generated schedules for concurrency and one terminal assertion after all work settles. Never rely only on arbitrary sleeps. A real-signal subprocess harness is still required because fake timers cannot prove process shutdown/restart or OS lock behavior.

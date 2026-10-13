@@ -1,0 +1,52 @@
+{
+  "recordedAt": "2026-10-13T17:31:16.671Z",
+  "result": "PASS",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "originalCiRun": "https://github.com/thebraz/Pulse/actions/runs/38434785131",
+  "originalCiResult": {
+    "windows": {
+      "passed": 255,
+      "failed": 1
+    },
+    "ubuntu": "PASS"
+  },
+  "cause": "The occupied-API-port fixture probed its parent data directory, then used an unprobed child path with a different hashed lock port. An unavailable child lock port fails closed before HTTP binding. The original CI safe error does not expose the native reason for that port being unavailable.",
+  "reproduction": {
+    "method": "Hold a real directory lock listener before starting the production process against an occupied HTTP port; no application database owner is involved in the reservation.",
+    "original": {
+      "exitCode": 1,
+      "signal": null,
+      "codes": [
+        "DATA_DIRECTORY_LOCKED"
+      ]
+    },
+    "corrected": {
+      "exitCode": 1,
+      "signal": null,
+      "codes": [
+        "STARTUP_FAILED"
+      ]
+    },
+    "releasedAfterBindFailure": true,
+    "integrity": "ok",
+    "foreignKeyViolations": 0,
+    "apiFixtureStillListening": true
+  },
+  "correction": "Allocate the actual data directory with the existing lock-probed temp helper while the HTTP fixture listener is held. Keep STARTUP_FAILED and unsuccessful-exit assertions unchanged; keep intentional owner/crash tests unchanged.",
+  "affectedSuite": {
+    "command": "vitest run tests/process.test.ts",
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0
+  },
+  "processTestSha256": "cdec1e47c347affcd4ac836c785b1f7e33d084eb116ab17a54854de957fa933c",
+  "releaseIdentity": {
+    "runtimeSourceDigest": "32190c9d600d48b40dedcdd3c68ec106238742810ea41d042181085ebffb86af",
+    "compiledDigest": "d89831c97f04b60e6f5a906e7291cc49811b8b765baf443a46c5ceb15b7702f6",
+    "testSuiteDigest": "d90ef1a3c296a5a49944879638459cf4217ec4bd3fdd8aa8b4e810492b2d36e0"
+  },
+  "runtimeSourceAndCompiledBytesUnchanged": true,
+  "originalBetaRuntimeSha256": "4679613261559f6f72a626686091329f0fe113e059263ff80cc97598fb25261a",
+  "scope": "Test-fixture and testing-documentation fix only. Original beta tag/artifacts and historical CI failure are preserved. No performance rerun or stable certification."
+}

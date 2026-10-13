@@ -283,18 +283,23 @@ describe('built production process lifecycle', () => {
     });
     it('unsafe startup and occupied API port exit unsuccessfully without lingering resources', async () => {
         const dir = await temp(), s = await target();
+        let occupiedDir: string | undefined;
         try {
             const unsafe = child(join(dir, 'unsafe'), await freePort(), {
                 PULSE_EXPOSURE: 'remote'
             });
             expect((await unsafe.exited)[0]).toBe(1);
             expect(unsafe.output()).toContain('UNSAFE_EXPOSURE');
-            const occupied = child(join(dir, 'occupied'), s.port);
+            // A subdirectory has a different lock port; probe the actual fixture while the API port is held.
+            occupiedDir = await temp();
+            const occupied = child(occupiedDir, s.port);
             expect((await occupied.exited)[0]).toBe(1);
             expect(occupied.output()).toContain('STARTUP_FAILED');
         }
         finally {
             await s.close();
+            if (occupiedDir)
+                await dispose(occupiedDir);
             await dispose(dir);
         }
     });
